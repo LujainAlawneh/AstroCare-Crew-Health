@@ -1,0 +1,1 @@
+Hybrid detection demo: editable synthetic baselines; comparisons against previous scan; demo reference bands; status summary; automatic symptom assessment when a reading needs review. All thresholds illustrative, NOT clinically approved. No autonomous emergency classification. Browser localStorage stores demo history, not secure medical records.

@@ -1,0 +1,800 @@
+{
+  "type": "UI_ONLY_UNREVIEWED",
+  "note": "Optional answer-entry UI. Not executable medical rules. Original questions retained unchanged.",
+  "questions": {
+    "M01_Q01": [
+      {
+        "prompt": "When did the headache start?",
+        "options": [
+          "Today",
+          "Yesterday",
+          "A few days ago",
+          "Longer ago",
+          "Not sure"
+        ]
+      },
+      {
+        "prompt": "How did it start?",
+        "options": [
+          "Suddenly",
+          "Gradually",
+          "Not sure"
+        ]
+      },
+      {
+        "prompt": "How is it changing?",
+        "options": [
+          "Improving",
+          "About the same",
+          "Worsening",
+          "Not sure"
+        ]
+      }
+    ],
+    "M01_Q02": [
+      {
+        "prompt": "Where is the pain?",
+        "options": [
+          "Forehead",
+          "Sides of head",
+          "Back of head",
+          "Around eyes",
+          "All over head",
+          "Other",
+          "Not sure"
+        ]
+      },
+      {
+        "prompt": "How does it feel?",
+        "options": [
+          "Pressure / tightness",
+          "Throbbing / pulsating",
+          "Sharp / stabbing",
+          "Dull ache",
+          "Other",
+          "Not sure"
+        ]
+      },
+      {
+        "prompt": "How does it affect your activity?",
+        "options": [
+          "Not at all",
+          "A little \u2014 can continue activities",
+          "A lot \u2014 difficult to continue",
+          "Unable to continue",
+          "Not sure"
+        ]
+      },
+      {
+        "prompt": "How severe is the pain?",
+        "options": [
+          "Mild",
+          "Moderate",
+          "Severe",
+          "Not sure"
+        ]
+      }
+    ],
+    "M01_Q07": [
+      {
+        "prompt": "Have you used pain medicine?",
+        "options": [
+          "Yes",
+          "No",
+          "Not sure"
+        ]
+      },
+      {
+        "prompt": "Has anything changed recently?",
+        "options": [
+          "Yes",
+          "No",
+          "Not sure"
+        ]
+      }
+    ],
+    "M01_Q08": [
+      {
+        "prompt": "When does it seem related?",
+        "options": [
+          "Sleep",
+          "Meals",
+          "Fluid intake",
+          "Exertion",
+          "Cabin environment",
+          "No clear relationship",
+          "Not sure"
+        ]
+      }
+    ],
+    "M02_Q01": [
+      {
+        "prompt": "When did this start?",
+        "options": [
+          "Today",
+          "Yesterday",
+          "A few days ago",
+          "Longer ago",
+          "Not sure"
+        ]
+      },
+      {
+        "prompt": "How is it changing?",
+        "options": [
+          "Improving",
+          "About the same",
+          "Worsening",
+          "Not sure"
+        ]
+      }
+    ],
+    "M02_Q03": [
+      {
+        "prompt": "Can you keep fluids down?",
+        "options": [
+          "Yes",
+          "No",
+          "Sometimes",
+          "Not sure"
+        ]
+      }
+    ],
+    "M02_Q04": [
+      {
+        "prompt": "What changes have you noticed?",
+        "options": [
+          "Urination changes",
+          "Increased thirst",
+          "Dizziness",
+          "Alertness changes",
+          "No changes noticed",
+          "Not sure"
+        ]
+      }
+    ],
+    "M02_Q05": [
+      {
+        "prompt": "Which symptoms are present?",
+        "options": [
+          "Abdominal pain",
+          "Chest pain",
+          "Fever",
+          "Diarrhea",
+          "None of these",
+          "Not sure"
+        ]
+      }
+    ],
+    "M03_Q03": [
+      {
+        "prompt": "What is happening with your nose?",
+        "options": [
+          "Blocked",
+          "Runny",
+          "Both",
+          "Neither",
+          "Not sure"
+        ]
+      },
+      {
+        "prompt": "Effect on sleep?",
+        "options": [
+          "No effect",
+          "Mild disruption",
+          "Major disruption",
+          "Not sure"
+        ]
+      }
+    ],
+    "M04_Q03": [
+      {
+        "prompt": "Can you pass gas?",
+        "options": [
+          "Yes",
+          "No",
+          "Not sure"
+        ]
+      },
+      {
+        "prompt": "Bloating?",
+        "options": [
+          "Yes",
+          "No",
+          "Not sure"
+        ]
+      },
+      {
+        "prompt": "Any bowel movements?",
+        "options": [
+          "Yes",
+          "No",
+          "Not sure"
+        ]
+      }
+    ],
+    "M05_Q03": [
+      {
+        "prompt": "Severe pain?",
+        "options": [
+          "Yes",
+          "No",
+          "Not sure"
+        ]
+      },
+      {
+        "prompt": "Fever?",
+        "options": [
+          "Yes",
+          "No",
+          "Not sure"
+        ]
+      },
+      {
+        "prompt": "Obvious bloating?",
+        "options": [
+          "Yes",
+          "No",
+          "Not sure"
+        ]
+      }
+    ],
+    "M05_Q04": [
+      {
+        "prompt": "Can you drink?",
+        "options": [
+          "Yes",
+          "No",
+          "Sometimes",
+          "Not sure"
+        ]
+      },
+      {
+        "prompt": "What else changed?",
+        "options": [
+          "Urination",
+          "Thirst",
+          "Dizziness",
+          "No changes noticed",
+          "Not sure"
+        ]
+      }
+    ],
+    "M06_Q01": [
+      {
+        "prompt": "Where is the burning?",
+        "options": [
+          "Chest",
+          "Upper abdomen",
+          "Throat",
+          "Other",
+          "Not sure"
+        ]
+      },
+      {
+        "prompt": "Sour taste?",
+        "options": [
+          "Yes",
+          "No",
+          "Not sure"
+        ]
+      },
+      {
+        "prompt": "Food coming back into mouth?",
+        "options": [
+          "Yes",
+          "No",
+          "Not sure"
+        ]
+      }
+    ],
+    "M07_Q02": [
+      {
+        "prompt": "Does pain spread?",
+        "options": [
+          "No",
+          "To buttocks",
+          "To one leg",
+          "To both legs",
+          "Not sure"
+        ]
+      }
+    ],
+    "M07_Q08": [
+      {
+        "prompt": "How much does it affect movement or tasks?",
+        "options": [
+          "Not at all",
+          "A little",
+          "A lot",
+          "Unable to continue",
+          "Not sure"
+        ]
+      },
+      {
+        "prompt": "Is it changing?",
+        "options": [
+          "Improving",
+          "Same",
+          "Worsening",
+          "Not sure"
+        ]
+      }
+    ],
+    "M08_Q01": [
+      {
+        "prompt": "Can you pass urine now?",
+        "options": [
+          "Yes",
+          "No",
+          "Not sure"
+        ]
+      }
+    ],
+    "M09_Q05": [
+      {
+        "prompt": "Changes in urine?",
+        "options": [
+          "Blood visible",
+          "Cloudy",
+          "Other change",
+          "No change",
+          "Not sure"
+        ]
+      }
+    ],
+    "M10_Q01": [
+      {
+        "prompt": "Where is the pain?",
+        "options": [
+          "Side / flank",
+          "Lower back",
+          "Abdomen",
+          "Other",
+          "Not sure"
+        ]
+      },
+      {
+        "prompt": "Does it spread to the groin?",
+        "options": [
+          "Yes",
+          "No",
+          "Not sure"
+        ]
+      }
+    ],
+    "M10_Q04": [
+      {
+        "prompt": "Urine output?",
+        "options": [
+          "Normal for me",
+          "Decreased",
+          "Stopped",
+          "Not sure"
+        ]
+      },
+      {
+        "prompt": "Can you pass urine?",
+        "options": [
+          "Yes",
+          "No",
+          "Not sure"
+        ]
+      }
+    ],
+    "M11_Q04": [
+      {
+        "prompt": "Where is the rash?",
+        "options": [
+          "One specific area",
+          "Several areas",
+          "Whole body",
+          "Not sure"
+        ]
+      }
+    ],
+    "M11_Q05": [
+      {
+        "prompt": "What does the skin look like?",
+        "options": [
+          "Dry",
+          "Cracked",
+          "Raised welts",
+          "Blisters",
+          "Other",
+          "Not sure"
+        ]
+      }
+    ],
+    "M12_Q01": [
+      {
+        "prompt": "What is the sleep difficulty?",
+        "options": [
+          "Falling asleep",
+          "Staying asleep",
+          "Waking too early",
+          "More than one",
+          "Not sure"
+        ]
+      }
+    ],
+    "M12_Q04": [
+      {
+        "prompt": "What interferes with sleep?",
+        "options": [
+          "Light",
+          "Noise",
+          "Temperature",
+          "Discomfort",
+          "None of these",
+          "Not sure"
+        ]
+      }
+    ],
+    "M13_Q04": [
+      {
+        "prompt": "Which eye is affected?",
+        "options": [
+          "Left",
+          "Right",
+          "Both",
+          "Not sure"
+        ]
+      },
+      {
+        "prompt": "When did it begin?",
+        "options": [
+          "Today",
+          "Yesterday",
+          "A few days ago",
+          "Longer ago",
+          "Not sure"
+        ]
+      }
+    ],
+    "M13_Q05": [
+      {
+        "prompt": "What do you notice?",
+        "options": [
+          "Itching",
+          "Gritty feeling",
+          "Tearing",
+          "Sticky discharge",
+          "None of these",
+          "Not sure"
+        ]
+      }
+    ],
+    "M14_Q02": [
+      {
+        "prompt": "When did the cough begin?",
+        "options": [
+          "Today",
+          "Yesterday",
+          "A few days ago",
+          "Longer ago",
+          "Not sure"
+        ]
+      },
+      {
+        "prompt": "How is it changing?",
+        "options": [
+          "Improving",
+          "Same",
+          "Worsening",
+          "Not sure"
+        ]
+      }
+    ],
+    "M14_Q03": [
+      {
+        "prompt": "Type of cough?",
+        "options": [
+          "Dry",
+          "With mucus",
+          "Not sure"
+        ]
+      },
+      {
+        "prompt": "When is it worse?",
+        "options": [
+          "At night",
+          "With exertion",
+          "No clear pattern",
+          "Not sure"
+        ]
+      }
+    ],
+    "M14_Q04": [
+      {
+        "prompt": "Blood when coughing?",
+        "options": [
+          "Yes",
+          "No",
+          "Not sure"
+        ]
+      },
+      {
+        "prompt": "Chest pain or heaviness?",
+        "options": [
+          "Yes",
+          "No",
+          "Not sure"
+        ]
+      }
+    ],
+    "M15_Q02": [
+      {
+        "prompt": "Difficulty breathing?",
+        "options": [
+          "Yes",
+          "No",
+          "Not sure"
+        ]
+      },
+      {
+        "prompt": "Difficulty swallowing saliva?",
+        "options": [
+          "Yes",
+          "No",
+          "Not sure"
+        ]
+      },
+      {
+        "prompt": "Drooling?",
+        "options": [
+          "Yes",
+          "No",
+          "Not sure"
+        ]
+      }
+    ],
+    "M16_Q01": [
+      {
+        "prompt": "Which ear?",
+        "options": [
+          "Left",
+          "Right",
+          "Both",
+          "Not sure"
+        ]
+      },
+      {
+        "prompt": "When did it begin?",
+        "options": [
+          "Today",
+          "Yesterday",
+          "A few days ago",
+          "Longer ago",
+          "Not sure"
+        ]
+      }
+    ],
+    "M16_Q02": [
+      {
+        "prompt": "How did hearing change?",
+        "options": [
+          "Suddenly",
+          "Gradually",
+          "No change",
+          "Not sure"
+        ]
+      }
+    ],
+    "M17_Q01": [
+      {
+        "prompt": "Where is the pain?",
+        "options": [
+          "Tooth",
+          "Gums",
+          "Jaw",
+          "Other",
+          "Not sure"
+        ]
+      },
+      {
+        "prompt": "When did it begin?",
+        "options": [
+          "Today",
+          "Yesterday",
+          "A few days ago",
+          "Longer ago",
+          "Not sure"
+        ]
+      }
+    ],
+    "M17_Q02": [
+      {
+        "prompt": "What triggers pain?",
+        "options": [
+          "Cold",
+          "Heat",
+          "Biting",
+          "No clear trigger",
+          "Not sure"
+        ]
+      }
+    ],
+    "M18_Q03": [
+      {
+        "prompt": "Bleeding pattern?",
+        "options": [
+          "No bleeding",
+          "Continuous",
+          "Spurting",
+          "Not sure"
+        ]
+      },
+      {
+        "prompt": "Does pressure help?",
+        "options": [
+          "Yes",
+          "No",
+          "Not tried",
+          "Not sure"
+        ]
+      }
+    ],
+    "M18_Q04": [
+      {
+        "prompt": "What is present?",
+        "options": [
+          "Retained object",
+          "Puncture",
+          "Contamination",
+          "None of these",
+          "Not sure"
+        ]
+      }
+    ],
+    "M19_Q01": [
+      {
+        "prompt": "What caused the injury?",
+        "options": [
+          "Heat",
+          "Chemical",
+          "Electrical",
+          "Radiation",
+          "Other",
+          "Not sure"
+        ]
+      }
+    ],
+    "M19_Q03": [
+      {
+        "prompt": "Where is the burn?",
+        "options": [
+          "Face",
+          "Hands",
+          "Feet",
+          "Genitals",
+          "Other",
+          "More than one",
+          "Not sure"
+        ]
+      }
+    ],
+    "M19_Q05": [
+      {
+        "prompt": "What does the skin look like?",
+        "options": [
+          "Red",
+          "Blistered",
+          "Charred",
+          "Other",
+          "Not sure"
+        ]
+      }
+    ],
+    "M19_Q06": [
+      {
+        "prompt": "Smoke exposure?",
+        "options": [
+          "Yes",
+          "No",
+          "Not sure"
+        ]
+      },
+      {
+        "prompt": "Difficulty breathing?",
+        "options": [
+          "Yes",
+          "No",
+          "Not sure"
+        ]
+      }
+    ],
+    "M19_Q08": [
+      {
+        "prompt": "Pain severity?",
+        "options": [
+          "Mild",
+          "Moderate",
+          "Severe",
+          "Not sure"
+        ]
+      },
+      {
+        "prompt": "Sensation changed?",
+        "options": [
+          "Yes",
+          "No",
+          "Not sure"
+        ]
+      },
+      {
+        "prompt": "Another injury?",
+        "options": [
+          "Yes",
+          "No",
+          "Not sure"
+        ]
+      }
+    ],
+    "M20_Q03": [
+      {
+        "prompt": "Urine output?",
+        "options": [
+          "Unchanged",
+          "Decreased",
+          "Not sure"
+        ]
+      },
+      {
+        "prompt": "Urine color?",
+        "options": [
+          "Unchanged",
+          "Darker",
+          "Other",
+          "Not sure"
+        ]
+      }
+    ],
+    "M20_Q05": [
+      {
+        "prompt": "Which symptoms?",
+        "options": [
+          "Headache",
+          "Dizziness",
+          "Weakness",
+          "Cramping",
+          "None of these",
+          "Not sure"
+        ]
+      }
+    ],
+    "M20_Q06": [
+      {
+        "prompt": "Confusion?",
+        "options": [
+          "Yes",
+          "No",
+          "Not sure"
+        ]
+      },
+      {
+        "prompt": "Impaired coordination?",
+        "options": [
+          "Yes",
+          "No",
+          "Not sure"
+        ]
+      },
+      {
+        "prompt": "Seizure?",
+        "options": [
+          "Yes",
+          "No",
+          "Not sure"
+        ]
+      },
+      {
+        "prompt": "Fainting?",
+        "options": [
+          "Yes",
+          "No",
+          "Not sure"
+        ]
+      }
+    ]
+  }
+}

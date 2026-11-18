@@ -1,0 +1,1 @@
+Daily scan now shows six-item synthetic reference summary. Any out-of-demo-band value automatically opens symptom body map without asking Yes/No. All within demo bands: user can report symptoms or finish daily check. Demo bands are illustrative, not clinical or NASA-approved. No medical emergency inference from these demo thresholds.

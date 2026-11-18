@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: astrocare-crew-demo
+    runtime: python
+    plan: free
+    buildCommand: python -m unittest discover -s tests -q
+    startCommand: python server.py
+    healthCheckPath: /healthz
+    envVars:
+      - key: ASTROCARE_PUBLIC_DEMO
+        value: "1"

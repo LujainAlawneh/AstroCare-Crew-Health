@@ -1,0 +1,7 @@
+AstroCare UX update (2026-11-14)
+- Saved medical review banner hidden on initial dashboard; current-case urgent/emergency workflow can show status.
+- Daily scan, six-indicator summary, demo baselines, previous-reading comparisons, body map, questions, reports, journaling, entertainment, and offline Python backend retained.
+- After symptom questionnaire, the case is saved and safety questions from the existing source-linked dataset are shown before the final result. Missing answers are not assumed to be 'no'; explicit Not sure is allowed and remains unresolved.
+- Astronaut-facing final guidance hides candidate disease names, matching counts, source evidence and medication options. The existing local source dataset and server-side guidance/assessment logic are preserved for future authorized clinician review.
+- A reported warning routes to medical review. Only the existing approved emergency-workflow flag can activate the emergency panel; the draft guidance descriptions alone do not create a new operational emergency alert.
+- Clinical rules and prescribing remain disabled. The app does not send emergency communications. All scans are synthetic demo values.

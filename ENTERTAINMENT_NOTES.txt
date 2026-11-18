@@ -1,0 +1,7 @@
+Added only: Entertainment tab, Sudoku, local chess, and book reading/downloads. Existing files other than index.html are unchanged. All prior script blocks and original medical/report/exercise/journal functions are retained unchanged.
+
+Sudoku has 9x9 puzzles with a unique-solution check, three difficulty targets, undo, hints and local progress. Chess uses bundled chess.js 1.4.0 for legal move validation, supports two local players or a beginner offline opponent, undo, board flip and local PGN progress.
+
+Two full Project Gutenberg editions are embedded with their original credits/license: Alice’s Adventures in Wonderland (Lewis Carroll, ebook 11) and Around the World in Eighty Days (Jules Verne, ebook 103). Books can be read and downloaded as UTF-8 text without a connection. Personal .txt books up to 5 MB can be imported and kept locally using IndexedDB. Reading positions are saved in localStorage. Browser data can be cleared; keep original downloads.
+
+No game, reading or entertainment data is sent to medical APIs or used in clinical decisions. No external package installation or CDN is needed to run the application. Start as before: python server.py, then http://127.0.0.1:8765.

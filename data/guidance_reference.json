@@ -1,0 +1,3519 @@
+{
+  "provenance": "Extracted without altering text from original_dataset.xlsx supplied with this app",
+  "clinical_validation": "Unvalidated research prototype; educational symptom-feature matching only",
+  "candidates": [
+    {
+      "id": "M01_C01",
+      "module": "M01",
+      "source_ids": [
+        "S002"
+      ]
+    },
+    {
+      "id": "M01_C02",
+      "module": "M01",
+      "source_ids": [
+        "S003"
+      ]
+    },
+    {
+      "id": "M01_C03",
+      "module": "M01",
+      "source_ids": [
+        "S003"
+      ]
+    },
+    {
+      "id": "M02_C01",
+      "module": "M02",
+      "source_ids": [
+        "S006"
+      ]
+    },
+    {
+      "id": "M02_C02",
+      "module": "M02",
+      "source_ids": [
+        "S007"
+      ]
+    },
+    {
+      "id": "M02_C03",
+      "module": "M02",
+      "source_ids": [
+        "S002"
+      ]
+    },
+    {
+      "id": "M03_C01",
+      "module": "M03",
+      "source_ids": [
+        "S010"
+      ]
+    },
+    {
+      "id": "M03_C02",
+      "module": "M03",
+      "source_ids": [
+        "S011"
+      ]
+    },
+    {
+      "id": "M04_C01",
+      "module": "M04",
+      "source_ids": [
+        "S014",
+        "S015"
+      ]
+    },
+    {
+      "id": "M04_C02",
+      "module": "M04",
+      "source_ids": [
+        "S015"
+      ]
+    },
+    {
+      "id": "M04_C03",
+      "module": "M04",
+      "source_ids": [
+        "S014"
+      ]
+    },
+    {
+      "id": "M05_C01",
+      "module": "M05",
+      "source_ids": [
+        "S019"
+      ]
+    },
+    {
+      "id": "M05_C02",
+      "module": "M05",
+      "source_ids": [
+        "S019",
+        "S020"
+      ]
+    },
+    {
+      "id": "M05_C03",
+      "module": "M05",
+      "source_ids": [
+        "S019",
+        "S021"
+      ]
+    },
+    {
+      "id": "M06_C01",
+      "module": "M06",
+      "source_ids": [
+        "S022",
+        "S023",
+        "S024"
+      ]
+    },
+    {
+      "id": "M06_C02",
+      "module": "M06",
+      "source_ids": [
+        "S025"
+      ]
+    },
+    {
+      "id": "M07_C01",
+      "module": "M07",
+      "source_ids": [
+        "S028"
+      ]
+    },
+    {
+      "id": "M07_C02",
+      "module": "M07",
+      "source_ids": [
+        "S029"
+      ]
+    },
+    {
+      "id": "M08_C01",
+      "module": "M08",
+      "source_ids": [
+        "S034",
+        "S035"
+      ]
+    },
+    {
+      "id": "M08_C02",
+      "module": "M08",
+      "source_ids": [
+        "S034",
+        "S035"
+      ]
+    },
+    {
+      "id": "M08_C03",
+      "module": "M08",
+      "source_ids": [
+        "S036"
+      ]
+    },
+    {
+      "id": "M09_C01",
+      "module": "M09",
+      "source_ids": [
+        "S037",
+        "S038"
+      ]
+    },
+    {
+      "id": "M09_C02",
+      "module": "M09",
+      "source_ids": [
+        "S041"
+      ]
+    },
+    {
+      "id": "M09_C03",
+      "module": "M09",
+      "source_ids": [
+        "S039"
+      ]
+    },
+    {
+      "id": "M10_C01",
+      "module": "M10",
+      "source_ids": [
+        "S043",
+        "S045"
+      ]
+    },
+    {
+      "id": "M10_C02",
+      "module": "M10",
+      "source_ids": [
+        "S041"
+      ]
+    },
+    {
+      "id": "M11_C01",
+      "module": "M11",
+      "source_ids": [
+        "S048"
+      ]
+    },
+    {
+      "id": "M11_C02",
+      "module": "M11",
+      "source_ids": [
+        "S047"
+      ]
+    },
+    {
+      "id": "M11_C03",
+      "module": "M11",
+      "source_ids": [
+        "S049"
+      ]
+    },
+    {
+      "id": "M12_C01",
+      "module": "M12",
+      "source_ids": [
+        "S053"
+      ]
+    },
+    {
+      "id": "M12_C02",
+      "module": "M12",
+      "source_ids": [
+        "S053"
+      ]
+    },
+    {
+      "id": "M12_C03",
+      "module": "M12",
+      "source_ids": [
+        "S054"
+      ]
+    },
+    {
+      "id": "M13_C01",
+      "module": "M13",
+      "source_ids": [
+        "S059"
+      ]
+    },
+    {
+      "id": "M13_C02",
+      "module": "M13",
+      "source_ids": [
+        "S060"
+      ]
+    },
+    {
+      "id": "M13_C03",
+      "module": "M13",
+      "source_ids": [
+        "S060"
+      ]
+    },
+    {
+      "id": "M14_C01",
+      "module": "M14",
+      "source_ids": [
+        "S063"
+      ]
+    },
+    {
+      "id": "M14_C02",
+      "module": "M14",
+      "source_ids": [
+        "S066"
+      ]
+    },
+    {
+      "id": "M14_C03",
+      "module": "M14",
+      "source_ids": [
+        "S063"
+      ]
+    },
+    {
+      "id": "M15_C01",
+      "module": "M15",
+      "source_ids": [
+        "S075"
+      ]
+    },
+    {
+      "id": "M15_C02",
+      "module": "M15",
+      "source_ids": [
+        "S076"
+      ]
+    },
+    {
+      "id": "M16_C01",
+      "module": "M16",
+      "source_ids": [
+        "S078",
+        "S079"
+      ]
+    },
+    {
+      "id": "M16_C02",
+      "module": "M16",
+      "source_ids": [
+        "S077"
+      ]
+    },
+    {
+      "id": "M16_C03",
+      "module": "M16",
+      "source_ids": [
+        "S077"
+      ]
+    },
+    {
+      "id": "M17_C01",
+      "module": "M17",
+      "source_ids": [
+        "S081"
+      ]
+    },
+    {
+      "id": "M17_C02",
+      "module": "M17",
+      "source_ids": [
+        "S083"
+      ]
+    },
+    {
+      "id": "M17_C03",
+      "module": "M17",
+      "source_ids": [
+        "S080"
+      ]
+    },
+    {
+      "id": "M18_C01",
+      "module": "M18",
+      "source_ids": [
+        "S085"
+      ]
+    },
+    {
+      "id": "M18_C02",
+      "module": "M18",
+      "source_ids": [
+        "S086"
+      ]
+    },
+    {
+      "id": "M18_C03",
+      "module": "M18",
+      "source_ids": [
+        "S085"
+      ]
+    },
+    {
+      "id": "M19_C01",
+      "module": "M19",
+      "source_ids": [
+        "S087"
+      ]
+    },
+    {
+      "id": "M19_C02",
+      "module": "M19",
+      "source_ids": [
+        "S088"
+      ]
+    },
+    {
+      "id": "M19_C03",
+      "module": "M19",
+      "source_ids": [
+        "S087",
+        "S088"
+      ]
+    },
+    {
+      "id": "M20_C01",
+      "module": "M20",
+      "source_ids": [
+        "S009"
+      ]
+    },
+    {
+      "id": "M20_C02",
+      "module": "M20",
+      "source_ids": [
+        "S089"
+      ]
+    }
+  ],
+  "alerts": [
+    {
+      "id": "M01_A01",
+      "module": "M01",
+      "source_ids": [
+        "S001"
+      ]
+    },
+    {
+      "id": "M01_A02",
+      "module": "M01",
+      "source_ids": [
+        "S001"
+      ]
+    },
+    {
+      "id": "M01_A03",
+      "module": "M01",
+      "source_ids": [
+        "S001",
+        "S002"
+      ]
+    },
+    {
+      "id": "M02_A01",
+      "module": "M02",
+      "source_ids": [
+        "S006"
+      ]
+    },
+    {
+      "id": "M02_A02",
+      "module": "M02",
+      "source_ids": [
+        "S009"
+      ]
+    },
+    {
+      "id": "M02_A03",
+      "module": "M02",
+      "source_ids": [
+        "S006",
+        "S009"
+      ]
+    },
+    {
+      "id": "M03_A01",
+      "module": "M03",
+      "source_ids": [
+        "S012"
+      ]
+    },
+    {
+      "id": "M03_A02",
+      "module": "M03",
+      "source_ids": [
+        "S010",
+        "S011"
+      ]
+    },
+    {
+      "id": "M03_A03",
+      "module": "M03",
+      "source_ids": [
+        "S010",
+        "S011"
+      ]
+    },
+    {
+      "id": "M04_A01",
+      "module": "M04",
+      "source_ids": [
+        "S016"
+      ]
+    },
+    {
+      "id": "M04_A02",
+      "module": "M04",
+      "source_ids": [
+        "S015"
+      ]
+    },
+    {
+      "id": "M04_A03",
+      "module": "M04",
+      "source_ids": [
+        "S014",
+        "S015"
+      ]
+    },
+    {
+      "id": "M05_A01",
+      "module": "M05",
+      "source_ids": [
+        "S009"
+      ]
+    },
+    {
+      "id": "M05_A02",
+      "module": "M05",
+      "source_ids": [
+        "S019"
+      ]
+    },
+    {
+      "id": "M05_A03",
+      "module": "M05",
+      "source_ids": [
+        "S019",
+        "S009"
+      ]
+    },
+    {
+      "id": "M06_A01",
+      "module": "M06",
+      "source_ids": [
+        "S024"
+      ]
+    },
+    {
+      "id": "M06_A02",
+      "module": "M06",
+      "source_ids": [
+        "S016"
+      ]
+    },
+    {
+      "id": "M06_A03",
+      "module": "M06",
+      "source_ids": [
+        "S022",
+        "S023"
+      ]
+    },
+    {
+      "id": "M07_A01",
+      "module": "M07",
+      "source_ids": [
+        "S028",
+        "S029"
+      ]
+    },
+    {
+      "id": "M07_A02",
+      "module": "M07",
+      "source_ids": [
+        "S028"
+      ]
+    },
+    {
+      "id": "M07_A03",
+      "module": "M07",
+      "source_ids": [
+        "S028"
+      ]
+    },
+    {
+      "id": "M07_A04",
+      "module": "M07",
+      "source_ids": [
+        "S028",
+        "S030"
+      ]
+    },
+    {
+      "id": "M08_A01",
+      "module": "M08",
+      "source_ids": [
+        "S034"
+      ]
+    },
+    {
+      "id": "M08_A02",
+      "module": "M08",
+      "source_ids": [
+        "S034",
+        "S035"
+      ]
+    },
+    {
+      "id": "M09_A01",
+      "module": "M09",
+      "source_ids": [
+        "S037"
+      ]
+    },
+    {
+      "id": "M09_A02",
+      "module": "M09",
+      "source_ids": [
+        "S037",
+        "S039"
+      ]
+    },
+    {
+      "id": "M09_A03",
+      "module": "M09",
+      "source_ids": [
+        "S037",
+        "S038",
+        "S039"
+      ]
+    },
+    {
+      "id": "M10_A01",
+      "module": "M10",
+      "source_ids": [
+        "S042"
+      ]
+    },
+    {
+      "id": "M10_A02",
+      "module": "M10",
+      "source_ids": [
+        "S043"
+      ]
+    },
+    {
+      "id": "M10_A03",
+      "module": "M10",
+      "source_ids": [
+        "S042",
+        "S046"
+      ]
+    },
+    {
+      "id": "M11_A01",
+      "module": "M11",
+      "source_ids": [
+        "S012"
+      ]
+    },
+    {
+      "id": "M11_A02",
+      "module": "M11",
+      "source_ids": [
+        "S050"
+      ]
+    },
+    {
+      "id": "M11_A03",
+      "module": "M11",
+      "source_ids": [
+        "S047",
+        "S049"
+      ]
+    },
+    {
+      "id": "M12_A01",
+      "module": "M12",
+      "source_ids": [
+        "S056"
+      ]
+    },
+    {
+      "id": "M12_A02",
+      "module": "M12",
+      "source_ids": [
+        "S055"
+      ]
+    },
+    {
+      "id": "M12_A03",
+      "module": "M12",
+      "source_ids": [
+        "S054"
+      ]
+    },
+    {
+      "id": "M13_A01",
+      "module": "M13",
+      "source_ids": [
+        "S058"
+      ]
+    },
+    {
+      "id": "M13_A02",
+      "module": "M13",
+      "source_ids": [
+        "S058"
+      ]
+    },
+    {
+      "id": "M13_A03",
+      "module": "M13",
+      "source_ids": [
+        "S058",
+        "S059"
+      ]
+    },
+    {
+      "id": "M14_A01",
+      "module": "M14",
+      "source_ids": [
+        "S064"
+      ]
+    },
+    {
+      "id": "M14_A02",
+      "module": "M14",
+      "source_ids": [
+        "S064",
+        "S065"
+      ]
+    },
+    {
+      "id": "M14_A03",
+      "module": "M14",
+      "source_ids": [
+        "S067",
+        "S064"
+      ]
+    },
+    {
+      "id": "M15_A01",
+      "module": "M15",
+      "source_ids": [
+        "S075"
+      ]
+    },
+    {
+      "id": "M15_A02",
+      "module": "M15",
+      "source_ids": [
+        "S076"
+      ]
+    },
+    {
+      "id": "M15_A03",
+      "module": "M15",
+      "source_ids": [
+        "S075",
+        "S076"
+      ]
+    },
+    {
+      "id": "M16_A01",
+      "module": "M16",
+      "source_ids": [
+        "S079"
+      ]
+    },
+    {
+      "id": "M16_A02",
+      "module": "M16",
+      "source_ids": [
+        "S077"
+      ]
+    },
+    {
+      "id": "M16_A03",
+      "module": "M16",
+      "source_ids": [
+        "S077"
+      ]
+    },
+    {
+      "id": "M17_A01",
+      "module": "M17",
+      "source_ids": [
+        "S080"
+      ]
+    },
+    {
+      "id": "M17_A02",
+      "module": "M17",
+      "source_ids": [
+        "S080"
+      ]
+    },
+    {
+      "id": "M17_A03",
+      "module": "M17",
+      "source_ids": [
+        "S080",
+        "S082",
+        "S083"
+      ]
+    },
+    {
+      "id": "M18_A01",
+      "module": "M18",
+      "source_ids": [
+        "S091"
+      ]
+    },
+    {
+      "id": "M18_A02",
+      "module": "M18",
+      "source_ids": [
+        "S085"
+      ]
+    },
+    {
+      "id": "M18_A03",
+      "module": "M18",
+      "source_ids": [
+        "S085",
+        "S086"
+      ]
+    },
+    {
+      "id": "M19_A01",
+      "module": "M19",
+      "source_ids": [
+        "S088"
+      ]
+    },
+    {
+      "id": "M19_A02",
+      "module": "M19",
+      "source_ids": [
+        "S087"
+      ]
+    },
+    {
+      "id": "M19_A03",
+      "module": "M19",
+      "source_ids": [
+        "S087"
+      ]
+    },
+    {
+      "id": "M20_A01",
+      "module": "M20",
+      "source_ids": [
+        "S089"
+      ]
+    },
+    {
+      "id": "M20_A02",
+      "module": "M20",
+      "source_ids": [
+        "S009",
+        "S092"
+      ]
+    },
+    {
+      "id": "M20_A03",
+      "module": "M20",
+      "source_ids": [
+        "S009",
+        "S089"
+      ]
+    }
+  ],
+  "care_options": [
+    {
+      "module": "M01",
+      "id": "M01_T01",
+      "type": "Non-drug measure",
+      "ingredient": null,
+      "name": "Appropriate rest, regular meals and fluid intake, and reduction of known triggers",
+      "candidate_ids": [
+        "M01_C01",
+        "M01_C02"
+      ],
+      "purpose": "Reduce associated factors",
+      "eligibility": "After assessing red flags and the suitability of the fluid plan.",
+      "cautions": "Must not delay triage of a new or worsening headache; review fluid restrictions.",
+      "dose": null,
+      "duration": null,
+      "source_ids": [
+        "S001",
+        "S002"
+      ],
+      "notes": null
+    },
+    {
+      "module": "M01",
+      "id": "M01_T02",
+      "type": "Medication",
+      "ingredient": "paracetamol",
+      "name": "Paracetamol after physician approval",
+      "candidate_ids": [
+        "M01_C01",
+        "M01_C02"
+      ],
+      "purpose": "Symptomatic pain relief",
+      "eligibility": "Assess allergies, the medication profile, and the administration record first.",
+      "cautions": "Previous allergy, liver or kidney disease, or low body weight requires review.\nPrevent duplicate use of products containing the same active ingredient; suspected excess use requires immediate assessment.\nFrequent use may worsen headache.",
+      "dose": null,
+      "duration": null,
+      "source_ids": [
+        "S004",
+        "S003"
+      ],
+      "notes": null
+    },
+    {
+      "module": "M01",
+      "id": "M01_T03",
+      "type": "Medication",
+      "ingredient": "ibuprofen",
+      "name": "Ibuprofen if authorized by the physician",
+      "candidate_ids": [
+        "M01_C01",
+        "M01_C02"
+      ],
+      "purpose": "Symptomatic pain relief",
+      "eligibility": "Individual selection after reviewing risks and interactions.",
+      "cautions": "Allergy to aspirin/anti-inflammatory medicines, gastrointestinal ulceration or bleeding, or kidney/heart/liver disease.\nReview asthma, clotting disorders, pregnancy, and anticoagulants.\nDo not combine with another anti-inflammatory medicine; it does not treat an unresolved cause of headache.",
+      "dose": null,
+      "duration": null,
+      "source_ids": [
+        "S005"
+      ],
+      "notes": null
+    },
+    {
+      "module": "M02",
+      "id": "M02_T01",
+      "type": "Non-drug measure",
+      "ingredient": null,
+      "name": "Oral fluids as tolerated and a physician-reviewed hydration plan",
+      "candidate_ids": [
+        "M02_C01",
+        "M02_C02",
+        "M02_C03"
+      ],
+      "purpose": "Reduce fluid loss",
+      "eligibility": "Alert and able to swallow and keep fluids down after triage.",
+      "cautions": "Inability to drink or signs of deterioration require escalation; review fluid and electrolyte restrictions.",
+      "dose": null,
+      "duration": null,
+      "source_ids": [
+        "S006"
+      ],
+      "notes": null
+    },
+    {
+      "module": "M02",
+      "id": "M02_T02",
+      "type": "Non-drug measure",
+      "ingredient": null,
+      "name": "Reduce provocative visual stimuli and movement in accordance with mission safety",
+      "candidate_ids": [
+        "M02_C02"
+      ],
+      "purpose": "Relieve motion-associated nausea",
+      "eligibility": "A clear association reviewed by the physician.",
+      "cautions": "Adapt to training and the mission plan; persistent symptoms require reassessment.",
+      "dose": null,
+      "duration": null,
+      "source_ids": [
+        "S007"
+      ],
+      "notes": null
+    },
+    {
+      "module": "M02",
+      "id": "M02_T03",
+      "type": "Medication",
+      "ingredient": "promethazine",
+      "name": "Promethazine for the space motion sickness candidate only, if approved by the physician",
+      "candidate_ids": [
+        "M02_C02"
+      ],
+      "purpose": "Relieve nausea and vomiting from possible space motion sickness",
+      "eligibility": "Medical review, an approved plan, prior tolerance testing where available, and inventory verification; not an automatic treatment for all vomiting.",
+      "cautions": "Review angle-closure glaucoma, urinary retention, seizures, breathing difficulties, and heart, liver, and kidney disease.\nReview sedatives, opioids, antidepressants, and antiarrhythmic medicines; possible drowsiness and impaired concentration matter for critical tasks.\nMention in previous missions does not establish availability or safety on Mars; do not encode invasive administration routes.",
+      "dose": null,
+      "duration": null,
+      "source_ids": [
+        "S007",
+        "S008",
+        "S031",
+        "S032"
+      ],
+      "notes": null
+    },
+    {
+      "module": "M03",
+      "id": "M03_T01",
+      "type": "Non-drug measure",
+      "ingredient": null,
+      "name": "Reduce known exposure and use an approved nasal saline preparation",
+      "candidate_ids": [
+        "M03_C01",
+        "M03_C02"
+      ],
+      "purpose": "Relieve irritation and congestion",
+      "eligibility": "After triage, using a preparation and administration method approved for the mission.",
+      "cautions": "Does not replace the anaphylaxis pathway or assessment of breathlessness.",
+      "dose": null,
+      "duration": null,
+      "source_ids": [
+        "S010"
+      ],
+      "notes": null
+    },
+    {
+      "module": "M03",
+      "id": "M03_T02",
+      "type": "Medication",
+      "ingredient": null,
+      "name": "A physician-selected, less-sedating antihistamine, such as loratadine or fexofenadine",
+      "candidate_ids": [
+        "M03_C01"
+      ],
+      "purpose": "Relieve allergy symptoms",
+      "eligibility": "Individual selection after reviewing allergies, the medication profile, and the available preparation.",
+      "cautions": "Review heart, liver, and kidney disease, epilepsy, and pregnancy; suitability differs by preparation.\nDrowsiness can occur even with less-sedating types; review sedating medicines and duplicate antihistamine use.\nNot a substitute for the anaphylaxis pathway.",
+      "dose": null,
+      "duration": null,
+      "source_ids": [
+        "S010",
+        "S013",
+        "S012"
+      ],
+      "notes": null
+    },
+    {
+      "module": "M04",
+      "id": "M04_T01",
+      "type": "Non-drug measure",
+      "ingredient": null,
+      "name": "Gradual adjustment of fiber, fluids, activity, and toilet routine",
+      "candidate_ids": [
+        "M04_C01",
+        "M04_C02"
+      ],
+      "purpose": "Improve bowel movements",
+      "eligibility": "After assessing signs of obstruction and the suitability of food and fluids.",
+      "cautions": "Do not apply automatically with severe pain, vomiting, or inability to pass gas; fluid restrictions require review.",
+      "dose": null,
+      "duration": null,
+      "source_ids": [
+        "S014"
+      ],
+      "notes": null
+    },
+    {
+      "module": "M04",
+      "id": "M04_T02",
+      "type": "Medication",
+      "ingredient": "bisacodyl",
+      "name": "Bisacodyl if selected by the physician",
+      "candidate_ids": [
+        "M04_C01",
+        "M04_C02"
+      ],
+      "purpose": "Relieve constipation after assessing its cause",
+      "eligibility": "After excluding red flags and determining the preparation's suitability within the plan.",
+      "cautions": "Dehydration, severe abdominal pain with nausea/vomiting, obstruction, or bowel inflammation requires withholding/review.\nReview pregnancy; do not treat presumed impaction or a surgical cause without assessment.\nReview diuretics, steroids, and digoxin because of electrolyte imbalance risk; antacids may affect the tablet coating, requiring a pharmacist-arranged schedule.",
+      "dose": null,
+      "duration": null,
+      "source_ids": [
+        "S017",
+        "S018"
+      ],
+      "notes": null
+    },
+    {
+      "module": "M05",
+      "id": "M05_T01",
+      "type": "Medication",
+      "ingredient": "oral rehydration salts",
+      "name": "An approved oral rehydration solution selected by the physician",
+      "candidate_ids": [
+        "M05_C01",
+        "M05_C02",
+        "M05_C03"
+      ],
+      "purpose": "Replace fluids and electrolytes",
+      "eligibility": "Able to swallow and tolerate fluids without severe deterioration.",
+      "cautions": "Review diabetes, kidney disease, fluid/electrolyte restrictions, and the choice of preparation.\nFailure of hydration or deterioration in consciousness requires escalation; do not prepare an improvised formulation.",
+      "dose": null,
+      "duration": null,
+      "source_ids": [
+        "S021"
+      ],
+      "notes": null
+    },
+    {
+      "module": "M05",
+      "id": "M05_T02",
+      "type": "Non-drug measure",
+      "ingredient": null,
+      "name": "Food as tolerated, hand hygiene, and food safety",
+      "candidate_ids": [
+        "M05_C01",
+        "M05_C03"
+      ],
+      "purpose": "Support recovery and reduce possible infection transmission",
+      "eligibility": "According to the ability to eat and the mission nutrition plan.",
+      "cautions": "Continuing restrictive diets require review; persistent symptoms require reassessment of the cause.",
+      "dose": null,
+      "duration": null,
+      "source_ids": [
+        "S021"
+      ],
+      "notes": null
+    },
+    {
+      "module": "M05",
+      "id": "M05_T03",
+      "type": "Medication",
+      "ingredient": "loperamide",
+      "name": "Loperamide only if authorized by the physician",
+      "candidate_ids": [
+        "M05_C01",
+        "M05_C03"
+      ],
+      "purpose": "Symptomatic relief of diarrhea",
+      "eligibility": "After reviewing the cause and excluding red flags.",
+      "cautions": "Do not use with severe diarrhea after antibiotics, a flare of bowel inflammation, constipation, or bloating.\nBlood, fever, liver disease, or pregnancy requires review; do not delay infection assessment.\nIncluding this option does not imply that an antibiotic is appropriate; the physician selects one only for certain causes.",
+      "dose": null,
+      "duration": null,
+      "source_ids": [
+        "S020",
+        "S021"
+      ],
+      "notes": null
+    },
+    {
+      "module": "M06",
+      "id": "M06_T01",
+      "type": "Non-drug measure",
+      "ingredient": null,
+      "name": "Adjust meal size and avoid personal triggers and eating close to lying down",
+      "candidate_ids": [
+        "M06_C01",
+        "M06_C02"
+      ],
+      "purpose": "Reduce food-associated symptoms",
+      "eligibility": "After triage, with suitability for nutrition and the mission schedule.",
+      "cautions": "Must not delay assessment of chest pain, swallowing difficulty, or bleeding; do not generalize terrestrial bed arrangements to Mars.",
+      "dose": null,
+      "duration": null,
+      "source_ids": [
+        "S022"
+      ],
+      "notes": null
+    },
+    {
+      "module": "M06",
+      "id": "M06_T02",
+      "type": "Medication",
+      "ingredient": null,
+      "name": "An antacid or alginate selected by the physician",
+      "candidate_ids": [
+        "M06_C01",
+        "M06_C02"
+      ],
+      "purpose": "Temporary symptom relief",
+      "eligibility": "Select the preparation according to the person's profile and approved inventory.",
+      "cautions": "Review kidney and liver disease, heart failure, sodium restrictions, and pregnancy.\nMay affect absorption of other medications; an approved pharmacist-arranged schedule is required.\nFrequent need or persistent symptoms requires assessment of the cause.",
+      "dose": null,
+      "duration": null,
+      "source_ids": [
+        "S026",
+        "S022"
+      ],
+      "notes": null
+    },
+    {
+      "module": "M06",
+      "id": "M06_T03",
+      "type": "Medication",
+      "ingredient": "omeprazole",
+      "name": "Omeprazole if authorized by the physician",
+      "candidate_ids": [
+        "M06_C01"
+      ],
+      "purpose": "Reduce acid secretion",
+      "eligibility": "An option for medical review after assessing the cause and red flags; it must not be assumed to be added to existing acid-suppressing medication.",
+      "cautions": "May mask signs of serious disease; does not replace assessment of bleeding, weight loss, or swallowing difficulty.\nReview liver and kidney status, osteoporosis, and interactions with clopidogrel, warfarin, and digoxin.",
+      "dose": null,
+      "duration": null,
+      "source_ids": [
+        "S027"
+      ],
+      "notes": null
+    },
+    {
+      "module": "M06",
+      "id": "M06_T04",
+      "type": "Medication",
+      "ingredient": "famotidine",
+      "name": "Famotidine as a physician-reviewed alternative when a proton pump inhibitor is unsuitable or the response is inadequate",
+      "candidate_ids": [
+        "M06_C01"
+      ],
+      "purpose": "Reduce acid as a possible alternative option",
+      "eligibility": "An individual decision after reviewing the cause of symptoms and prior treatment; no automatic addition to omeprazole.",
+      "cautions": "Review of kidney function, allergies, and interactions is required, including some antifungals and HIV medicines.\nPersistent symptoms, swallowing difficulty, or bleeding requires assessment of the cause; the list is not exhaustive.",
+      "dose": null,
+      "duration": null,
+      "source_ids": [
+        "S022",
+        "S033"
+      ],
+      "notes": null
+    },
+    {
+      "module": "M07",
+      "id": "M07_T01",
+      "type": "Non-drug measure",
+      "ingredient": null,
+      "name": "Appropriate activity and task modification instead of bed rest",
+      "candidate_ids": [
+        "M07_C01",
+        "M07_C02"
+      ],
+      "purpose": "Support function and recovery",
+      "eligibility": "After excluding red flags and reviewing mission constraints.",
+      "cautions": "Major injury or a neurological deficit stops the routine care pathway.",
+      "dose": null,
+      "duration": null,
+      "source_ids": [
+        "S030"
+      ],
+      "notes": null
+    },
+    {
+      "module": "M07",
+      "id": "M07_T02",
+      "type": "Non-drug measure",
+      "ingredient": null,
+      "name": "An individualized movement and exercise program approved by a specialist",
+      "candidate_ids": [
+        "M07_C01",
+        "M07_C02"
+      ],
+      "purpose": "Improve movement and function",
+      "eligibility": "After assessing ability and environmental constraints.",
+      "cautions": "Worsening or new neurological symptoms requires stopping the provoking activity and assessment; no instruction in self-administered spinal manipulation.",
+      "dose": null,
+      "duration": null,
+      "source_ids": [
+        "S030"
+      ],
+      "notes": null
+    },
+    {
+      "module": "M07",
+      "id": "M07_T03",
+      "type": "Medication",
+      "ingredient": "ibuprofen",
+      "name": "Ibuprofen if the physician determines it is suitable",
+      "candidate_ids": [
+        "M07_C01"
+      ],
+      "purpose": "Relieve back pain",
+      "eligibility": "Assess gastrointestinal, kidney, and heart risks and interactions first.",
+      "cautions": "Review ulceration/bleeding, allergy to anti-inflammatory medicines, asthma, pregnancy, and liver/kidney/heart disease.\nReview anticoagulants and prevent combination with another anti-inflammatory medicine.\nParacetamol alone is not recommended for low back pain; the alternative is selected medically.",
+      "dose": null,
+      "duration": null,
+      "source_ids": [
+        "S030",
+        "S005"
+      ],
+      "notes": null
+    },
+    {
+      "module": "M08",
+      "id": "M08_T01",
+      "type": "Medical procedure",
+      "ingredient": null,
+      "name": "Bladder drainage by catheterization by an authorized specialist",
+      "candidate_ids": [
+        "M08_C01",
+        "M08_C02",
+        "M08_C03"
+      ],
+      "purpose": "Relieve retention and prevent harm",
+      "eligibility": "Acute retention assessed by a physician.",
+      "cautions": "Requires competence, equipment, and an approved plan; no self-treatment steps for untrained personnel.",
+      "dose": null,
+      "duration": null,
+      "source_ids": [
+        "S036"
+      ],
+      "notes": null
+    },
+    {
+      "module": "M08",
+      "id": "M08_T02",
+      "type": "Non-drug measure",
+      "ingredient": null,
+      "name": "Review medication that may be causing retention",
+      "candidate_ids": [
+        "M08_C03"
+      ],
+      "purpose": "Address a possible medication-related cause",
+      "eligibility": "After medication reconciliation and physician assessment.",
+      "cautions": "Do not stop or adjust medication independently.",
+      "dose": null,
+      "duration": null,
+      "source_ids": [
+        "S036"
+      ],
+      "notes": null
+    },
+    {
+      "module": "M08",
+      "id": "M08_T03",
+      "type": "Non-drug measure",
+      "ingredient": null,
+      "name": "Bladder training plan and management of the chronic cause",
+      "candidate_ids": [
+        "M08_C01",
+        "M08_C02"
+      ],
+      "purpose": "Improve emptying in a stable condition",
+      "eligibility": "Chronic retention after excluding an urgent need for drainage.",
+      "cautions": "Must not be used to delay drainage of acute retention.\nA specialist determines whether the plan is suitable.",
+      "dose": null,
+      "duration": null,
+      "source_ids": [
+        "S036"
+      ],
+      "notes": null
+    },
+    {
+      "module": "M08",
+      "id": "M08_T04",
+      "type": "Medication",
+      "ingredient": "tamsulosin",
+      "name": "Tamsulosin option after assessment of the cause",
+      "candidate_ids": [
+        "M08_C01"
+      ],
+      "purpose": "Improve urine flow in selected causes",
+      "eligibility": "Difficulty emptying associated with an enlarged prostate, assessed by a physician.",
+      "cautions": "Not suitable for every case of retention and must not delay drainage of acute retention.\nReview orthostatic hypotension, fainting, kidney and liver status, allergies, eye surgery, and interactions.\nRequires a medical decision, an approved plan, and verified inventory.",
+      "dose": null,
+      "duration": null,
+      "source_ids": [
+        "S068"
+      ],
+      "notes": null
+    },
+    {
+      "module": "M09",
+      "id": "M09_T01",
+      "type": "Non-drug measure",
+      "ingredient": null,
+      "name": "Rest and fluids appropriate to the condition",
+      "candidate_ids": [
+        "M09_C01",
+        "M09_C02",
+        "M09_C03"
+      ],
+      "purpose": "Support comfort and avoid dehydration",
+      "eligibility": "Able to tolerate drinking, in accordance with the fluid plan.",
+      "cautions": "Renal impairment or fluid restriction requires review.\nNot a substitute for treatment of infection or obstruction.",
+      "dose": null,
+      "duration": null,
+      "source_ids": [
+        "S041"
+      ],
+      "notes": null
+    },
+    {
+      "module": "M09",
+      "id": "M09_T02",
+      "type": "Medication",
+      "ingredient": "nitrofurantoin",
+      "name": "Nitrofurantoin option for physician review",
+      "candidate_ids": [
+        "M09_C01"
+      ],
+      "purpose": "Treat a selected lower urinary tract infection",
+      "eligibility": "Confirm suitability for a lower urinary tract infection and review the culture, care plan, and inventory.",
+      "cautions": "Do not select for kidney infection or suspected prostate involvement.\nUnknown or impaired kidney function requires review; do not assume eligibility.\nReview allergies, pregnancy, and interactions; be alert to pulmonary and hepatic toxicity.",
+      "dose": null,
+      "duration": null,
+      "source_ids": [
+        "S038",
+        "S040"
+      ],
+      "notes": null
+    },
+    {
+      "module": "M09",
+      "id": "M09_T03",
+      "type": "Medication",
+      "ingredient": null,
+      "name": "Physician selection of an antibiotic appropriate to the infection site",
+      "candidate_ids": [
+        "M09_C02",
+        "M09_C03"
+      ],
+      "purpose": "Treat kidney or prostate infection",
+      "eligibility": "After assessment of severity, culture, organ function, and the approved care plan.",
+      "cautions": "No automatic antibiotic selection or substitution.\nInfected obstruction may require a specialist procedure, rather than an antibiotic alone.",
+      "dose": null,
+      "duration": null,
+      "source_ids": [
+        "S039",
+        "S041",
+        "S042"
+      ],
+      "notes": null
+    },
+    {
+      "module": "M10",
+      "id": "M10_T01",
+      "type": "Medication",
+      "ingredient": "ibuprofen",
+      "name": "Anti-inflammatory pain relief option for physician review",
+      "candidate_ids": [
+        "M10_C01"
+      ],
+      "purpose": "Relieve renal colic",
+      "eligibility": "When colic is considered likely and individual suitability has been assessed.",
+      "cautions": "Review renal impairment, dehydration, ulcers, bleeding, and pregnancy.\nReview NSAID allergy, asthma, anticoagulants, and duplicate NSAID use.\nMust not delay urgent assessment.",
+      "dose": null,
+      "duration": null,
+      "source_ids": [
+        "S044",
+        "S005"
+      ],
+      "notes": null
+    },
+    {
+      "module": "M10",
+      "id": "M10_T02",
+      "type": "Medication",
+      "ingredient": "tamsulosin",
+      "name": "Tamsulosin option for a selected distal ureteric stone",
+      "candidate_ids": [
+        "M10_C01"
+      ],
+      "purpose": "Help passage of a suitable stone",
+      "eligibility": "A confirmed distal ureteric stone whose size meets NICE criteria, following physician assessment.",
+      "cautions": "Do not select for every episode of colic or a stone of unknown location; not a substitute for drainage of infected obstruction.\nReview low blood pressure, fainting, kidney and liver status, allergies, and interactions.\nThe physician reviews suitability for conservative management, authorization for the indication, the care plan, and inventory.",
+      "dose": null,
+      "duration": null,
+      "source_ids": [
+        "S044",
+        "S068"
+      ],
+      "notes": null
+    },
+    {
+      "module": "M10",
+      "id": "M10_T03",
+      "type": "Medical procedure",
+      "ingredient": null,
+      "name": "Drainage of urinary obstruction by a specialist",
+      "candidate_ids": [
+        "M10_C01",
+        "M10_C02"
+      ],
+      "purpose": "Relieve dangerous obstruction",
+      "eligibility": "Infected obstruction, absence of urine output, or refractory pain assessed by a physician.",
+      "cautions": "A procedure for an authorized specialist using approved equipment; no self-treatment.\nInfected obstruction is not treated with an antibiotic alone.",
+      "dose": null,
+      "duration": null,
+      "source_ids": [
+        "S042"
+      ],
+      "notes": null
+    },
+    {
+      "module": "M10",
+      "id": "M10_T04",
+      "type": "Non-drug measure",
+      "ingredient": null,
+      "name": "An appropriate fluid plan determined by the physician",
+      "candidate_ids": [
+        "M10_C01"
+      ],
+      "purpose": "Avoid dehydration in a stable condition",
+      "eligibility": "Able to tolerate drinking, with no fluid restriction.",
+      "cautions": "Do not force drinking when vomiting or unable to urinate.\nAssess the kidneys and obstruction first.",
+      "dose": null,
+      "duration": null,
+      "source_ids": [
+        "S046"
+      ],
+      "notes": null
+    },
+    {
+      "module": "M11",
+      "id": "M11_T01",
+      "type": "Non-drug measure",
+      "ingredient": null,
+      "name": "Avoid the identified irritant and use gentle care without scratching",
+      "candidate_ids": [
+        "M11_C01",
+        "M11_C02",
+        "M11_C03"
+      ],
+      "purpose": "Reduce irritation and skin damage",
+      "eligibility": "After reviewing exposures, without intentional re-exposure.",
+      "cautions": "Do not attribute every rash to allergy.\nEmergency signs take priority over topical care.",
+      "dose": null,
+      "duration": null,
+      "source_ids": [
+        "S048",
+        "S049"
+      ],
+      "notes": null
+    },
+    {
+      "module": "M11",
+      "id": "M11_T02",
+      "type": "Medication",
+      "ingredient": null,
+      "name": "Unperfumed moisturizer or emollient for physician review",
+      "candidate_ids": [
+        "M11_C01",
+        "M11_C03"
+      ],
+      "purpose": "Relieve dryness and itching",
+      "eligibility": "Dry skin after assessment of the condition and selection of a suitable product.",
+      "cautions": "Review product ingredients and allergies.\nA blistering rash or painful peeling requires urgent assessment.",
+      "dose": null,
+      "duration": null,
+      "source_ids": [
+        "S048",
+        "S049"
+      ],
+      "notes": null
+    },
+    {
+      "module": "M11",
+      "id": "M11_T03",
+      "type": "Medication",
+      "ingredient": "cetirizine",
+      "name": "Cetirizine option for physician review",
+      "candidate_ids": [
+        "M11_C02"
+      ],
+      "purpose": "Relieve itching from histamine-associated urticaria",
+      "eligibility": "Assess the cause, suitability, care plan, and inventory.",
+      "cautions": "Review kidney status, difficulty urinating, epilepsy, and allergies.\nMay cause drowsiness and affect mission performance; review sedating medications.\nNot sufficient treatment for anaphylaxis or a severe skin reaction.",
+      "dose": null,
+      "duration": null,
+      "source_ids": [
+        "S051",
+        "S052",
+        "S012"
+      ],
+      "notes": null
+    },
+    {
+      "module": "M11",
+      "id": "M11_T04",
+      "type": "Medication",
+      "ingredient": "hydrocortisone",
+      "name": "Topical hydrocortisone option for suitable dermatitis",
+      "candidate_ids": [
+        "M11_C01"
+      ],
+      "purpose": "Relieve inflammation and itching",
+      "eligibility": "Suitable mild dermatitis assessed by a physician, with selection of the correct product.",
+      "cautions": "No automatic selection for an undiagnosed rash, skin infection, or wound.\nThe face, area around the eyes, genitals, and sensitive areas require specialist approval.\nReview allergies, pregnancy, and damaged skin; do not assume a treatment duration or product strength.",
+      "dose": null,
+      "duration": null,
+      "source_ids": [
+        "S069"
+      ],
+      "notes": null
+    },
+    {
+      "module": "M12",
+      "id": "M12_T01",
+      "type": "Non-drug measure",
+      "ingredient": null,
+      "name": "Adjust the sleep environment, schedule, and stimulant use",
+      "candidate_ids": [
+        "M12_C01",
+        "M12_C02"
+      ],
+      "purpose": "Improve the opportunity for sleep and alertness",
+      "eligibility": "A plan suited to the mission schedule and approved by the physician.",
+      "cautions": "Changes to cabin lighting require coordination with environmental controls.\nNo single amount of sleep applies to everyone.",
+      "dose": null,
+      "duration": null,
+      "source_ids": [
+        "S057"
+      ],
+      "notes": null
+    },
+    {
+      "module": "M12",
+      "id": "M12_T02",
+      "type": "Non-drug measure",
+      "ingredient": null,
+      "name": "Cognitive behavioral therapy for insomnia under specialist supervision",
+      "candidate_ids": [
+        "M12_C01"
+      ],
+      "purpose": "Address factors that perpetuate insomnia",
+      "eligibility": "Assessment of insomnia and access to a specialist or approved program.",
+      "cautions": "Assess other sleep disorders first when suspected.\nAny behavioral change affecting alertness must align with the mission safety plan.",
+      "dose": null,
+      "duration": null,
+      "source_ids": [
+        "S057"
+      ],
+      "notes": null
+    },
+    {
+      "module": "M12",
+      "id": "M12_T03",
+      "type": "Medication",
+      "ingredient": "zolpidem",
+      "name": "Review a zolpidem option within an approved medical plan",
+      "candidate_ids": [
+        "M12_C01"
+      ],
+      "purpose": "A medication option for selected severe insomnia",
+      "eligibility": "A medical decision after assessment of causes and non-drug options, and verification of inventory.",
+      "cautions": "A history of complex sleep behavior with Z-drugs precludes selection under the FDA warning.\nReview breathing, sleep apnea, liver status, allergies, and dependence.\nReview sedatives, opioids, alcohol, and the risk of impaired performance after sleep.\nNo automatic initiation, increase, or prescribing, and no invented operational waiting period.",
+      "dose": null,
+      "duration": null,
+      "source_ids": [
+        "S055",
+        "S056"
+      ],
+      "notes": null
+    },
+    {
+      "module": "M12",
+      "id": "M12_T04",
+      "type": "Medication",
+      "ingredient": "melatonin",
+      "name": "A temporary melatonin option within a circadian timing plan",
+      "candidate_ids": [
+        "M12_C02"
+      ],
+      "purpose": "Help align sleep timing",
+      "eligibility": "A timing disturbance reviewed by a physician within an individualized sleep and light plan.",
+      "cautions": "Incorrect timing may worsen misalignment; no automatic timing or dosing.\nEvidence from terrestrial travel does not establish suitability for the Martian environment or for every case of insomnia.\nReview drowsiness, performance, liver and kidney status, epilepsy, autoimmune disease, pregnancy, and interactions.\nA reliable product, verified care plan, and verified inventory are required.",
+      "dose": null,
+      "duration": null,
+      "source_ids": [
+        "S070",
+        "S071"
+      ],
+      "notes": null
+    },
+    {
+      "module": "M13",
+      "id": "M13_T01",
+      "type": "Non-drug measure",
+      "ingredient": null,
+      "name": "Gentle care, hand hygiene, and avoidance of eye rubbing and contact lenses",
+      "candidate_ids": [
+        "M13_C01",
+        "M13_C02",
+        "M13_C03"
+      ],
+      "purpose": "Reduce irritation and potential transmission of infection",
+      "eligibility": "A condition assessed by a physician, without an emergency sign.",
+      "cautions": "Do not share towels or eye drops.\nReduce dust and dry-air exposure in accordance with cabin controls.",
+      "dose": null,
+      "duration": null,
+      "source_ids": [
+        "S059",
+        "S060",
+        "S061"
+      ],
+      "notes": null
+    },
+    {
+      "module": "M13",
+      "id": "M13_T02",
+      "type": "Medication",
+      "ingredient": "carmellose sodium",
+      "name": "Lubricating eye drop option for physician review",
+      "candidate_ids": [
+        "M13_C01"
+      ],
+      "purpose": "Relieve dry eye",
+      "eligibility": "After eye assessment and verification of the product and inventory.",
+      "cautions": "Review allergies, preservatives, and product compatibility with contact lenses.\nMust not delay assessment of pain or a vision change.\nDo not share the bottle.\nA documented medication example; its mention does not establish availability or product approval on Mars.",
+      "dose": null,
+      "duration": null,
+      "source_ids": [
+        "S061",
+        "S062"
+      ],
+      "notes": null
+    },
+    {
+      "module": "M13",
+      "id": "M13_T03",
+      "type": "Medication",
+      "ingredient": null,
+      "name": "An eye allergy medication option selected by a specialist",
+      "candidate_ids": [
+        "M13_C03"
+      ],
+      "purpose": "Relieve allergic symptoms",
+      "eligibility": "After an allergic cause is considered likely and the care plan has been reviewed.",
+      "cautions": "Review allergies, ingredients, and product safety.\nNo automatic selection based on redness alone.",
+      "dose": null,
+      "duration": null,
+      "source_ids": [
+        "S060"
+      ],
+      "notes": null
+    },
+    {
+      "module": "M13",
+      "id": "M13_T04",
+      "type": "Medication",
+      "ingredient": null,
+      "name": "Review the need for an ophthalmic antibiotic",
+      "candidate_ids": [
+        "M13_C02"
+      ],
+      "purpose": "Treat a bacterial cause when indicated",
+      "eligibility": "A clinical decision after assessment of the infection site and severity.",
+      "cautions": "Does not help a viral or allergic cause.\nContact lenses, pain, or a vision change requires assessment beyond treatment of simple conjunctivitis.",
+      "dose": null,
+      "duration": null,
+      "source_ids": [
+        "S060",
+        "S059"
+      ],
+      "notes": null
+    },
+    {
+      "module": "M14",
+      "id": "M14_T01",
+      "type": "Non-drug measure",
+      "ingredient": null,
+      "name": "Rest, appropriate fluids, and review of exposures",
+      "candidate_ids": [
+        "M14_C01",
+        "M14_C03"
+      ],
+      "purpose": "Support comfort and reduce irritation",
+      "eligibility": "A stable condition after assessment for red flags.",
+      "cautions": "Review fluid restrictions and the environmental plan.\nMust not delay assessment of deteriorating breathing or a suspected serious cause.",
+      "dose": null,
+      "duration": null,
+      "source_ids": [
+        "S063"
+      ],
+      "notes": null
+    },
+    {
+      "module": "M14",
+      "id": "M14_T02",
+      "type": "Medication",
+      "ingredient": "salbutamol (albuterol)",
+      "name": "Salbutamol (albuterol) relief option under the astronaut's current plan",
+      "candidate_ids": [
+        "M14_C02"
+      ],
+      "purpose": "Relieve symptoms of known airway disease",
+      "eligibility": "A reliever prescribed for the astronaut within a current airway disease plan; no automatic replacement of the plan.",
+      "cautions": "No automatic bronchodilator for cough without airway disease, and no substitute for preventive treatment.\nSalmeterol is not a rescue medication for a sudden attack and must not be used alone in asthma.\nReview allergies, heart status, hyperthyroidism, potassium, diabetes, and inhaler suitability.\nChest pain or worsening breathing afterward requires emergency care; lack of response does not justify automatic repeat use.\nInventory verification and medical authorization are required.",
+      "dose": null,
+      "duration": null,
+      "source_ids": [
+        "S065",
+        "S067",
+        "S072",
+        "S073",
+        "S074"
+      ],
+      "notes": null
+    },
+    {
+      "module": "M14",
+      "id": "M14_T03",
+      "type": "Medication",
+      "ingredient": null,
+      "name": "Physician review of the indication for an antibiotic",
+      "candidate_ids": [
+        "M14_C01"
+      ],
+      "purpose": "Treat a bacterial infection when indicated",
+      "eligibility": "Clinical assessment for bacterial infection or systemic illness/risk of complications.",
+      "cautions": "No routine antibiotic for cough or uncomplicated bronchitis.\nDo not infer a bacterial cause from sputum color.\nReview allergies, organ function, pregnancy, interactions, and the care plan.",
+      "dose": null,
+      "duration": null,
+      "source_ids": [
+        "S065"
+      ],
+      "notes": null
+    },
+    {
+      "module": "M15",
+      "id": "M15_T01",
+      "type": "Non-drug measure",
+      "ingredient": null,
+      "name": "Rest and soft food; fluids only when alert and able to swallow safely.",
+      "candidate_ids": [
+        "M15_C01",
+        "M15_C02"
+      ],
+      "purpose": "Support comfort and hydration.",
+      "eligibility": "After physician approval and assessment of warning signs.",
+      "cautions": "No oral intake with choking, altered consciousness, or inability to swallow.",
+      "dose": null,
+      "duration": null,
+      "source_ids": [
+        "S075",
+        "S092"
+      ],
+      "notes": null
+    },
+    {
+      "module": "M15",
+      "id": "M15_T02",
+      "type": "Medication",
+      "ingredient": "paracetamol",
+      "name": "Paracetamol selected by the physician for pain relief.",
+      "candidate_ids": [
+        "M15_C01",
+        "M15_C02"
+      ],
+      "purpose": "Relieve pain.",
+      "eligibility": "After review of the shared profile, with the product available and an approved plan in place.",
+      "cautions": "Review allergies and liver and kidney function.\nCheck for the same active ingredient in cold medicines and review medications already administered.",
+      "dose": null,
+      "duration": null,
+      "source_ids": [
+        "S004"
+      ],
+      "notes": null
+    },
+    {
+      "module": "M15",
+      "id": "M15_T03",
+      "type": "Medical procedure",
+      "ingredient": null,
+      "name": "Throat examination and a swab when indicated, performed by qualified staff.",
+      "candidate_ids": [
+        "M15_C01",
+        "M15_C02"
+      ],
+      "purpose": "Clarify the cause and guide treatment.",
+      "eligibility": "By physician decision and when the test can be performed safely.",
+      "cautions": "A swab must not take precedence over airway assessment.\nDo not infer a bacterial organism from appearance alone.",
+      "dose": null,
+      "duration": null,
+      "source_ids": [
+        "S076"
+      ],
+      "notes": null
+    },
+    {
+      "module": "M15",
+      "id": "M15_T04",
+      "type": "Medication",
+      "ingredient": "amoxicillin",
+      "name": "Amoxicillin is a reference option for confirmed group A streptococcal pharyngitis; only a physician may select it.",
+      "candidate_ids": [
+        "M15_C01",
+        "M15_C02"
+      ],
+      "purpose": "Treat a confirmed streptococcal infection.",
+      "eligibility": "Confirmation by an appropriate rapid test or culture interpreted by the physician, with an individual plan and approved inventory.",
+      "cautions": "No routine antibiotic or automated selection; it does not treat viral pharyngitis.\nReview penicillin or drug allergy, kidney function, interactions, and medications already administered.",
+      "dose": null,
+      "duration": null,
+      "source_ids": [
+        "S094"
+      ],
+      "notes": null
+    },
+    {
+      "module": "M16",
+      "id": "M16_T01",
+      "type": "Medication",
+      "ingredient": "paracetamol",
+      "name": "Paracetamol for pain relief if authorized by the physician.",
+      "candidate_ids": [
+        "M16_C01",
+        "M16_C02",
+        "M16_C03"
+      ],
+      "purpose": "Relieve pain.",
+      "eligibility": "Within the plan and after review of the profile and product.",
+      "cautions": "Review allergies, liver and kidney function, and duplicate active ingredients.\nPain relief must not delay assessment of sudden hearing loss.",
+      "dose": null,
+      "duration": null,
+      "source_ids": [
+        "S004"
+      ],
+      "notes": null
+    },
+    {
+      "module": "M16",
+      "id": "M16_T02",
+      "type": "Non-drug measure",
+      "ingredient": null,
+      "name": "Keep the ear dry and wipe away external discharge only.",
+      "candidate_ids": [
+        "M16_C02",
+        "M16_C03"
+      ],
+      "purpose": "Reduce irritation.",
+      "eligibility": "Care outside the canal with physician approval.",
+      "cautions": "No instruments inside the canal; no routine decongestants or antihistamines.",
+      "dose": null,
+      "duration": null,
+      "source_ids": [
+        "S077"
+      ],
+      "notes": null
+    },
+    {
+      "module": "M16",
+      "id": "M16_T03",
+      "type": "Medical procedure",
+      "ingredient": null,
+      "name": "Assessment for earwax removal by qualified staff after examination of the eardrum.",
+      "candidate_ids": [
+        "M16_C01"
+      ],
+      "purpose": "Remove a confirmed blockage.",
+      "eligibility": "By clinical decision, with appropriate equipment and training available.",
+      "cautions": "No self-irrigation or self-extraction.\nNo drops if the eardrum is perforated; an unknown eardrum status requires review.",
+      "dose": null,
+      "duration": null,
+      "source_ids": [
+        "S078"
+      ],
+      "notes": null
+    },
+    {
+      "module": "M16",
+      "id": "M16_T04",
+      "type": "Medication",
+      "ingredient": null,
+      "name": "Selection of cause-directed treatment or ear drops by the physician after examination.",
+      "candidate_ids": [
+        "M16_C02",
+        "M16_C03"
+      ],
+      "purpose": "Treat a specific cause.",
+      "eligibility": "By physician decision based on examination and the profile.",
+      "cautions": "No automatic antibiotic treatment.\nReview allergies and the suitability of the drops for the eardrum.",
+      "dose": null,
+      "duration": null,
+      "source_ids": [
+        "S077"
+      ],
+      "notes": null
+    },
+    {
+      "module": "M17",
+      "id": "M17_T01",
+      "type": "Medication",
+      "ingredient": "paracetamol",
+      "name": "Paracetamol selected by the physician for temporary pain relief.",
+      "candidate_ids": [
+        "M17_C01",
+        "M17_C02",
+        "M17_C03"
+      ],
+      "purpose": "Relieve pain while dental care is being arranged.",
+      "eligibility": "After review of the profile, plan, and product.",
+      "cautions": "Review allergies, liver and kidney function, and medications already administered.\nCheck that the active ingredient is not duplicated; do not delay the dental procedure.",
+      "dose": null,
+      "duration": null,
+      "source_ids": [
+        "S082",
+        "S004"
+      ],
+      "notes": null
+    },
+    {
+      "module": "M17",
+      "id": "M17_T02",
+      "type": "Non-drug measure",
+      "ingredient": null,
+      "name": "Soft food, gentle cleaning, and avoidance of thermal triggers.",
+      "candidate_ids": [
+        "M17_C01",
+        "M17_C02",
+        "M17_C03"
+      ],
+      "purpose": "Reduce pain and irritation.",
+      "eligibility": "According to physician assessment and with a safe ability to eat and swallow.",
+      "cautions": "These measures do not treat an abscess.\nAvoid forcing oral intake when swallowing is unsafe.",
+      "dose": null,
+      "duration": null,
+      "source_ids": [
+        "S080"
+      ],
+      "notes": null
+    },
+    {
+      "module": "M17",
+      "id": "M17_T03",
+      "type": "Medical procedure",
+      "ingredient": null,
+      "name": "A dental procedure determined by the specialist: restoration, pulp or root canal treatment, drainage, or extraction, according to the case.",
+      "candidate_ids": [
+        "M17_C01",
+        "M17_C02",
+        "M17_C03"
+      ],
+      "purpose": "Treat the cause of pain or infection.",
+      "eligibility": "Specialist expertise, training, equipment, anesthesia, and an approved clinical plan.",
+      "cautions": "No self-drainage, drilling, or extraction.\nThe system does not select a procedure without examination.",
+      "dose": null,
+      "duration": null,
+      "source_ids": [
+        "S081",
+        "S082",
+        "S083"
+      ],
+      "notes": null
+    },
+    {
+      "module": "M17",
+      "id": "M17_T04",
+      "type": "Medication",
+      "ingredient": null,
+      "name": "Review the indication for an antibiotic through a separate medical decision.",
+      "candidate_ids": [
+        "M17_C02",
+        "M17_C03"
+      ],
+      "purpose": "Treat a selected infection while addressing its source.",
+      "eligibility": "Systemic symptoms, or a localized abscess when a procedure is unavailable, may change the physician's decision.",
+      "cautions": "No antibiotic for pulpitis solely because of pain.\nAn antibiotic does not replace the procedure; review immunodeficiency, allergies, and interactions.",
+      "dose": null,
+      "duration": null,
+      "source_ids": [
+        "S082",
+        "S084"
+      ],
+      "notes": null
+    },
+    {
+      "module": "M18",
+      "id": "M18_T01",
+      "type": "Non-drug measure",
+      "ingredient": null,
+      "name": "Direct pressure with a clean dressing; press around an embedded object without pressing on it.",
+      "candidate_ids": [
+        "M18_C01",
+        "M18_C02",
+        "M18_C03"
+      ],
+      "purpose": "Initial control of bleeding.",
+      "eligibility": "After making the scene safe and securing protective measures, in accordance with approved training and an approved plan.",
+      "cautions": "Do not remove an embedded object.\nUncontrolled bleeding is an emergency; advanced procedures are for qualified personnel.",
+      "dose": null,
+      "duration": null,
+      "source_ids": [
+        "S091"
+      ],
+      "notes": null
+    },
+    {
+      "module": "M18",
+      "id": "M18_T02",
+      "type": "Non-drug measure",
+      "ingredient": null,
+      "name": "Clean a small wound after controlling the bleeding and cover it with a suitable dressing.",
+      "candidate_ids": [
+        "M18_C01"
+      ],
+      "purpose": "Protect the wound.",
+      "eligibility": "A confirmed superficial wound without an embedded object.",
+      "cautions": "Do not explore deep wounds.\nSeek review for increasing pain, redness, or pus.",
+      "dose": null,
+      "duration": null,
+      "source_ids": [
+        "S085"
+      ],
+      "notes": null
+    },
+    {
+      "module": "M18",
+      "id": "M18_T03",
+      "type": "Medical procedure",
+      "ingredient": null,
+      "name": "Assess the need for tetanus vaccine and immunoglobulin, and administer them when indicated by the physician.",
+      "candidate_ids": [
+        "M18_C02",
+        "M18_C03"
+      ],
+      "purpose": "Prevent tetanus.",
+      "eligibility": "According to wound type, immunization record, immune status, and inventory; administration is by qualified staff.",
+      "cautions": "Do not assume that immunization is complete when the record is missing.\nAntibiotics do not provide tetanus prophylaxis.",
+      "dose": null,
+      "duration": null,
+      "source_ids": [
+        "S086"
+      ],
+      "notes": null
+    },
+    {
+      "module": "M18",
+      "id": "M18_T04",
+      "type": "Medical procedure",
+      "ingredient": null,
+      "name": "Medical cleaning, removal of damaged tissue, or appropriate closure by specialist decision.",
+      "candidate_ids": [
+        "M18_C02",
+        "M18_C03"
+      ],
+      "purpose": "Manage a complex wound.",
+      "eligibility": "Qualified staff, equipment, and a plan; assess infection before closure.",
+      "cautions": "No self-suturing or self-debridement.\nThe physician decides on antibiotics for infection; they are not automatic for every wound.",
+      "dose": null,
+      "duration": null,
+      "source_ids": [
+        "S085"
+      ],
+      "notes": null
+    },
+    {
+      "module": "M19",
+      "id": "M19_T01",
+      "type": "Non-drug measure",
+      "ingredient": null,
+      "name": "After safely stopping the exposure, cool the thermal burn site under cool running water for 20 minutes.",
+      "candidate_ids": [
+        "M19_C01"
+      ],
+      "purpose": "Reduce thermal damage.",
+      "eligibility": "An approved plan and safe cooling; the stated time applies only to thermal burns.",
+      "cautions": "No ice; protect the rest of the body from hypothermia.\nDo not delay emergency response or generalize this to an unknown chemical.",
+      "dose": null,
+      "duration": null,
+      "source_ids": [
+        "S087"
+      ],
+      "notes": null
+    },
+    {
+      "module": "M19",
+      "id": "M19_T02",
+      "type": "Non-drug measure",
+      "ingredient": null,
+      "name": "A clean, non-adherent covering after appropriate first aid.",
+      "candidate_ids": [
+        "M19_C01",
+        "M19_C02",
+        "M19_C03"
+      ],
+      "purpose": "Protect the site.",
+      "eligibility": "After securing the source and assessing the exposure; without tight bandaging.",
+      "cautions": "Do not remove stuck material or burst blisters.\nNo oils, pastes, or household substances.",
+      "dose": null,
+      "duration": null,
+      "source_ids": [
+        "S088"
+      ],
+      "notes": null
+    },
+    {
+      "module": "M19",
+      "id": "M19_T03",
+      "type": "Medication",
+      "ingredient": "paracetamol",
+      "name": "Paracetamol if selected by the physician for pain relief.",
+      "candidate_ids": [
+        "M19_C01"
+      ],
+      "purpose": "Relieve pain.",
+      "eligibility": "After review of the profile and product; with safe swallowing if given orally.",
+      "cautions": "Review allergies, liver and kidney function, and duplicate active ingredients.\nPain relief must not delay assessment of a deep burn.",
+      "dose": null,
+      "duration": null,
+      "source_ids": [
+        "S004"
+      ],
+      "notes": null
+    },
+    {
+      "module": "M19",
+      "id": "M19_T04",
+      "type": "Medical procedure",
+      "ingredient": null,
+      "name": "Assessment and treatment of the burn and chemical decontamination appropriate to the substance, performed by a specialist.",
+      "candidate_ids": [
+        "M19_C01",
+        "M19_C02",
+        "M19_C03"
+      ],
+      "purpose": "Determine severity and treat the injury.",
+      "eligibility": "Qualified staff, equipment, protection, and an exposure-specific plan.",
+      "cautions": "Electrical exposure requires securing the source before contact.\nNo automatic antibiotics or surgical procedure; review tetanus prevention when needed.",
+      "dose": null,
+      "duration": null,
+      "source_ids": [
+        "S088",
+        "S086"
+      ],
+      "notes": null
+    },
+    {
+      "module": "M20",
+      "id": "M20_T01",
+      "type": "Non-drug measure",
+      "ingredient": null,
+      "name": "Stop exertion, move the affected person to a safe, cool location, remove excess clothing, and cool the skin.",
+      "candidate_ids": [
+        "M20_C02"
+      ],
+      "purpose": "Reduce the heat load.",
+      "eligibility": "With a trained companion and an environmental and equipment safety plan; call for emergency response if consciousness changes.",
+      "cautions": "Do not delay requesting help in order to take measurements.\nDo not remove essential protective equipment before making the environment safe.",
+      "dose": null,
+      "duration": null,
+      "source_ids": [
+        "S093"
+      ],
+      "notes": null
+    },
+    {
+      "module": "M20",
+      "id": "M20_T02",
+      "type": "Non-drug measure",
+      "ingredient": null,
+      "name": "Sips of potable fluid or a rehydration solution selected by the physician.",
+      "candidate_ids": [
+        "M20_C01",
+        "M20_C02"
+      ],
+      "purpose": "Appropriate replacement of fluid and salt losses.",
+      "eligibility": "Only if the affected person is fully alert, can swallow safely, and has no shock, confusion, or active vomiting.",
+      "cautions": "Nothing by mouth with unsafe swallowing or altered consciousness.\nReview fluid restrictions and kidney and heart status; no salt tablets or improvised mixtures.",
+      "dose": null,
+      "duration": null,
+      "source_ids": [
+        "S090",
+        "S092"
+      ],
+      "notes": null
+    },
+    {
+      "module": "M20",
+      "id": "M20_T03",
+      "type": "Medical procedure",
+      "ingredient": null,
+      "name": "Active cooling and urgent medical monitoring for suspected heatstroke.",
+      "candidate_ids": [
+        "M20_C02"
+      ],
+      "purpose": "Lower temperature and support vital functions.",
+      "eligibility": "By qualified staff with airway protection and appropriate monitoring.",
+      "cautions": "Heatstroke is an emergency even when sweating is present.\nImmersion or advanced procedures are not unmonitored self-treatment.",
+      "dose": null,
+      "duration": null,
+      "source_ids": [
+        "S090"
+      ],
+      "notes": null
+    },
+    {
+      "module": "M20",
+      "id": "M20_T04",
+      "type": "Medical procedure",
+      "ingredient": null,
+      "name": "Assessment of the need for intravenous fluids and electrolyte and kidney tests by physician decision.",
+      "candidate_ids": [
+        "M20_C01",
+        "M20_C02"
+      ],
+      "purpose": "Treat complicated dehydration and assess organ injury.",
+      "eligibility": "Qualified staff, an individual plan, and equipment; particularly when oral rehydration is not possible.",
+      "cautions": "No self-cannulation or self-infusion.\nReview heart or kidney disease and the risk of fluid overload; no automatically determined volume.",
+      "dose": null,
+      "duration": null,
+      "source_ids": [
+        "S090"
+      ],
+      "notes": null
+    }
+  ],
+  "sources": [
+    {
+      "id": "S001",
+      "organization": "NHS",
+      "title": "Headaches",
+      "context": "Terrestrial guidance",
+      "supports": "Red flags, associated factors, general care, and follow-up.",
+      "section": "When and where to get medical help; What can cause headaches",
+      "url": "https://www.nhs.uk/symptoms/headaches/",
+      "accessed": "2026-11-14 00:00:00",
+      "retrieval_status": "Retrieved"
+    },
+    {
+      "id": "S002",
+      "organization": "NHS",
+      "title": "Migraine",
+      "context": "Terrestrial guidance",
+      "supports": "Association of throbbing headache with nausea and sensitivity to light and sound; rest measures.",
+      "section": "Symptoms of migraine; Things you can do",
+      "url": "https://www.nhs.uk/conditions/migraine/",
+      "accessed": "2026-11-14 00:00:00",
+      "retrieval_status": "Retrieved"
+    },
+    {
+      "id": "S003",
+      "organization": "NHS",
+      "title": "Tension headaches",
+      "context": "Terrestrial guidance",
+      "supports": "Bilateral tightness and the association between analgesic overuse and headache.",
+      "section": "Symptoms; Causes",
+      "url": "https://www.nhs.uk/conditions/tension-headaches/",
+      "accessed": "2026-11-14 00:00:00",
+      "retrieval_status": "Retrieved"
+    },
+    {
+      "id": "S004",
+      "organization": "NHS",
+      "title": "Paracetamol for adults",
+      "context": "Terrestrial guidance",
+      "supports": "Headache relief, liver and kidney review, and duplicate active ingredients.",
+      "section": "Who can and cannot take paracetamol; Important",
+      "url": "https://www.nhs.uk/medicines/paracetamol-for-adults/",
+      "accessed": "2026-11-14 00:00:00",
+      "retrieval_status": "Retrieved"
+    },
+    {
+      "id": "S005",
+      "organization": "NHS",
+      "title": "Ibuprofen for adults",
+      "context": "Terrestrial guidance",
+      "supports": "Contraindications, cautions, and interactions for anti-inflammatory medicines; not a comprehensive list.",
+      "section": "Who can and cannot use ibuprofen; Using with other medicines",
+      "url": "https://www.nhs.uk/medicines/ibuprofen-for-adults/",
+      "accessed": "2026-11-14 00:00:00",
+      "retrieval_status": "Retrieved"
+    },
+    {
+      "id": "S006",
+      "organization": "NHS",
+      "title": "Diarrhoea and vomiting",
+      "context": "Terrestrial guidance",
+      "supports": "Vomiting triage, fluid tolerance, hydration, and general care.",
+      "section": "How to treat; Urgent advice; Immediate action",
+      "url": "https://www.nhs.uk/symptoms/diarrhoea-and-vomiting/",
+      "accessed": "2026-11-14 00:00:00",
+      "retrieval_status": "Retrieved"
+    },
+    {
+      "id": "S007",
+      "organization": "NASA OCHMO",
+      "title": "Space Adaptation Sickness (SAS), OCHMO-MTB-004, Rev A",
+      "context": "Spaceflight research/reference",
+      "supports": "Association of space motion sickness with sensory/gravity transitions; reducing provocative movements and mention of promethazine. A knowledge reference, not an individual recommendation.",
+      "section": "Executive Summary; Countermeasures & Treatment; Literature Review",
+      "url": "https://www.nasa.gov/wp-content/uploads/2025/09/ochmo-mtb-004-space-adaptation-sickness-sas.pdf",
+      "accessed": "2026-11-14 00:00:00",
+      "retrieval_status": "Retrieved"
+    },
+    {
+      "id": "S008",
+      "organization": "NHS",
+      "title": "Who can and cannot take promethazine",
+      "context": "Terrestrial guidance",
+      "supports": "Cautions regarding glaucoma, urination, seizures, breathing, and heart, liver, and kidney disease.",
+      "section": "Who may not be able to take promethazine",
+      "url": "https://www.nhs.uk/medicines/promethazine/who-can-and-cannot-take-promethazine/",
+      "accessed": "2026-11-14 00:00:00",
+      "retrieval_status": "Retrieved"
+    },
+    {
+      "id": "S009",
+      "organization": "NHS",
+      "title": "Dehydration",
+      "context": "Terrestrial guidance",
+      "supports": "Distinguishing signs of fluid depletion from signs of deterioration requiring emergency response.",
+      "section": "Urgent advice; Immediate action",
+      "url": "https://www.nhs.uk/conditions/dehydration/",
+      "accessed": "2026-11-14 00:00:00",
+      "retrieval_status": "Retrieved"
+    },
+    {
+      "id": "S010",
+      "organization": "NHS",
+      "title": "Allergic rhinitis",
+      "context": "Terrestrial guidance",
+      "supports": "Allergy pattern, trigger avoidance, nasal options, and asthma review.",
+      "section": "Symptoms; How you can treat; When to get help",
+      "url": "https://www.nhs.uk/conditions/allergic-rhinitis/",
+      "accessed": "2026-11-14 00:00:00",
+      "retrieval_status": "Retrieved"
+    },
+    {
+      "id": "S011",
+      "organization": "NHS",
+      "title": "Common cold",
+      "context": "Terrestrial guidance",
+      "supports": "Congestion with a cold and associated symptoms; antibiotics do not help a cold.",
+      "section": "Symptoms; Treatment; When to get help",
+      "url": "https://www.nhs.uk/conditions/common-cold/",
+      "accessed": "2026-11-14 00:00:00",
+      "retrieval_status": "Retrieved"
+    },
+    {
+      "id": "S012",
+      "organization": "NHS",
+      "title": "Anaphylaxis",
+      "context": "Terrestrial guidance",
+      "supports": "Respiratory and circulatory signs of anaphylaxis require emergency response.",
+      "section": "Symptoms; Immediate action",
+      "url": "https://www.nhs.uk/conditions/anaphylaxis/",
+      "accessed": "2026-11-14 00:00:00",
+      "retrieval_status": "Retrieved"
+    },
+    {
+      "id": "S013",
+      "organization": "NHS",
+      "title": "Antihistamines",
+      "context": "Terrestrial guidance",
+      "supports": "Examples of less-sedating types, possible drowsiness, and cautions concerning diseases and interactions.",
+      "section": "Types; Side effects; Who can take",
+      "url": "https://www.nhs.uk/medicines/antihistamines/",
+      "accessed": "2026-11-14 00:00:00",
+      "retrieval_status": "Retrieved"
+    },
+    {
+      "id": "S014",
+      "organization": "NHS",
+      "title": "Constipation",
+      "context": "Terrestrial guidance",
+      "supports": "Changes in stool pattern, dietary care, activity, and possible impaction.",
+      "section": "Symptoms; Self-care; Complications",
+      "url": "https://www.nhs.uk/conditions/constipation/",
+      "accessed": "2026-11-14 00:00:00",
+      "retrieval_status": "Retrieved"
+    },
+    {
+      "id": "S015",
+      "organization": "NIDDK",
+      "title": "Symptoms & Causes of Constipation",
+      "context": "Terrestrial guidance",
+      "supports": "Medication and dietary causes, and signs requiring prompt review.",
+      "section": "When should I see a doctor; What causes constipation",
+      "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/constipation/symptoms-causes",
+      "accessed": "2026-11-14 00:00:00",
+      "retrieval_status": "Retrieved"
+    },
+    {
+      "id": "S016",
+      "organization": "NHS",
+      "title": "Stomach ache",
+      "context": "Terrestrial guidance",
+      "supports": "Sudden severe pain or inability to pass stool and gas requires emergency care.",
+      "section": "Immediate action",
+      "url": "https://www.nhs.uk/symptoms/stomach-ache/",
+      "accessed": "2026-11-14 00:00:00",
+      "retrieval_status": "Retrieved"
+    },
+    {
+      "id": "S017",
+      "organization": "NHS",
+      "title": "Who can and cannot take bisacodyl",
+      "context": "Terrestrial guidance",
+      "supports": "Dehydration, pain with vomiting, obstruction, bowel disease, and pregnancy require review.",
+      "section": "Who may not be able to take bisacodyl",
+      "url": "https://www.nhs.uk/medicines/bisacodyl/who-can-and-cannot-take-bisacodyl/",
+      "accessed": "2026-11-14 00:00:00",
+      "retrieval_status": "Retrieved"
+    },
+    {
+      "id": "S018",
+      "organization": "NHS",
+      "title": "Taking bisacodyl with other medicines and herbal supplements",
+      "context": "Terrestrial guidance",
+      "supports": "Interactions involving diuretics, steroids, digoxin, and antacids.",
+      "section": "Cautions with other medicines",
+      "url": "https://www.nhs.uk/medicines/bisacodyl/taking-bisacodyl-with-other-medicines-and-herbal-supplements/",
+      "accessed": "2026-11-14 00:00:00",
+      "retrieval_status": "Retrieved"
+    },
+    {
+      "id": "S019",
+      "organization": "NIDDK",
+      "title": "Symptoms & Causes of Diarrhea",
+      "context": "Terrestrial guidance",
+      "supports": "Possible causes of diarrhea and signs of bleeding, dehydration, and associated conditions.",
+      "section": "Symptoms; When to see a doctor; Causes",
+      "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/diarrhea/symptoms-causes",
+      "accessed": "2026-11-14 00:00:00",
+      "retrieval_status": "Retrieved"
+    },
+    {
+      "id": "S020",
+      "organization": "NHS",
+      "title": "Who can and cannot take loperamide",
+      "context": "Terrestrial guidance",
+      "supports": "Avoid/review loperamide with severe antibiotic-associated diarrhea, inflammation, distension, and blood/fever.",
+      "section": "Who may not be able to take loperamide",
+      "url": "https://www.nhs.uk/medicines/loperamide/who-can-and-cannot-take-loperamide/",
+      "accessed": "2026-11-14 00:00:00",
+      "retrieval_status": "Retrieved"
+    },
+    {
+      "id": "S021",
+      "organization": "NIDDK",
+      "title": "Treatment of Diarrhea",
+      "context": "Terrestrial guidance",
+      "supports": "Replacement of fluids and salts and review of special cases; antibiotics only for selected infections.",
+      "section": "Hydrate and replace electrolytes; Medicines; Prevention",
+      "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/diarrhea/treatment",
+      "accessed": "2026-11-14 00:00:00",
+      "retrieval_status": "Retrieved"
+    },
+    {
+      "id": "S022",
+      "organization": "NHS",
+      "title": "Heartburn and acid reflux",
+      "context": "Terrestrial guidance",
+      "supports": "Heartburn and reflux pattern, modifying triggers, and seeking review.",
+      "section": "Symptoms; Self-care; Treatment",
+      "url": "https://www.nhs.uk/conditions/heartburn-and-acid-reflux/",
+      "accessed": "2026-11-14 00:00:00",
+      "retrieval_status": "Retrieved"
+    },
+    {
+      "id": "S023",
+      "organization": "NIDDK",
+      "title": "Symptoms & Causes of GER & GERD",
+      "context": "Terrestrial guidance",
+      "supports": "Associated symptoms, difficulty swallowing, bleeding, and weight loss.",
+      "section": "Symptoms; When to see a doctor",
+      "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/acid-reflux-ger-gerd-adults/symptoms-causes",
+      "accessed": "2026-11-14 00:00:00",
+      "retrieval_status": "Retrieved"
+    },
+    {
+      "id": "S024",
+      "organization": "NHS",
+      "title": "Chest pain",
+      "context": "Terrestrial guidance",
+      "supports": "Cardiac chest pain may resemble burning or indigestion and requires emergency response.",
+      "section": "Immediate action",
+      "url": "https://www.nhs.uk/symptoms/chest-pain/",
+      "accessed": "2026-11-14 00:00:00",
+      "retrieval_status": "Retrieved"
+    },
+    {
+      "id": "S025",
+      "organization": "NHS",
+      "title": "Indigestion",
+      "context": "Terrestrial guidance",
+      "supports": "Overlap of dyspepsia with heartburn, fullness, and belching.",
+      "section": "Symptoms",
+      "url": "https://www.nhs.uk/conditions/indigestion/",
+      "accessed": "2026-11-14 00:00:00",
+      "retrieval_status": "Retrieved"
+    },
+    {
+      "id": "S026",
+      "organization": "NHS",
+      "title": "Antacids",
+      "context": "Terrestrial guidance",
+      "supports": "Temporary relief and cautions regarding the kidneys, heart, sodium, and interference with absorption.",
+      "section": "When used; Taking with other medicines; Who may not be able",
+      "url": "https://www.nhs.uk/medicines/antacids/",
+      "accessed": "2026-11-14 00:00:00",
+      "retrieval_status": "Retrieved"
+    },
+    {
+      "id": "S027",
+      "organization": "NHS",
+      "title": "Omeprazole",
+      "context": "Terrestrial guidance",
+      "supports": "Acid suppression and cautions concerning masking disease, interactions, liver or kidney function, and bone health.",
+      "section": "Who can and cannot take; Taking with other medicines",
+      "url": "https://www.nhs.uk/medicines/omeprazole/",
+      "accessed": "2026-11-14 00:00:00",
+      "retrieval_status": "Retrieved"
+    },
+    {
+      "id": "S028",
+      "organization": "NHS",
+      "title": "Back pain",
+      "context": "Terrestrial guidance",
+      "supports": "Signs of nerve compression, injury, and systemic disease; activity and follow-up.",
+      "section": "When to get help; How to ease back pain",
+      "url": "https://www.nhs.uk/conditions/back-pain/",
+      "accessed": "2026-11-14 00:00:00",
+      "retrieval_status": "Retrieved"
+    },
+    {
+      "id": "S029",
+      "organization": "NHS",
+      "title": "Sciatica",
+      "context": "Terrestrial guidance",
+      "supports": "Pain radiating to the leg, numbness/weakness, and neurological emergency signs.",
+      "section": "Symptoms; Immediate action",
+      "url": "https://www.nhs.uk/conditions/sciatica/",
+      "accessed": "2026-11-14 00:00:00",
+      "retrieval_status": "Retrieved"
+    },
+    {
+      "id": "S030",
+      "organization": "NICE",
+      "title": "Low back pain and sciatica in over 16s: assessment and management (NG59): Recommendations",
+      "context": "Terrestrial guidance",
+      "supports": "Assessment of serious causes, activity, exercise, risks of anti-inflammatory medicines, and cautions for sciatica medicines. Retrieved through the official search result; direct opening was unsuccessful.",
+      "section": "1.1.1; 1.2.1–1.2.2; 1.2.16–1.2.30",
+      "url": "https://www.nice.org.uk/guidance/ng59/chapter/recommendations",
+      "accessed": "2026-11-14 00:00:00",
+      "retrieval_status": "Retrieved"
+    },
+    {
+      "id": "S031",
+      "organization": "NHS",
+      "title": "Side effects of promethazine",
+      "context": "Terrestrial guidance",
+      "supports": "Drowsiness, dizziness, impaired concentration, and serious effects.",
+      "section": "Common side effects; Serious side effects",
+      "url": "https://www.nhs.uk/medicines/promethazine/side-effects-of-promethazine/",
+      "accessed": "2026-11-14 00:00:00",
+      "retrieval_status": "Retrieved"
+    },
+    {
+      "id": "S032",
+      "organization": "NHS",
+      "title": "Taking promethazine with other medicines and herbal supplements",
+      "context": "Terrestrial guidance",
+      "supports": "Interactions involving opioids, sedatives, antidepressants, and antiarrhythmic medications.",
+      "section": "Cautions with other medicines",
+      "url": "https://www.nhs.uk/medicines/promethazine/taking-promethazine-with-other-medicines-and-herbal-supplements/",
+      "accessed": "2026-11-14 00:00:00",
+      "retrieval_status": "Retrieved"
+    },
+    {
+      "id": "S033",
+      "organization": "NHS Derbyshire Medicines Management",
+      "title": "Chapter 1: Gastro-intestinal system",
+      "context": "Terrestrial guidance",
+      "supports": "Review of the diagnosis if there is no response, caution in renal impairment, and interactions involving H2 antagonists. Retrieved from the official search result; the PDF could not be opened.",
+      "section": "1.3.1 H2-antagonists (H2RA)",
+      "url": "https://www.derbyshiremedicinesmanagement.nhs.uk/assets/Clinical_Guidelines/Formulary_by_BNF_chapter_prescribing_guidelines/BNF_chapter_1/Chapter_1_GI_System.pdf",
+      "accessed": "2026-11-14 00:00:00",
+      "retrieval_status": "Retrieved"
+    },
+    {
+      "id": "S034",
+      "organization": "NIDDK, NIH",
+      "title": "Symptoms & Causes of Urinary Retention",
+      "context": "Terrestrial guidance",
+      "supports": "Retention symptoms and causes, and the urgency of inability to urinate.",
+      "section": "Symptoms; Causes",
+      "url": "https://www.niddk.nih.gov/health-information/urologic-diseases/urinary-retention/symptoms-causes",
+      "accessed": "2026-11-14 00:00:00",
+      "retrieval_status": "Retrieved"
+    },
+    {
+      "id": "S035",
+      "organization": "NIDDK, NIH",
+      "title": "Diagnosis of Urinary Retention",
+      "context": "Terrestrial guidance",
+      "supports": "History, examination, measurement of residual urine, and kidney assessment.",
+      "section": "Diagnosis",
+      "url": "https://www.niddk.nih.gov/health-information/urologic-diseases/urinary-retention/diagnosis",
+      "accessed": "2026-11-14 00:00:00",
+      "retrieval_status": "Retrieved"
+    },
+    {
+      "id": "S036",
+      "organization": "NIDDK, NIH",
+      "title": "Treatment of Urinary Retention",
+      "context": "Terrestrial guidance",
+      "supports": "Bladder emptying, medication review, and chronic care options.",
+      "section": "Treatment",
+      "url": "https://www.niddk.nih.gov/health-information/urologic-diseases/urinary-retention/treatment",
+      "accessed": "2026-11-14 00:00:00",
+      "retrieval_status": "Retrieved"
+    },
+    {
+      "id": "S037",
+      "organization": "NHS",
+      "title": "Urinary tract infections (UTIs)",
+      "context": "Terrestrial guidance",
+      "supports": "Symptoms, warning signs, and factors requiring review and supportive care.",
+      "section": "Symptoms; Urgent advice; Treatment",
+      "url": "https://www.nhs.uk/conditions/urinary-tract-infections-utis/",
+      "accessed": "2026-11-14 00:00:00",
+      "retrieval_status": "Retrieved"
+    },
+    {
+      "id": "S038",
+      "organization": "NICE",
+      "title": "Urinary tract infection (lower): antimicrobial prescribing, NG109",
+      "context": "Terrestrial guidance",
+      "supports": "Antibiotic selection according to culture and kidney status; nitrofurantoin is for lower urinary tract infection and is unsuitable for suspected prostate involvement or upper urinary tract infection.",
+      "section": "Recommendations; Choice of antibiotic",
+      "url": "https://www.nice.org.uk/guidance/ng109/chapter/recommendations",
+      "accessed": "2026-11-14 00:00:00",
+      "retrieval_status": "Retrieved"
+    },
+    {
+      "id": "S039",
+      "organization": "NHS",
+      "title": "Prostatitis",
+      "context": "Terrestrial guidance",
+      "supports": "Prostate symptoms, their medical treatment, and the urgency of urinary retention.",
+      "section": "Symptoms; Treatment",
+      "url": "https://www.nhs.uk/conditions/prostatitis/",
+      "accessed": "2026-11-14 00:00:00",
+      "retrieval_status": "Retrieved"
+    },
+    {
+      "id": "S040",
+      "organization": "MHRA",
+      "title": "Nitrofurantoin: reminder of the risks of pulmonary and hepatic adverse drug reactions",
+      "context": "Terrestrial guidance",
+      "supports": "Caution about lung and liver reactions and investigation of new symptoms.",
+      "section": "Advice for healthcare professionals",
+      "url": "https://www.gov.uk/drug-safety-update/nitrofurantoin-reminder-of-the-risks-of-pulmonary-and-hepatic-adverse-drug-reactions",
+      "accessed": "2026-11-14 00:00:00",
+      "retrieval_status": "Retrieved"
+    },
+    {
+      "id": "S041",
+      "organization": "NHS",
+      "title": "Kidney infection",
+      "context": "Terrestrial guidance",
+      "supports": "Kidney infection symptoms, urine testing, medical treatment, and review of fluids.",
+      "section": "Symptoms; Treatment",
+      "url": "https://www.nhs.uk/conditions/kidney-infection/",
+      "accessed": "2026-11-14 00:00:00",
+      "retrieval_status": "Retrieved"
+    },
+    {
+      "id": "S042",
+      "organization": "European Association of Urology",
+      "title": "EAU Guidelines on Urolithiasis",
+      "context": "Terrestrial guidance",
+      "supports": "Infected urinary obstruction requires urgent assessment and relief of the obstruction.",
+      "section": "3.4.2",
+      "url": "https://uroweb.org/guidelines/urolithiasis/chapter/guidelines",
+      "accessed": "2026-11-14 00:00:00",
+      "retrieval_status": "Retrieved"
+    },
+    {
+      "id": "S043",
+      "organization": "NHS",
+      "title": "Kidney stones",
+      "context": "Terrestrial guidance",
+      "supports": "Symptoms, assessment, pain relief and nausea management options, and supportive care.",
+      "section": "Symptoms; Diagnosis; Treatments",
+      "url": "https://www.nhs.uk/conditions/kidney-stones/",
+      "accessed": "2026-11-14 00:00:00",
+      "retrieval_status": "Retrieved"
+    },
+    {
+      "id": "S044",
+      "organization": "NICE",
+      "title": "Renal and ureteric stones: assessment and management, NG118",
+      "context": "Terrestrial guidance",
+      "supports": "Pain relief and consideration of alpha blockers for distal ureteric stones that meet guideline criteria.",
+      "section": "1.2 Pain management; 1.3 Medical expulsive therapy",
+      "url": "https://www.nice.org.uk/guidance/ng118/chapter/Recommendations",
+      "accessed": "2026-11-14 00:00:00",
+      "retrieval_status": "Retrieved"
+    },
+    {
+      "id": "S045",
+      "organization": "NIDDK, NIH",
+      "title": "Symptoms & Causes of Kidney Stones",
+      "context": "Terrestrial guidance",
+      "supports": "Flank and groin pain, blood, vomiting, and changes in urination associated with stones.",
+      "section": "Symptoms",
+      "url": "https://www.niddk.nih.gov/health-information/urologic-diseases/kidney-stones/symptoms-causes",
+      "accessed": "2026-11-14 00:00:00",
+      "retrieval_status": "Retrieved"
+    },
+    {
+      "id": "S046",
+      "organization": "NIDDK, NIH",
+      "title": "Treatment for Kidney Stones",
+      "context": "Terrestrial guidance",
+      "supports": "Urgent assessment of obstruction, pain, vomiting, and dehydration, and individualized fluids.",
+      "section": "Treatment; Drinking liquids",
+      "url": "https://www.niddk.nih.gov/health-information/urologic-diseases/kidney-stones/treatment",
+      "accessed": "2026-11-14 00:00:00",
+      "retrieval_status": "Retrieved"
+    },
+    {
+      "id": "S047",
+      "organization": "NHS",
+      "title": "Hives",
+      "context": "Terrestrial guidance",
+      "supports": "Description and triggers of urticaria, signs of severe allergy, and the need for review.",
+      "section": "Symptoms; Urgent advice; Treatment",
+      "url": "https://www.nhs.uk/conditions/hives/",
+      "accessed": "2026-11-14 00:00:00",
+      "retrieval_status": "Retrieved"
+    },
+    {
+      "id": "S048",
+      "organization": "NHS",
+      "title": "Contact dermatitis",
+      "context": "Terrestrial guidance",
+      "supports": "Irritant or allergic contact, care, and moisturizers.",
+      "section": "Symptoms; Causes; Treating",
+      "url": "https://www.nhs.uk/conditions/contact-dermatitis/",
+      "accessed": "2026-11-14 00:00:00",
+      "retrieval_status": "Retrieved"
+    },
+    {
+      "id": "S049",
+      "organization": "NHS",
+      "title": "Itchy skin",
+      "context": "Terrestrial guidance",
+      "supports": "Care for dryness and when generalized or persistent itching requires investigation.",
+      "section": "Self-care; When to see a GP",
+      "url": "https://www.nhs.uk/symptoms/itchy-skin/",
+      "accessed": "2026-11-14 00:00:00",
+      "retrieval_status": "Retrieved"
+    },
+    {
+      "id": "S050",
+      "organization": "NHS",
+      "title": "Stevens-Johnson syndrome",
+      "context": "Terrestrial guidance",
+      "supports": "Painful rash, blisters, peeling, and mucosal involvement are emergency warning signs.",
+      "section": "Symptoms; Immediate action",
+      "url": "https://www.nhs.uk/conditions/stevens-johnson-syndrome/",
+      "accessed": "2026-11-14 00:00:00",
+      "retrieval_status": "Retrieved"
+    },
+    {
+      "id": "S051",
+      "organization": "NHS",
+      "title": "Who can and cannot take cetirizine",
+      "context": "Terrestrial guidance",
+      "supports": "Review of kidney function, difficulty urinating, epilepsy, and allergy before cetirizine.",
+      "section": "Who may not be able to take",
+      "url": "https://www.nhs.uk/medicines/cetirizine/who-can-and-cannot-take-cetirizine/",
+      "accessed": "2026-11-14 00:00:00",
+      "retrieval_status": "Retrieved"
+    },
+    {
+      "id": "S052",
+      "organization": "NHS",
+      "title": "About cetirizine",
+      "context": "Terrestrial guidance",
+      "supports": "Uses for allergy and urticaria, and possible drowsiness despite being described as less sedating.",
+      "section": "Uses; Key facts",
+      "url": "https://www.nhs.uk/medicines/cetirizine/about-cetirizine/",
+      "accessed": "2026-11-14 00:00:00",
+      "retrieval_status": "Retrieved"
+    },
+    {
+      "id": "S053",
+      "organization": "NHS",
+      "title": "Insomnia",
+      "context": "Terrestrial guidance",
+      "supports": "Symptoms, environmental factors, shifts, habits, and the non-drug approach.",
+      "section": "Symptoms; Causes; Treatment",
+      "url": "https://www.nhs.uk/conditions/insomnia/",
+      "accessed": "2026-11-14 00:00:00",
+      "retrieval_status": "Retrieved"
+    },
+    {
+      "id": "S054",
+      "organization": "NHS",
+      "title": "Sleep apnoea",
+      "context": "Terrestrial guidance",
+      "supports": "Witnessed apnea, sleepiness, assessment of a sleep disorder, and risks of hypnotics.",
+      "section": "Symptoms; Tests; Self-care",
+      "url": "https://www.nhs.uk/conditions/sleep-apnoea/",
+      "accessed": "2026-11-14 00:00:00",
+      "retrieval_status": "Retrieved"
+    },
+    {
+      "id": "S055",
+      "organization": "FDA",
+      "title": "Certain Prescription Insomnia Medicines: New Boxed Warning",
+      "context": "Terrestrial guidance",
+      "supports": "Warning about complex behaviors and contraindications to restarting Z-drugs after they occur.",
+      "section": "Recommendation",
+      "url": "https://www.fda.gov/safety/medical-product-safety-information/certain-prescription-insomnia-medicines-new-boxed-warning-due-risk-serious-injuries-caused",
+      "accessed": "2026-11-14 00:00:00",
+      "retrieval_status": "Retrieved"
+    },
+    {
+      "id": "S056",
+      "organization": "NHS",
+      "title": "Zolpidem",
+      "context": "Terrestrial guidance",
+      "supports": "Medical use of zolpidem, respiratory and drowsiness risks, interactions, and suitability.",
+      "section": "Side effects; Who can and cannot take; Interactions",
+      "url": "https://www.nhs.uk/medicines/zolpidem/",
+      "accessed": "2026-11-14 00:00:00",
+      "retrieval_status": "Retrieved"
+    },
+    {
+      "id": "S057",
+      "organization": "NHLBI, NIH",
+      "title": "Insomnia: Treatment",
+      "context": "Terrestrial guidance",
+      "supports": "Cognitive behavioral therapy for insomnia among treatment options.",
+      "section": "Cognitive behavioral therapy for insomnia",
+      "url": "https://www.nhlbi.nih.gov/health/insomnia/treatment",
+      "accessed": "2026-11-14 00:00:00",
+      "retrieval_status": "Retrieved"
+    },
+    {
+      "id": "S058",
+      "organization": "NHS",
+      "title": "Red eye",
+      "context": "Terrestrial guidance",
+      "supports": "Visual warning signs, chemical injury, contact lenses, and avoiding rubbing.",
+      "section": "Urgent advice; Immediate action",
+      "url": "https://www.nhs.uk/symptoms/red-eye/",
+      "accessed": "2026-11-14 00:00:00",
+      "retrieval_status": "Retrieved"
+    },
+    {
+      "id": "S059",
+      "organization": "NHS",
+      "title": "Dry eyes",
+      "context": "Terrestrial guidance",
+      "supports": "Dry eye symptoms, environmental factors, care, and the need for examination.",
+      "section": "Symptoms; Causes; Self-care",
+      "url": "https://www.nhs.uk/symptoms/dry-eyes/",
+      "accessed": "2026-11-14 00:00:00",
+      "retrieval_status": "Retrieved"
+    },
+    {
+      "id": "S060",
+      "organization": "NHS",
+      "title": "Conjunctivitis",
+      "context": "Terrestrial guidance",
+      "supports": "Infectious and allergic causes, hygiene, and the suitability of an antibiotic for a bacterial cause.",
+      "section": "Symptoms; Self-care; Treatment",
+      "url": "https://www.nhs.uk/conditions/conjunctivitis/",
+      "accessed": "2026-11-14 00:00:00",
+      "retrieval_status": "Retrieved"
+    },
+    {
+      "id": "S061",
+      "organization": "NHS",
+      "title": "About carmellose sodium eye drops",
+      "context": "Terrestrial guidance",
+      "supports": "Lubricating drops for dryness and not sharing the container.",
+      "section": "About; Key facts",
+      "url": "https://www.nhs.uk/medicines/carmellose-sodium/about-carmellose-sodium-eye-drops/",
+      "accessed": "2026-11-14 00:00:00",
+      "retrieval_status": "Retrieved"
+    },
+    {
+      "id": "S062",
+      "organization": "NHS",
+      "title": "Who can and cannot use carmellose sodium eye drops",
+      "context": "Terrestrial guidance",
+      "supports": "Allergies, contact lenses, and preservatives in the review of product selection.",
+      "section": "Who may not be able to use",
+      "url": "https://www.nhs.uk/medicines/carmellose-sodium/who-can-and-cannot-use-carmellose-sodium-eye-drops/",
+      "accessed": "2026-11-14 00:00:00",
+      "retrieval_status": "Retrieved"
+    },
+    {
+      "id": "S063",
+      "organization": "NHS",
+      "title": "Cough",
+      "context": "Terrestrial guidance",
+      "supports": "Associated symptoms, common causes, supportive care, and indications for review.",
+      "section": "Self-care; Urgent advice; Causes",
+      "url": "https://www.nhs.uk/symptoms/cough/",
+      "accessed": "2026-11-14 00:00:00",
+      "retrieval_status": "Retrieved"
+    },
+    {
+      "id": "S064",
+      "organization": "NHS",
+      "title": "Shortness of breath",
+      "context": "Terrestrial guidance",
+      "supports": "Severe difficulty breathing, inability to speak, cyanosis, and confusion are emergency warning signs.",
+      "section": "Immediate action",
+      "url": "https://www.nhs.uk/symptoms/shortness-of-breath/",
+      "accessed": "2026-11-14 00:00:00",
+      "retrieval_status": "Retrieved"
+    },
+    {
+      "id": "S065",
+      "organization": "NICE",
+      "title": "Cough (acute): antimicrobial prescribing, NG120",
+      "context": "Terrestrial guidance",
+      "supports": "No routine use of antibiotics or bronchodilators; reassessment of deterioration.",
+      "section": "1.1.4; 1.1.6; 1.1.8–1.1.19",
+      "url": "https://www.nice.org.uk/guidance/ng120/chapter/recommendations",
+      "accessed": "2026-11-14 00:00:00",
+      "retrieval_status": "Retrieved"
+    },
+    {
+      "id": "S066",
+      "organization": "NICE, BTS and SIGN",
+      "title": "Asthma: diagnosis, monitoring and chronic asthma management, NG245",
+      "context": "Terrestrial guidance",
+      "supports": "Assessment of variable symptoms, confirmation of asthma with appropriate tests, and an individual plan.",
+      "section": "Recommendations; Initial clinical assessment",
+      "url": "https://www.nice.org.uk/guidance/ng245/chapter/Recommendations",
+      "accessed": "2026-11-14 00:00:00",
+      "retrieval_status": "Retrieved"
+    },
+    {
+      "id": "S067",
+      "organization": "MedlinePlus, National Library of Medicine",
+      "title": "Salmeterol Oral Inhalation",
+      "context": "Terrestrial guidance",
+      "supports": "Salmeterol is not for sudden attacks and must not be used alone in asthma; worsening symptoms requires review.",
+      "section": "Important warning; How should this medicine be used",
+      "url": "https://medlineplus.gov/druginfo/meds/a695001.html",
+      "accessed": "2026-11-14 00:00:00",
+      "retrieval_status": "Retrieved"
+    },
+    {
+      "id": "S068",
+      "organization": "NHS",
+      "title": "Tamsulosin",
+      "context": "Terrestrial guidance",
+      "supports": "Use for symptoms of an enlarged prostate and cautions regarding blood pressure, fainting, organ status, and interactions.",
+      "section": "What tamsulosin is for; Who can and cannot take; Interactions",
+      "url": "https://www.nhs.uk/medicines/tamsulosin/",
+      "accessed": "2026-11-14 00:00:00",
+      "retrieval_status": "Retrieved"
+    },
+    {
+      "id": "S069",
+      "organization": "NHS",
+      "title": "Hydrocortisone for skin",
+      "context": "Terrestrial guidance",
+      "supports": "Topical use for dermatitis and review of infection, wounds, the face, and genitals.",
+      "section": "What it is for; Things to avoid; Who can and cannot use",
+      "url": "https://www.nhs.uk/medicines/hydrocortisone-for-skin/",
+      "accessed": "2026-11-14 00:00:00",
+      "retrieval_status": "Retrieved"
+    },
+    {
+      "id": "S070",
+      "organization": "CDC",
+      "title": "Yellow Book: Jet Lag Disorder",
+      "context": "Terrestrial guidance",
+      "supports": "Timed melatonin and light to adjust the body clock, and the risk of incorrect timing; the evidence concerns terrestrial travel.",
+      "section": "Timed melatonin; Timed light exposure",
+      "url": "https://www.cdc.gov/yellow-book/hcp/travel-air-sea/jet-lag-disorder.html",
+      "accessed": "2026-11-14 00:00:00",
+      "retrieval_status": "Retrieved"
+    },
+    {
+      "id": "S071",
+      "organization": "NHS",
+      "title": "Melatonin",
+      "context": "Terrestrial guidance",
+      "supports": "Review of drowsiness, organ status, epilepsy, autoimmune disease, pregnancy, and interactions.",
+      "section": "Side effects; Who can and cannot take; Interactions",
+      "url": "https://www.nhs.uk/medicines/melatonin/",
+      "accessed": "2026-11-14 00:00:00",
+      "retrieval_status": "Retrieved"
+    },
+    {
+      "id": "S072",
+      "organization": "NHS",
+      "title": "About salbutamol inhalers",
+      "context": "Terrestrial guidance",
+      "supports": "Salbutamol is a prescribed reliever medicine; a preventive plan and a suitable device are necessary.",
+      "section": "About; Key facts",
+      "url": "https://www.nhs.uk/medicines/salbutamol-inhaler/about-salbutamol-inhalers/",
+      "accessed": "2026-11-14 00:00:00",
+      "retrieval_status": "Retrieved"
+    },
+    {
+      "id": "S073",
+      "organization": "NHS",
+      "title": "Who can and cannot use salbutamol inhalers",
+      "context": "Terrestrial guidance",
+      "supports": "Review allergy, heart and thyroid status, potassium, and diabetes.",
+      "section": "Who may not be able to use",
+      "url": "https://www.nhs.uk/medicines/salbutamol-inhaler/who-can-and-cannot-use-salbutamol-inhalers/",
+      "accessed": "2026-11-14 00:00:00",
+      "retrieval_status": "Retrieved"
+    },
+    {
+      "id": "S074",
+      "organization": "NHS",
+      "title": "Side effects of salbutamol inhalers",
+      "context": "Terrestrial guidance",
+      "supports": "Worsening breathing or chest pain after the medication requires emergency assessment.",
+      "section": "Serious side effects",
+      "url": "https://www.nhs.uk/medicines/salbutamol-inhaler/side-effects-of-salbutamol-inhalers/",
+      "accessed": "2026-11-14 00:00:00",
+      "retrieval_status": "Retrieved"
+    },
+    {
+      "id": "S075",
+      "organization": "NHS",
+      "title": "Sore throat",
+      "context": "Terrestrial guidance",
+      "supports": "Throat symptoms, possible causes, and signs of an airway threat; antibiotics are not routine.",
+      "section": "Symptoms; causes; urgent and immediate action; self-care",
+      "url": "https://www.nhs.uk/symptoms/sore-throat/",
+      "accessed": "2026-11-14 00:00:00",
+      "retrieval_status": "Retrieved"
+    },
+    {
+      "id": "S076",
+      "organization": "NHS",
+      "title": "Tonsillitis",
+      "context": "Terrestrial guidance",
+      "supports": "Overlapping tonsillitis symptoms; examination and a swab when needed; signs of a peritonsillar abscess.",
+      "section": "Symptoms; diagnosis; treatment; complications",
+      "url": "https://www.nhs.uk/conditions/tonsillitis/",
+      "accessed": "2026-11-14 00:00:00",
+      "retrieval_status": "Retrieved"
+    },
+    {
+      "id": "S077",
+      "organization": "NHS",
+      "title": "Ear infections",
+      "context": "Terrestrial guidance",
+      "supports": "Ear inflammation, its symptoms, and otoscopic assessment; attention to swelling, discharge, and hearing changes.",
+      "section": "Symptoms; urgent advice; diagnosis; treatment",
+      "url": "https://www.nhs.uk/conditions/ear-infections/",
+      "accessed": "2026-11-14 00:00:00",
+      "retrieval_status": "Retrieved"
+    },
+    {
+      "id": "S078",
+      "organization": "NHS",
+      "title": "Earwax build-up",
+      "context": "Terrestrial guidance",
+      "supports": "Earwax as a possible cause of blockage; avoidance of instruments and drops with a perforated eardrum; professional removal.",
+      "section": "Symptoms; important; treatment",
+      "url": "https://www.nhs.uk/conditions/earwax-build-up/",
+      "accessed": "2026-11-14 00:00:00",
+      "retrieval_status": "Retrieved"
+    },
+    {
+      "id": "S079",
+      "organization": "NHS",
+      "title": "Hearing loss",
+      "context": "Terrestrial guidance",
+      "supports": "Sudden or worsening hearing loss requires urgent review and must not be assumed to be earwax.",
+      "section": "Causes; urgent advice",
+      "url": "https://www.nhs.uk/conditions/hearing-loss/",
+      "accessed": "2026-11-14 00:00:00",
+      "retrieval_status": "Retrieved"
+    },
+    {
+      "id": "S080",
+      "organization": "NHS",
+      "title": "Dental abscess",
+      "context": "Terrestrial guidance",
+      "supports": "Possible dental abscess and emergency signs; the source of infection must be treated.",
+      "section": "Symptoms; immediate action; treatment",
+      "url": "https://www.nhs.uk/conditions/dental-abscess/",
+      "accessed": "2026-11-14 00:00:00",
+      "retrieval_status": "Retrieved"
+    },
+    {
+      "id": "S081",
+      "organization": "American Dental Association / MouthHealthy",
+      "title": "Sensitive Teeth",
+      "context": "Terrestrial guidance",
+      "supports": "Sensitivity to heat and cold has multiple causes; treatment is determined by dental examination.",
+      "section": "Possible causes; treatment",
+      "url": "https://www.mouthhealthy.org/all-topics-a-z/sensitive-teeth",
+      "accessed": "2026-11-14 00:00:00",
+      "retrieval_status": "Retrieved"
+    },
+    {
+      "id": "S082",
+      "organization": "American Dental Association",
+      "title": "Antibiotics for Dental Pain and Swelling Guideline",
+      "context": "Terrestrial guidance",
+      "supports": "Priority of dental intervention; avoiding routine antibiotics while considering systemic symptoms.",
+      "section": "Key points",
+      "url": "https://www.ada.org/resources/research/science/evidence-based-dental-research/antibiotics-for-dental-pain-and-swelling",
+      "accessed": "2026-11-14 00:00:00",
+      "retrieval_status": "Retrieved"
+    },
+    {
+      "id": "S083",
+      "organization": "Scottish Dental Clinical Effectiveness Programme / NHS Scotland",
+      "title": "Pulpitis",
+      "context": "Terrestrial guidance",
+      "supports": "Pulp pain may be spontaneous or persistent; examination determines management, and antibiotics are not used for pulpitis.",
+      "section": "Key signs; initial management; subsequent care",
+      "url": "https://www.acutedentalproblems.sdcep.org.uk/guidance/management-of-oral-conditions/common-oral-conditions/pulpitis/",
+      "accessed": "2026-11-14 00:00:00",
+      "retrieval_status": "Retrieved"
+    },
+    {
+      "id": "S084",
+      "organization": "CDC / American Dental Association",
+      "title": "Treating Patients with Dental Pain and Swelling",
+      "context": "Terrestrial guidance",
+      "supports": "Exceptions in antibiotic decisions depending on systemic symptoms and the availability of a dental procedure; not an automated prescription.",
+      "section": "ADA Treatment Recommendations table",
+      "url": "https://www.cdc.gov/antibiotic-use/media/pdfs/ADA-treatment-guidelines-508.pdf",
+      "accessed": "2026-11-14 00:00:00",
+      "retrieval_status": "Retrieved"
+    },
+    {
+      "id": "S085",
+      "organization": "NHS",
+      "title": "Cuts and grazes",
+      "context": "Terrestrial guidance",
+      "supports": "Direct pressure and cleaning of small wounds; signs of dangerous bleeding, nerve injury, and infection.",
+      "section": "First aid; urgent and immediate action; treatment",
+      "url": "https://www.nhs.uk/conditions/cuts-and-grazes/",
+      "accessed": "2026-11-14 00:00:00",
+      "retrieval_status": "Retrieved"
+    },
+    {
+      "id": "S086",
+      "organization": "CDC",
+      "title": "Clinical Guidance for Wound Management to Prevent Tetanus",
+      "context": "Terrestrial guidance",
+      "supports": "Wound type and immunization history guide prophylaxis; antibiotics do not prevent tetanus.",
+      "section": "Wound assessment; vaccination and TIG assessment",
+      "url": "https://www.cdc.gov/tetanus/hcp/clinical-guidance/index.html",
+      "accessed": "2026-11-14 00:00:00",
+      "retrieval_status": "Retrieved"
+    },
+    {
+      "id": "S087",
+      "organization": "NHS",
+      "title": "Burns and scalds",
+      "context": "Terrestrial guidance",
+      "supports": "Cooling a thermal burn under running water for 20 minutes; signs of severity and skin care.",
+      "section": "What to do; immediate action; treatment",
+      "url": "https://www.nhs.uk/conditions/burns-and-scalds/",
+      "accessed": "2026-11-14 00:00:00",
+      "retrieval_status": "Retrieved"
+    },
+    {
+      "id": "S088",
+      "organization": "World Health Organization",
+      "title": "Burns",
+      "context": "Terrestrial guidance",
+      "supports": "Safely stop exposure; no ice or household substances; refer deep, chemical, electrical, and inhalation burns.",
+      "section": "Overview; first aid",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/burns/",
+      "accessed": "2026-11-14 00:00:00",
+      "retrieval_status": "Retrieved"
+    },
+    {
+      "id": "S089",
+      "organization": "CDC / NIOSH",
+      "title": "Heat-related Illnesses",
+      "context": "Terrestrial guidance",
+      "supports": "Heat exhaustion and heatstroke; altered consciousness is an emergency, and profuse sweating may be present.",
+      "section": "Heat stroke; heat exhaustion",
+      "url": "https://www.cdc.gov/niosh/heat-stress/about/illnesses.html",
+      "accessed": "2026-11-14 00:00:00",
+      "retrieval_status": "Retrieved"
+    },
+    {
+      "id": "S090",
+      "organization": "American Heart Association / American Red Cross",
+      "title": "2024 Guidelines for First Aid",
+      "context": "Terrestrial guidance",
+      "supports": "Urgent cooling; oral fluids only with alertness, safe swallowing, and no shock or confusion.",
+      "section": "7.9 Heat Stroke; 7.10 Oral Rehydration",
+      "url": "https://cpr.heart.org/en/resuscitation-science/2024-first-aid-guidelines",
+      "accessed": "2026-11-14 00:00:00",
+      "retrieval_status": "Retrieved"
+    },
+    {
+      "id": "S091",
+      "organization": "American Red Cross",
+      "title": "Bleeding, Life-Threatening External",
+      "context": "Terrestrial guidance",
+      "supports": "Recognizing dangerous bleeding and applying pressure around an embedded object; advanced interventions are for trained personnel.",
+      "section": "How to stop bleeding; embedded object",
+      "url": "https://www.redcross.org/take-a-class/resources/learn-first-aid/bleeding-life-threatening-external",
+      "accessed": "2026-11-14 00:00:00",
+      "retrieval_status": "Retrieved"
+    },
+    {
+      "id": "S092",
+      "organization": "American Red Cross",
+      "title": "Heat Exhaustion",
+      "context": "Terrestrial guidance",
+      "supports": "Give drinks only to someone who is responsive and can swallow safely.",
+      "section": "General care",
+      "url": "https://www.redcross.org/take-a-class/resources/learn-first-aid/heat-exhaustion",
+      "accessed": "2026-11-14 00:00:00",
+      "retrieval_status": "Retrieved"
+    },
+    {
+      "id": "S093",
+      "organization": "NHS",
+      "title": "Heat exhaustion and heatstroke",
+      "context": "Terrestrial guidance",
+      "supports": "Moving to a cool place, removing excess clothing, and cooling the skin under observation.",
+      "section": "Things you can do to cool someone down",
+      "url": "https://www.nhs.uk/conditions/heat-exhaustion-heatstroke/",
+      "accessed": "2026-11-14 00:00:00",
+      "retrieval_status": "Retrieved"
+    },
+    {
+      "id": "S094",
+      "organization": "CDC",
+      "title": "Clinical Guidance for Group A Streptococcal Pharyngitis",
+      "context": "Terrestrial guidance",
+      "supports": "Confirming streptococcal pharyngitis with an appropriate test; amoxicillin is a reference option selected by the physician with allergy review.",
+      "section": "Testing and diagnosis; recommended antibiotics; penicillin allergy",
+      "url": "https://www.cdc.gov/group-a-strep/hcp/clinical-guidance/strep-throat.html",
+      "accessed": "2026-11-14 00:00:00",
+      "retrieval_status": "Retrieved"
+    }
+  ],
+  "follow_up": [
+    {
+      "module": "M01",
+      "monitor": "Pain pattern and function\nDevelopment of neurological or systemic signs\nAnalgesic record and response",
+      "review_window": null,
+      "escalation": "Deterioration or red flags require immediate repeat triage; recurrence or failure to improve requires review.",
+      "source_ids": [
+        "S001"
+      ]
+    },
+    {
+      "module": "M02",
+      "monitor": "Fluid tolerance and urination\nPersistence and appearance of vomiting\nPain, consciousness, and medication effects",
+      "review_window": null,
+      "escalation": "Any bleeding, green vomit, deterioration in consciousness, or failure of hydration requires immediate repeat triage.",
+      "source_ids": [
+        "S006"
+      ]
+    },
+    {
+      "module": "M03",
+      "monitor": "Congestion severity and sleep\nSneezing and itching\nBreathing and drowsiness",
+      "review_window": null,
+      "escalation": "Compromised breathing or swelling requires immediate repeat triage; persistent symptoms require review of the cause and treatment.",
+      "source_ids": [
+        "S010",
+        "S012",
+        "S013"
+      ]
+    },
+    {
+      "module": "M04",
+      "monitor": "Stool consistency and ease of emptying\nPain, bloating, and passage of gas\nDiarrhea or muscle weakness after laxatives",
+      "review_window": null,
+      "escalation": "Severe pain, inability to pass gas, or vomiting requires repeat triage; persistent constipation requires review.",
+      "source_ids": [
+        "S014",
+        "S015",
+        "S018"
+      ]
+    },
+    {
+      "module": "M05",
+      "monitor": "Stool consistency and frequency\nDrinking, urination, and dizziness\nBlood, fever, and pain",
+      "review_window": null,
+      "escalation": "Deterioration or failure of hydration requires immediate repeat triage; persistent symptoms require review of the cause and medications.",
+      "source_ids": [
+        "S019"
+      ]
+    },
+    {
+      "module": "M06",
+      "monitor": "Heartburn, regurgitation, and their functional effects\nSwallowing, weight, and vomiting\nMedication use and side effects",
+      "review_window": null,
+      "escalation": "Concerning chest pain or bleeding requires immediate repeat triage; persistent symptoms require review.",
+      "source_ids": [
+        "S022",
+        "S023",
+        "S024"
+      ]
+    },
+    {
+      "module": "M07",
+      "monitor": "Movement and ability to perform tasks\nPain, its spread, and neurological symptoms\nFever and medication effects",
+      "review_window": null,
+      "escalation": "Changes in sphincter function or saddle sensation, or worsening weakness, require immediate repeat triage; continued deterioration requires review.",
+      "source_ids": [
+        "S028",
+        "S029"
+      ]
+    },
+    {
+      "module": "M08",
+      "monitor": "Ability to urinate\nPain and swelling\nResidual urine, if measured\nKidney function",
+      "review_window": null,
+      "escalation": "Inability to urinate or severe pain requires immediate escalation.",
+      "source_ids": [
+        "S034",
+        "S035"
+      ]
+    },
+    {
+      "module": "M09",
+      "monitor": "Pain and urinary symptoms\nTemperature and general condition\nFluid tolerance\nCulture results and response\nPulmonary or hepatic symptoms with nitrofurantoin",
+      "review_window": null,
+      "escalation": "General deterioration, new fever or flank symptoms, inability to urinate, or a serious medication effect requires escalation.",
+      "source_ids": [
+        "S038",
+        "S040"
+      ]
+    },
+    {
+      "module": "M10",
+      "monitor": "Pain and vomiting\nUrine volume and its trend\nTemperature\nKidney function and imaging results",
+      "review_window": null,
+      "escalation": "Fever, absence of urine output, or persistent pain requires escalation and reassessment.",
+      "source_ids": [
+        "S043",
+        "S042"
+      ]
+    },
+    {
+      "module": "M11",
+      "monitor": "Rash extent and appearance\nItching and its functional impact\nTemperature\nMucous membranes and breathing\nAssociation with an exposure or medication",
+      "review_window": null,
+      "escalation": "Developing airway swelling or painful peeling/blisters requires emergency care; persistent symptoms require reassessment.",
+      "source_ids": [
+        "S049",
+        "S050",
+        "S012"
+      ]
+    },
+    {
+      "module": "M12",
+      "monitor": "Sleep diary\nDrowsiness, concentration, and performance\nMedications taken\nBreathing symptoms and behavior during sleep",
+      "review_window": null,
+      "escalation": "Complex sleep behavior, a respiratory effect, or a risk to alertness requires escalation; persistent insomnia requires assessment of its cause.",
+      "source_ids": [
+        "S054",
+        "S055",
+        "S056"
+      ]
+    },
+    {
+      "module": "M13",
+      "monitor": "Vision, pain, and photophobia\nRedness and discharge\nResponse to care and allergy\nEye examination findings",
+      "review_window": null,
+      "escalation": "A vision change, pain in light, or injury requires immediate escalation; persistent symptoms require reassessment.",
+      "source_ids": [
+        "S059"
+      ]
+    },
+    {
+      "module": "M14",
+      "monitor": "Cough and its course\nBreathing and oxygenation, with measurement quality\nTemperature and general condition\nBlood and chest pain\nMedication response and effects",
+      "review_window": null,
+      "escalation": "New breathlessness, rapid deterioration, blood, or chest pain requires escalation; persistent cough requires review of its cause.",
+      "source_ids": [
+        "S063",
+        "S064"
+      ]
+    },
+    {
+      "module": "M15",
+      "monitor": "Swallowing and breathing\nAbility to drink and urine output\nPain, temperature, and voice changes",
+      "review_window": null,
+      "escalation": "Any threat to breathing or swallowing, or rapid deterioration, redirects the pathway to emergency response; persistent symptoms or inability to drink require review.",
+      "source_ids": [
+        "S075",
+        "S076",
+        "S004",
+        "S092"
+      ]
+    },
+    {
+      "module": "M16",
+      "monitor": "Pain and discharge\nHearing and balance\nFever and swelling",
+      "review_window": null,
+      "escalation": "Sudden hearing loss or increasing swelling or illness requires urgent review; persistent hearing loss after treatment of the cause requires reassessment.",
+      "source_ids": [
+        "S077",
+        "S078",
+        "S079",
+        "S004"
+      ]
+    },
+    {
+      "module": "M17",
+      "monitor": "Pain and sleep\nSwelling and fever\nSwallowing and mouth opening",
+      "review_window": null,
+      "escalation": "Any respiratory or eye sign, or spreading swelling, requires escalation to emergency response; an abscess requires urgent dental care even if the pain subsides.",
+      "source_ids": [
+        "S080",
+        "S081",
+        "S082",
+        "S083",
+        "S084",
+        "S004"
+      ]
+    },
+    {
+      "module": "M18",
+      "monitor": "Bleeding, perfusion, sensation, and movement\nPain, redness, and discharge\nImmunization documentation",
+      "review_window": null,
+      "escalation": "Persistent bleeding or impaired movement or sensation requires emergency response; infection or remaining contamination requires urgent review.",
+      "source_ids": [
+        "S085",
+        "S086",
+        "S091"
+      ]
+    },
+    {
+      "module": "M19",
+      "monitor": "Airway and consciousness\nPain, depth, and appearance\nWound, perfusion, and overall body temperature",
+      "review_window": null,
+      "escalation": "Difficulty breathing, chemical or electrical injury, or a suspected deep burn requires emergency response; uncertainty about severity requires review.",
+      "source_ids": [
+        "S087",
+        "S088",
+        "S086",
+        "S004"
+      ]
+    },
+    {
+      "module": "M20",
+      "monitor": "Consciousness, swallowing, and breathing\nTemperature and measurement method\nIntake, losses, urine output, and response to cooling",
+      "review_window": null,
+      "escalation": "Altered consciousness or breathing, or suspected shock or heatstroke, requires immediate emergency response; failure to improve or inability to drink requires urgent review.",
+      "source_ids": [
+        "S009",
+        "S089",
+        "S090",
+        "S092",
+        "S093"
+      ]
+    }
+  ]
+}

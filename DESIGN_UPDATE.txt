@@ -1,0 +1,9 @@
+AstroCare visual update
+
+Changed: dark charcoal/navy + peach presentation, responsive typography and spacing, vector orbit/heartbeat brand mark, and an additive interactive Health Overview.
+
+The overview reads existing local cases, exercise and journal records. It displays selected recorded measurements, saved report workflow status, measurement history, body-region record counts, exercise durations and reflection counts. It does not create clinical scores or interpret journal contents.
+
+The original script block, Python server, engine, all datasets and existing tests are byte-identical to the supplied ZIP. All original sections and actions remain available. The original Daily Health and Journaling workflows are reached via the same tabs; the additional overview is the landing view.
+
+Run as before: python server.py, then open http://127.0.0.1:8765. No external fonts, images, packages or services are required for the new visual layer.

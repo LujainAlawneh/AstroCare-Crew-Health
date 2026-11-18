@@ -1,0 +1,10 @@
+{
+  "mode": "SYNTHETIC_DEMO_ONLY",
+  "notice": "All A/B/C facts and patterns are synthetic logic-test fixtures, not medical criteria.",
+  "rules": [
+    {"id":"DEMO_EM_001","kind":"emergency","expression":{"op":"fact","id":"demo_emergency_signal"},"source_ids":["SYNTHETIC_TEST_ONLY"],"version":"demo-1","reviewer":null,"approval_status":"demo_only","next_step":"Demo emergency workflow; onboard medical officer notification","feature_ids":["demo_emergency_signal"]},
+    {"id":"DEMO_UR_001","kind":"urgent","expression":{"op":"and","args":[{"op":"fact","id":"demo_a"},{"op":"fact","id":"demo_b"}]},"source_ids":["SYNTHETIC_TEST_ONLY"],"version":"demo-1","reviewer":null,"approval_status":"demo_only","next_step":"Demo urgent review request","feature_ids":["demo_a","demo_b"]},
+    {"id":"DEMO_C_001","kind":"candidate","candidate_id":"SYNTHETIC_PATTERN_ALPHA","expression":{"op":"and","args":[{"op":"fact","id":"demo_a"},{"op":"fact","id":"demo_c"}]},"source_ids":["SYNTHETIC_TEST_ONLY"],"version":"demo-1","reviewer":null,"approval_status":"demo_only","next_step":"Ask for missing facts; clinician reviews synthetic pattern","feature_ids":["demo_a","demo_c"]},
+    {"id":"DEMO_C_002","kind":"candidate","candidate_id":"SYNTHETIC_PATTERN_BETA","expression":{"op":"or","args":[{"op":"fact","id":"demo_b"},{"op":"fact","id":"demo_c"}]},"source_ids":["SYNTHETIC_TEST_ONLY"],"version":"demo-1","reviewer":null,"approval_status":"demo_only","next_step":"Clinician reviews synthetic pattern","feature_ids":["demo_b","demo_c"]}
+  ]
+}

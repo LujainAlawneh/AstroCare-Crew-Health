@@ -1,0 +1,19 @@
+AstroCare — source-linked educational health results
+
+The result screen now exposes the 54 candidate patterns across 20 symptom modules already present in your workbook. It also imports the workbook care, follow-up, alert and reference records into a local JSON file. The original workbook, source knowledge base, rules, engine and other feature files remain unchanged.
+
+Existing structured answers can suggest a draft association (the original pilot links plus specific headache-character selections). A grouped answer does not silently confirm a whole compound criterion. Users can confirm the exact source-feature descriptions with Yes / No / Not sure. Patterns are sorted by those confirmations and answer associations, NOT disease probability or validated clinical likelihood. Free text is not keyword-diagnosed.
+
+Warnings use the supplied source descriptions. Explicit existing positive answers about new neurological/head-injury symptoms in headache and mouth/throat swelling/swallowing/fainting in the allergy module are linked to the corresponding warning. The app does not let a later generic No checkbox clear such an existing reported warning. Other warning descriptions require direct confirmation. Unknown warnings stay unknown; absence of listed warnings is not medical clearance.
+
+Care suggestions are withheld until the listed warning review is complete and no warning is reported. Conditional non-drug care includes the workbook eligibility and cautions. Medicines/procedures, when shown, are separated into medical-team discussion only. No dose, prescription, individualized medication eligibility or diagnostic certainty is generated. Emergency/urgent warnings suppress care suggestions. No real emergency message is transmitted.
+
+The original deterministic evaluator remains clinically disabled. Educational results and confirmations are stored alongside the local case; reported warning status can escalate the saved workflow status. The original evaluator result is retained. Existing report measurements, symptom answers and voice transcripts are not replaced.
+
+Reference registry content and narrative descriptions were imported from the user-supplied workbook; this update does not claim all 94 underlying sources were independently revalidated or that terrestrial guidance is a NASA flight protocol. Narrow headache/allergy warning links were checked against the named NHS primary sources. All feature matching and bundled descriptions run offline; original external source links need connectivity if opened.
+
+Run as before: py server.py / python server.py, then http://127.0.0.1:8765. No new runtime packages are required.
+
+Demonstration: select Headache; choose throbbing/pulsating pain and report nausea/light/sound association. The result shows a migraine-pattern association requiring clarification. Confirm only features actually present and review each warning before conditional care is shown. A positive answer to the new-neurological-symptoms question instead produces emergency-warning support. This is a software demonstration, not a medically validated diagnostic test.
+
+Validation: 21 existing tests + 15 guidance tests pass. Browser visual verification was unavailable in this environment.

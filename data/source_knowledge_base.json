@@ -1,0 +1,2324 @@
+{
+  "metadata": {
+    "source": "User-provided research workbook",
+    "status": "unvalidated research prototype",
+    "score_definition": "Weighted evidence coverage; not disease probability",
+    "clinical_review_required": true
+  },
+  "modules": [
+    {
+      "id": "M01",
+      "name": "Headache",
+      "body_area": "head"
+    },
+    {
+      "id": "M02",
+      "name": "Nausea and vomiting",
+      "body_area": "abdomen"
+    },
+    {
+      "id": "M03",
+      "name": "Nasal congestion and allergy",
+      "body_area": "head"
+    },
+    {
+      "id": "M04",
+      "name": "Constipation",
+      "body_area": "abdomen"
+    },
+    {
+      "id": "M05",
+      "name": "Diarrhea",
+      "body_area": "abdomen"
+    },
+    {
+      "id": "M06",
+      "name": "Reflux and heartburn",
+      "body_area": "chest"
+    },
+    {
+      "id": "M07",
+      "name": "Low back pain",
+      "body_area": "back"
+    },
+    {
+      "id": "M08",
+      "name": "Urinary retention",
+      "body_area": "pelvis"
+    },
+    {
+      "id": "M09",
+      "name": "Urinary symptoms and urinary tract infection",
+      "body_area": "pelvis"
+    },
+    {
+      "id": "M10",
+      "name": "Renal colic and stones",
+      "body_area": "back"
+    },
+    {
+      "id": "M11",
+      "name": "Rash and itch",
+      "body_area": "skin"
+    },
+    {
+      "id": "M12",
+      "name": "Sleep difficulty",
+      "body_area": "general"
+    },
+    {
+      "id": "M13",
+      "name": "Dry or red eye",
+      "body_area": "head"
+    },
+    {
+      "id": "M14",
+      "name": "Cough",
+      "body_area": "chest"
+    },
+    {
+      "id": "M15",
+      "name": "Sore throat",
+      "body_area": "head"
+    },
+    {
+      "id": "M16",
+      "name": "Ear pain or blockage",
+      "body_area": "head"
+    },
+    {
+      "id": "M17",
+      "name": "Dental and gum pain",
+      "body_area": "head"
+    },
+    {
+      "id": "M18",
+      "name": "Wounds and bleeding",
+      "body_area": "skin"
+    },
+    {
+      "id": "M19",
+      "name": "Burns",
+      "body_area": "skin"
+    },
+    {
+      "id": "M20",
+      "name": "Dehydration and heat-related illness",
+      "body_area": "general"
+    }
+  ],
+  "questions": [
+    {
+      "module": "M01",
+      "id": "M01_Q01",
+      "field": "onset_course",
+      "question": "When did the headache start, and was its onset sudden or is it worsening?",
+      "answer_type": "Text",
+      "options": null
+    },
+    {
+      "module": "M01",
+      "id": "M01_Q02",
+      "field": "pain_character_location",
+      "question": "Where is the pain, how would you describe it, and how does it affect your activity?",
+      "answer_type": "Text",
+      "options": null
+    },
+    {
+      "module": "M01",
+      "id": "M01_Q03",
+      "field": "nausea_light_sound_sensitivity",
+      "question": "Is the pain accompanied by nausea or sensitivity to light or sound?",
+      "answer_type": "Yes/no/unknown",
+      "options": null
+    },
+    {
+      "module": "M01",
+      "id": "M01_Q04",
+      "field": "new_neurological_symptoms",
+      "question": "Has weakness, numbness, or difficulty with speech, walking, or vision developed?",
+      "answer_type": "Yes/no/unknown",
+      "options": null
+    },
+    {
+      "module": "M01",
+      "id": "M01_Q05",
+      "field": "fever_neck_stiffness",
+      "question": "Is there fever, neck stiffness, a rash, or altered consciousness?",
+      "answer_type": "Yes/no/unknown",
+      "options": null
+    },
+    {
+      "module": "M01",
+      "id": "M01_Q06",
+      "field": "recent_head_injury",
+      "question": "Was it preceded by a blow to the head or an injury?",
+      "answer_type": "Yes/no/unknown",
+      "options": null
+    },
+    {
+      "module": "M01",
+      "id": "M01_Q07",
+      "field": "analgesic_exposure",
+      "question": "Which painkillers have been used, how often, and what has changed recently?",
+      "answer_type": "Text",
+      "options": null
+    },
+    {
+      "module": "M01",
+      "id": "M01_Q08",
+      "field": "triggers_hydration_pattern",
+      "question": "How is it related to sleep, meals, fluids, exertion, or the cabin environment?",
+      "answer_type": "Text",
+      "options": null
+    },
+    {
+      "module": "M02",
+      "id": "M02_Q01",
+      "field": "onset_frequency",
+      "question": "When did the nausea or vomiting start, and how has it changed?",
+      "answer_type": "Text",
+      "options": null
+    },
+    {
+      "module": "M02",
+      "id": "M02_Q02",
+      "field": "vomit_appearance",
+      "question": "Does the vomit contain blood, look like coffee grounds, or appear green?",
+      "answer_type": "Yes/no/unknown",
+      "options": null
+    },
+    {
+      "module": "M02",
+      "id": "M02_Q03",
+      "field": "fluid_tolerance",
+      "question": "Can you keep fluids down?",
+      "answer_type": "Selection or unknown",
+      "options": "Yes\nNo\nUnspecified"
+    },
+    {
+      "module": "M02",
+      "id": "M02_Q04",
+      "field": "urine_dizziness_alertness",
+      "question": "What changes have occurred in urination, thirst, dizziness, and alertness?",
+      "answer_type": "Text",
+      "options": null
+    },
+    {
+      "module": "M02",
+      "id": "M02_Q05",
+      "field": "associated_pain_fever_diarrhea",
+      "question": "Is it accompanied by abdominal or chest pain, fever, or diarrhea?",
+      "answer_type": "Text",
+      "options": null
+    },
+    {
+      "module": "M02",
+      "id": "M02_Q06",
+      "field": "headache_neurological_signs",
+      "question": "Is it accompanied by a sudden headache, neck stiffness, or a neurological disturbance?",
+      "answer_type": "Yes/no/unknown",
+      "options": null
+    },
+    {
+      "module": "M02",
+      "id": "M02_Q07",
+      "field": "motion_visual_relationship",
+      "question": "Did the symptoms coincide with a gravity transition, head movement, or a change in visual stimuli?",
+      "answer_type": "Text",
+      "options": null
+    },
+    {
+      "module": "M02",
+      "id": "M02_Q08",
+      "field": "exposures_medication_changes",
+      "question": "Was there a shared meal, contact with affected people, a new medication, or a possibility of pregnancy?",
+      "answer_type": "Text",
+      "options": null
+    },
+    {
+      "module": "M03",
+      "id": "M03_Q01",
+      "field": "onset_pattern",
+      "question": "When did the congestion start, and does it recur or relate to a location or exposure?",
+      "answer_type": "Text",
+      "options": null
+    },
+    {
+      "module": "M03",
+      "id": "M03_Q02",
+      "field": "itch_sneeze_watery_eyes",
+      "question": "Is there nasal/eye itching, sneezing, or watery eyes?",
+      "answer_type": "Yes/no/unknown",
+      "options": null
+    },
+    {
+      "module": "M03",
+      "id": "M03_Q03",
+      "field": "nasal_symptom_pattern",
+      "question": "Is the nose blocked or runny, and how does this affect sleep?",
+      "answer_type": "Text",
+      "options": null
+    },
+    {
+      "module": "M03",
+      "id": "M03_Q04",
+      "field": "fever_sore_throat_cough",
+      "question": "Is there fever, a sore throat, cough, or malaise?",
+      "answer_type": "Yes/no/unknown",
+      "options": null
+    },
+    {
+      "module": "M03",
+      "id": "M03_Q05",
+      "field": "breathing_asthma_change",
+      "question": "Has wheezing, breathlessness, or worsening asthma developed?",
+      "answer_type": "Yes/no/unknown",
+      "options": null
+    },
+    {
+      "module": "M03",
+      "id": "M03_Q06",
+      "field": "swelling_swallowing_faintness",
+      "question": "Has swelling of the mouth/tongue/throat, difficulty swallowing, or fainting developed?",
+      "answer_type": "Yes/no/unknown",
+      "options": null
+    },
+    {
+      "module": "M03",
+      "id": "M03_Q07",
+      "field": "nasal_medication_use",
+      "question": "Which sprays and allergy medicines are being used, and what effects have they had?",
+      "answer_type": "Text",
+      "options": null
+    },
+    {
+      "module": "M03",
+      "id": "M03_Q08",
+      "field": "nasal_history_exposure",
+      "question": "Has there been recent nasal surgery, a nasal infection, or a known trigger?",
+      "answer_type": "Text",
+      "options": null
+    },
+    {
+      "module": "M04",
+      "id": "M04_Q01",
+      "field": "bowel_baseline_change",
+      "question": "How have bowel movements changed from your usual pattern, and when did this start?",
+      "answer_type": "Text",
+      "options": null
+    },
+    {
+      "module": "M04",
+      "id": "M04_Q02",
+      "field": "stool_consistency_straining",
+      "question": "Is the stool hard or painful to pass, or does it require straining with a feeling of incomplete emptying?",
+      "answer_type": "Yes/no/unknown",
+      "options": null
+    },
+    {
+      "module": "M04",
+      "id": "M04_Q03",
+      "field": "gas_and_distension",
+      "question": "Can you pass gas, and is there bloating or a complete absence of bowel movements?",
+      "answer_type": "Text",
+      "options": null
+    },
+    {
+      "module": "M04",
+      "id": "M04_Q04",
+      "field": "pain_vomiting_fever",
+      "question": "Is there persistent/severe abdominal pain, vomiting, or fever?",
+      "answer_type": "Yes/no/unknown",
+      "options": null
+    },
+    {
+      "module": "M04",
+      "id": "M04_Q05",
+      "field": "bleeding_weight_loss",
+      "question": "Is there blood in the stool or unintentional weight loss?",
+      "answer_type": "Yes/no/unknown",
+      "options": null
+    },
+    {
+      "module": "M04",
+      "id": "M04_Q06",
+      "field": "diet_fluids_activity_change",
+      "question": "What has changed in food, fiber, fluids, activity, and routine?",
+      "answer_type": "Text",
+      "options": null
+    },
+    {
+      "module": "M04",
+      "id": "M04_Q07",
+      "field": "constipating_medications",
+      "question": "Has an opioid painkiller, iron, or another medication been started or changed?",
+      "answer_type": "Text",
+      "options": null
+    },
+    {
+      "module": "M04",
+      "id": "M04_Q08",
+      "field": "overflow_soiling",
+      "question": "Is there watery stool leakage with prolonged constipation?",
+      "answer_type": "Yes/no/unknown",
+      "options": null
+    },
+    {
+      "module": "M05",
+      "id": "M05_Q01",
+      "field": "onset_stool_change",
+      "question": "When did the diarrhea start, and how have stool consistency and frequency changed from usual?",
+      "answer_type": "Text",
+      "options": null
+    },
+    {
+      "module": "M05",
+      "id": "M05_Q02",
+      "field": "blood_black_stool_pus",
+      "question": "Is there blood, black tarry stool, or pus?",
+      "answer_type": "Yes/no/unknown",
+      "options": null
+    },
+    {
+      "module": "M05",
+      "id": "M05_Q03",
+      "field": "pain_fever_distension",
+      "question": "Is there severe pain, fever, or obvious bloating?",
+      "answer_type": "Text",
+      "options": null
+    },
+    {
+      "module": "M05",
+      "id": "M05_Q04",
+      "field": "hydration_urine",
+      "question": "Can you drink, and what changes have occurred in urination, thirst, and dizziness?",
+      "answer_type": "Text",
+      "options": null
+    },
+    {
+      "module": "M05",
+      "id": "M05_Q05",
+      "field": "persistent_vomiting",
+      "question": "Is there repeated vomiting that prevents you from keeping fluids down?",
+      "answer_type": "Yes/no/unknown",
+      "options": null
+    },
+    {
+      "module": "M05",
+      "id": "M05_Q06",
+      "field": "food_contact_exposure",
+      "question": "Was it associated with food/water, or have contacts become ill?",
+      "answer_type": "Text",
+      "options": null
+    },
+    {
+      "module": "M05",
+      "id": "M05_Q07",
+      "field": "antibiotic_medication_change",
+      "question": "Have you used an antibiotic, laxative, or new medication?",
+      "answer_type": "Text",
+      "options": null
+    },
+    {
+      "module": "M05",
+      "id": "M05_Q08",
+      "field": "recurrent_food_pattern",
+      "question": "Has it recurred with a particular food, known bowel disease, or weight loss?",
+      "answer_type": "Text",
+      "options": null
+    },
+    {
+      "module": "M06",
+      "id": "M06_Q01",
+      "field": "burning_regurgitation",
+      "question": "Where is the burning, and does a sour taste or food come back into the mouth?",
+      "answer_type": "Text",
+      "options": null
+    },
+    {
+      "module": "M06",
+      "id": "M06_Q02",
+      "field": "meal_position_relation",
+      "question": "Does it worsen after eating, lying down, or bending over?",
+      "answer_type": "Yes/no/unknown",
+      "options": null
+    },
+    {
+      "module": "M06",
+      "id": "M06_Q03",
+      "field": "chest_pain_associations",
+      "question": "Is there chest pressure, pain spreading to the arm/jaw, breathlessness, or sweating?",
+      "answer_type": "Yes/no/unknown",
+      "options": null
+    },
+    {
+      "module": "M06",
+      "id": "M06_Q04",
+      "field": "swallowing_problem",
+      "question": "Does food get stuck, or is swallowing difficult or painful?",
+      "answer_type": "Yes/no/unknown",
+      "options": null
+    },
+    {
+      "module": "M06",
+      "id": "M06_Q05",
+      "field": "gastrointestinal_bleeding",
+      "question": "Is there bloody/coffee-ground vomit or black tarry stool?",
+      "answer_type": "Yes/no/unknown",
+      "options": null
+    },
+    {
+      "module": "M06",
+      "id": "M06_Q06",
+      "field": "vomiting_weight_loss",
+      "question": "Is there repeated vomiting or unintentional weight loss?",
+      "answer_type": "Yes/no/unknown",
+      "options": null
+    },
+    {
+      "module": "M06",
+      "id": "M06_Q07",
+      "field": "symptom_course_impact",
+      "question": "When did the symptoms start, how do they affect eating and sleep, and how have they responded to treatment?",
+      "answer_type": "Text",
+      "options": null
+    },
+    {
+      "module": "M06",
+      "id": "M06_Q08",
+      "field": "medication_trigger_history",
+      "question": "Which foods or medications are associated with them, and do you have a history of digestive disease?",
+      "answer_type": "Text",
+      "options": null
+    },
+    {
+      "module": "M07",
+      "id": "M07_Q01",
+      "field": "onset_trauma",
+      "question": "When did the pain start, and was it preceded by exertion or a major injury?",
+      "answer_type": "Text",
+      "options": null
+    },
+    {
+      "module": "M07",
+      "id": "M07_Q02",
+      "field": "leg_radiation",
+      "question": "Does the pain extend into the buttocks or leg, and how?",
+      "answer_type": "Text",
+      "options": null
+    },
+    {
+      "module": "M07",
+      "id": "M07_Q03",
+      "field": "bilateral_leg_neurology",
+      "question": "Is there pain/numbness/tingling or weakness in both legs?",
+      "answer_type": "Yes/no/unknown",
+      "options": null
+    },
+    {
+      "module": "M07",
+      "id": "M07_Q04",
+      "field": "saddle_sensation_change",
+      "question": "Has reduced sensation developed around the genitals or anus?",
+      "answer_type": "Yes/no/unknown",
+      "options": null
+    },
+    {
+      "module": "M07",
+      "id": "M07_Q05",
+      "field": "bladder_bowel_sexual_change",
+      "question": "Has urination, bowel control, or sexual sensation/function changed?",
+      "answer_type": "Text",
+      "options": null
+    },
+    {
+      "module": "M07",
+      "id": "M07_Q06",
+      "field": "fever_systemic_illness",
+      "question": "Is there fever, chills, or a general feeling of illness?",
+      "answer_type": "Yes/no/unknown",
+      "options": null
+    },
+    {
+      "module": "M07",
+      "id": "M07_Q07",
+      "field": "night_pain_weight_cancer_history",
+      "question": "Is it worse at night or accompanied by weight loss, and do you have a history of cancer?",
+      "answer_type": "Text",
+      "options": null
+    },
+    {
+      "module": "M07",
+      "id": "M07_Q08",
+      "field": "function_course",
+      "question": "How does it affect movement and tasks, and is it improving or worsening?",
+      "answer_type": "Text",
+      "options": null
+    },
+    {
+      "module": "M08",
+      "id": "M08_Q01",
+      "field": "voiding_ability",
+      "question": "Can you pass urine now?",
+      "answer_type": "Selection or unknown",
+      "options": "Unable\nA small amount\nAs usual\nUnknown"
+    },
+    {
+      "module": "M08",
+      "id": "M08_Q02",
+      "field": "last_void_time",
+      "question": "When did you last urinate, and when did the difficulty begin?",
+      "answer_type": "Text",
+      "options": null
+    },
+    {
+      "module": "M08",
+      "id": "M08_Q03",
+      "field": "lower_abdominal_pain_swelling",
+      "question": "Is there pain or swelling in the lower abdomen?",
+      "answer_type": "Yes/no/unknown",
+      "options": null
+    },
+    {
+      "module": "M08",
+      "id": "M08_Q04",
+      "field": "incomplete_emptying",
+      "question": "Do you feel urine remains or leaks after urination?",
+      "answer_type": "Yes/no/unknown",
+      "options": null
+    },
+    {
+      "module": "M08",
+      "id": "M08_Q05",
+      "field": "stream_hesitancy",
+      "question": "Has the strength of your urine stream changed, or is it slow to start?",
+      "answer_type": "Yes/no/unknown",
+      "options": null
+    },
+    {
+      "module": "M08",
+      "id": "M08_Q06",
+      "field": "infection_symptoms",
+      "question": "Is there burning, fever, or chills?",
+      "answer_type": "Yes/no/unknown",
+      "options": null
+    },
+    {
+      "module": "M08",
+      "id": "M08_Q07",
+      "field": "obstruction_history",
+      "question": "Is there a prostate problem, narrowing, stones, or constipation?",
+      "answer_type": "Text",
+      "options": null
+    },
+    {
+      "module": "M08",
+      "id": "M08_Q08",
+      "field": "neurologic_medication_context",
+      "question": "Have neurological symptoms appeared, or has a new medication or procedure been started?",
+      "answer_type": "Text",
+      "options": null
+    },
+    {
+      "module": "M09",
+      "id": "M09_Q01",
+      "field": "dysuria",
+      "question": "Is there burning or pain when urinating?",
+      "answer_type": "Yes/no/unknown",
+      "options": null
+    },
+    {
+      "module": "M09",
+      "id": "M09_Q02",
+      "field": "frequency_urgency",
+      "question": "Has urinary frequency or urgency increased?",
+      "answer_type": "Yes/no/unknown",
+      "options": null
+    },
+    {
+      "module": "M09",
+      "id": "M09_Q03",
+      "field": "fever_rigors",
+      "question": "Is there fever, chills, or a clear feeling of being unwell?",
+      "answer_type": "Yes/no/unknown",
+      "options": null
+    },
+    {
+      "module": "M09",
+      "id": "M09_Q04",
+      "field": "flank_pain",
+      "question": "Is there pain in the flank or back below the ribs?",
+      "answer_type": "Yes/no/unknown",
+      "options": null
+    },
+    {
+      "module": "M09",
+      "id": "M09_Q05",
+      "field": "visible_urine_change",
+      "question": "Have you noticed blood, cloudiness, or another change in the urine?",
+      "answer_type": "Text",
+      "options": null
+    },
+    {
+      "module": "M09",
+      "id": "M09_Q06",
+      "field": "retention_vomiting",
+      "question": "Are you unable to urinate, or is vomiting preventing drinking?",
+      "answer_type": "Yes/no/unknown",
+      "options": null
+    },
+    {
+      "module": "M09",
+      "id": "M09_Q07",
+      "field": "prostate_genital_symptoms",
+      "question": "Is there pain in the perineum or genitals, pain with ejaculation, or discharge?",
+      "answer_type": "Text",
+      "options": null
+    },
+    {
+      "module": "M09",
+      "id": "M09_Q08",
+      "field": "urine_test_results",
+      "question": "What are the urinalysis or culture and susceptibility results, if available?",
+      "answer_type": "Text",
+      "options": null
+    },
+    {
+      "module": "M09",
+      "id": "M09_Q09",
+      "field": "new_confusion",
+      "question": "Has confusion, unusual drowsiness, or difficulty speaking developed?",
+      "answer_type": "Yes/no/unknown",
+      "options": null
+    },
+    {
+      "module": "M10",
+      "id": "M10_Q01",
+      "field": "pain_location_radiation",
+      "question": "Where is the pain, and does it radiate toward the groin?",
+      "answer_type": "Text",
+      "options": null
+    },
+    {
+      "module": "M10",
+      "id": "M10_Q02",
+      "field": "pain_pattern_severity",
+      "question": "Does the pain come in waves, and how does it affect movement and comfort?",
+      "answer_type": "Text",
+      "options": null
+    },
+    {
+      "module": "M10",
+      "id": "M10_Q03",
+      "field": "fever_chills",
+      "question": "Is there fever or chills?",
+      "answer_type": "Yes/no/unknown",
+      "options": null
+    },
+    {
+      "module": "M10",
+      "id": "M10_Q04",
+      "field": "urine_output_change",
+      "question": "Has urine output decreased or stopped, or are you unable to pass urine?",
+      "answer_type": "Text",
+      "options": null
+    },
+    {
+      "module": "M10",
+      "id": "M10_Q05",
+      "field": "hematuria_dysuria",
+      "question": "Is there visible blood, burning, or frequent urination?",
+      "answer_type": "Text",
+      "options": null
+    },
+    {
+      "module": "M10",
+      "id": "M10_Q06",
+      "field": "vomiting_fluid_tolerance",
+      "question": "Is there vomiting or an inability to keep fluids down?",
+      "answer_type": "Yes/no/unknown",
+      "options": null
+    },
+    {
+      "module": "M10",
+      "id": "M10_Q07",
+      "field": "stone_single_kidney_history",
+      "question": "Do you have a history of stones, a solitary kidney, or kidney disease?",
+      "answer_type": "Text",
+      "options": null
+    },
+    {
+      "module": "M10",
+      "id": "M10_Q08",
+      "field": "available_imaging_tests",
+      "question": "What examination, urine, blood, and imaging results are available?",
+      "answer_type": "Text",
+      "options": null
+    },
+    {
+      "module": "M11",
+      "id": "M11_Q01",
+      "field": "airway_swelling_breathing",
+      "question": "Is there swelling of the mouth, tongue, or throat, or difficulty breathing/swallowing?",
+      "answer_type": "Yes/no/unknown",
+      "options": null
+    },
+    {
+      "module": "M11",
+      "id": "M11_Q02",
+      "field": "mucosal_blisters_skin_pain",
+      "question": "Are there blisters, painful peeling, or sores in the mouth or eyes?",
+      "answer_type": "Yes/no/unknown",
+      "options": null
+    },
+    {
+      "module": "M11",
+      "id": "M11_Q03",
+      "field": "rash_onset_progression",
+      "question": "When did the itch or rash begin, and how is it spreading or changing?",
+      "answer_type": "Text",
+      "options": null
+    },
+    {
+      "module": "M11",
+      "id": "M11_Q04",
+      "field": "rash_distribution",
+      "question": "Where is the rash, and does it involve the whole body or a specific area?",
+      "answer_type": "Text",
+      "options": null
+    },
+    {
+      "module": "M11",
+      "id": "M11_Q05",
+      "field": "rash_morphology",
+      "question": "Describe dryness, cracking, raised welts, or blisters.",
+      "answer_type": "Text",
+      "options": null
+    },
+    {
+      "module": "M11",
+      "id": "M11_Q06",
+      "field": "new_exposures_drugs",
+      "question": "Has a new medication, food, detergent, or contact substance been introduced?",
+      "answer_type": "Text",
+      "options": null
+    },
+    {
+      "module": "M11",
+      "id": "M11_Q07",
+      "field": "fever_unwell",
+      "question": "Is there fever or a general feeling of being unwell?",
+      "answer_type": "Yes/no/unknown",
+      "options": null
+    },
+    {
+      "module": "M11",
+      "id": "M11_Q08",
+      "field": "itch_function_impact",
+      "question": "Does the itch affect sleep or work, and does it recur?",
+      "answer_type": "Text",
+      "options": null
+    },
+    {
+      "module": "M12",
+      "id": "M12_Q01",
+      "field": "sleep_problem_pattern",
+      "question": "Is the difficulty falling asleep, staying asleep, or waking too early?",
+      "answer_type": "Selection or unknown",
+      "options": "Falling asleep\nInterrupted sleep\nEarly waking\nMixed pattern\nUnknown"
+    },
+    {
+      "module": "M12",
+      "id": "M12_Q02",
+      "field": "sleep_onset_course",
+      "question": "When did the problem begin, and does it recur?",
+      "answer_type": "Text",
+      "options": null
+    },
+    {
+      "module": "M12",
+      "id": "M12_Q03",
+      "field": "sleep_schedule_shift",
+      "question": "Has the work schedule or the timing of sleep and waking changed?",
+      "answer_type": "Text",
+      "options": null
+    },
+    {
+      "module": "M12",
+      "id": "M12_Q04",
+      "field": "sleep_environment",
+      "question": "Is light, noise, temperature, or discomfort interfering with sleep?",
+      "answer_type": "Text",
+      "options": null
+    },
+    {
+      "module": "M12",
+      "id": "M12_Q05",
+      "field": "stimulants_medications",
+      "question": "When are caffeine, stimulants, sleep medications, or sedatives taken?",
+      "answer_type": "Text",
+      "options": null
+    },
+    {
+      "module": "M12",
+      "id": "M12_Q06",
+      "field": "sleep_related_breathing",
+      "question": "Has snoring, choking, or interrupted breathing during sleep been observed?",
+      "answer_type": "Yes/no/unknown",
+      "options": null
+    },
+    {
+      "module": "M12",
+      "id": "M12_Q07",
+      "field": "daytime_function",
+      "question": "Is drowsiness or poor concentration affecting safe mission performance?",
+      "answer_type": "Text",
+      "options": null
+    },
+    {
+      "module": "M12",
+      "id": "M12_Q08",
+      "field": "complex_sleep_behaviour",
+      "question": "Has walking or other activity while not fully awake, or loss of recall, occurred after a hypnotic?",
+      "answer_type": "Yes/no/unknown",
+      "options": null
+    },
+    {
+      "module": "M12",
+      "id": "M12_Q09",
+      "field": "pain_mood_other_symptoms",
+      "question": "Is pain, anxiety, a mood change, or another symptom interfering with sleep?",
+      "answer_type": "Text",
+      "options": null
+    },
+    {
+      "module": "M13",
+      "id": "M13_Q01",
+      "field": "visual_change",
+      "question": "Has there been a new change in vision or partial loss of vision?",
+      "answer_type": "Yes/no/unknown",
+      "options": null
+    },
+    {
+      "module": "M13",
+      "id": "M13_Q02",
+      "field": "eye_pain_photophobia",
+      "question": "Is there eye pain or pain when looking at light?",
+      "answer_type": "Yes/no/unknown",
+      "options": null
+    },
+    {
+      "module": "M13",
+      "id": "M13_Q03",
+      "field": "eye_trauma_chemical",
+      "question": "Has the eye been exposed to injury, a chemical, or a lodged object?",
+      "answer_type": "Yes/no/unknown",
+      "options": null
+    },
+    {
+      "module": "M13",
+      "id": "M13_Q04",
+      "field": "laterality_onset",
+      "question": "Which eye is affected, and when did symptoms begin?",
+      "answer_type": "Text",
+      "options": null
+    },
+    {
+      "module": "M13",
+      "id": "M13_Q05",
+      "field": "discharge_itch_grit",
+      "question": "Is there itching, grittiness, tearing, or sticky discharge?",
+      "answer_type": "Text",
+      "options": null
+    },
+    {
+      "module": "M13",
+      "id": "M13_Q06",
+      "field": "contact_lenses",
+      "question": "Do you wear contact lenses?",
+      "answer_type": "Yes/no/unknown",
+      "options": null
+    },
+    {
+      "module": "M13",
+      "id": "M13_Q07",
+      "field": "associated_headache_nausea",
+      "question": "Does a severe headache or nausea accompany the redness?",
+      "answer_type": "Yes/no/unknown",
+      "options": null
+    },
+    {
+      "module": "M13",
+      "id": "M13_Q08",
+      "field": "environment_trigger",
+      "question": "Do symptoms worsen with screens, dry air, dust, or an allergen?",
+      "answer_type": "Text",
+      "options": null
+    },
+    {
+      "module": "M13",
+      "id": "M13_Q09",
+      "field": "eye_exam_findings",
+      "question": "What visual acuity, eye examination, and pupil findings are available?",
+      "answer_type": "Text",
+      "options": null
+    },
+    {
+      "module": "M14",
+      "id": "M14_Q01",
+      "field": "breathing_severity",
+      "question": "Is there severe breathing difficulty or an inability to finish speaking?",
+      "answer_type": "Yes/no/unknown",
+      "options": null
+    },
+    {
+      "module": "M14",
+      "id": "M14_Q02",
+      "field": "cough_onset_course",
+      "question": "When did the cough begin, and is it improving or worsening?",
+      "answer_type": "Text",
+      "options": null
+    },
+    {
+      "module": "M14",
+      "id": "M14_Q03",
+      "field": "cough_pattern",
+      "question": "Is the cough dry or productive, and does it worsen at night or with exertion?",
+      "answer_type": "Text",
+      "options": null
+    },
+    {
+      "module": "M14",
+      "id": "M14_Q04",
+      "field": "blood_chest_pain",
+      "question": "Is there blood with coughing or pain/heaviness in the chest?",
+      "answer_type": "Text",
+      "options": null
+    },
+    {
+      "module": "M14",
+      "id": "M14_Q05",
+      "field": "fever_general_illness",
+      "question": "Is there fever or clear general illness?",
+      "answer_type": "Yes/no/unknown",
+      "options": null
+    },
+    {
+      "module": "M14",
+      "id": "M14_Q06",
+      "field": "wheeze_asthma_history",
+      "question": "Is there wheezing or known asthma/airway disease?",
+      "answer_type": "Text",
+      "options": null
+    },
+    {
+      "module": "M14",
+      "id": "M14_Q07",
+      "field": "nasal_allergy_exposure",
+      "question": "Are there nasal symptoms, allergy, or exposure to smoke/an irritant?",
+      "answer_type": "Text",
+      "options": null
+    },
+    {
+      "module": "M14",
+      "id": "M14_Q08",
+      "field": "current_respiratory_observations",
+      "question": "What breathing and oxygenation observations are available compared with baseline?",
+      "answer_type": "Text",
+      "options": null
+    },
+    {
+      "module": "M14",
+      "id": "M14_Q09",
+      "field": "reliever_response",
+      "question": "If a previously prescribed rescue medication was used, what was the response and what effects occurred?",
+      "answer_type": "Text",
+      "options": null
+    },
+    {
+      "module": "M15",
+      "id": "M15_Q01",
+      "field": "onset_and_course",
+      "question": "When did the sore throat begin, and how is it changing?",
+      "answer_type": "Text",
+      "options": null
+    },
+    {
+      "module": "M15",
+      "id": "M15_Q02",
+      "field": "airway_and_saliva",
+      "question": "Is there difficulty breathing, difficulty swallowing saliva, or drooling?",
+      "answer_type": "Text",
+      "options": null
+    },
+    {
+      "module": "M15",
+      "id": "M15_Q03",
+      "field": "voice_and_mouth_opening",
+      "question": "Has speech changed, or is opening the mouth impossible?",
+      "answer_type": "Text",
+      "options": null
+    },
+    {
+      "module": "M15",
+      "id": "M15_Q04",
+      "field": "fluid_swallow_safety",
+      "question": "Are you alert and able to drink and swallow fluids safely?",
+      "answer_type": "Yes/no/unknown",
+      "options": null
+    },
+    {
+      "module": "M15",
+      "id": "M15_Q05",
+      "field": "associated_respiratory_symptoms",
+      "question": "Is there a cough, a cold, or pain on swallowing?",
+      "answer_type": "Text",
+      "options": null
+    },
+    {
+      "module": "M15",
+      "id": "M15_Q06",
+      "field": "fever_or_systemic_illness",
+      "question": "Is there fever, chills, or general malaise?",
+      "answer_type": "Text",
+      "options": null
+    },
+    {
+      "module": "M15",
+      "id": "M15_Q07",
+      "field": "tonsil_and_neck_findings",
+      "question": "What are the findings on examination of the tonsils and neck?",
+      "answer_type": "Text",
+      "options": null
+    },
+    {
+      "module": "M15",
+      "id": "M15_Q08",
+      "field": "hydration_and_urine",
+      "question": "Has urine output decreased, has the urine become dark, or is drinking impossible?",
+      "answer_type": "Text",
+      "options": null
+    },
+    {
+      "module": "M16",
+      "id": "M16_Q01",
+      "field": "laterality_and_course",
+      "question": "Which ear hurts or feels blocked, and when did this begin?",
+      "answer_type": "Text",
+      "options": null
+    },
+    {
+      "module": "M16",
+      "id": "M16_Q02",
+      "field": "hearing_change",
+      "question": "Did hearing decrease suddenly or gradually?",
+      "answer_type": "Text",
+      "options": null
+    },
+    {
+      "module": "M16",
+      "id": "M16_Q03",
+      "field": "discharge_or_blood",
+      "question": "Is there discharge or blood coming from the ear?",
+      "answer_type": "Text",
+      "options": null
+    },
+    {
+      "module": "M16",
+      "id": "M16_Q04",
+      "field": "itching_and_water_exposure",
+      "question": "Is there itching, irritation, or exposure to water?",
+      "answer_type": "Text",
+      "options": null
+    },
+    {
+      "module": "M16",
+      "id": "M16_Q05",
+      "field": "fever_and_periauricular_swelling",
+      "question": "Is there fever or swelling around the ear?",
+      "answer_type": "Text",
+      "options": null
+    },
+    {
+      "module": "M16",
+      "id": "M16_Q06",
+      "field": "vertigo_and_vomiting",
+      "question": "Is there vertigo or vomiting?",
+      "answer_type": "Text",
+      "options": null
+    },
+    {
+      "module": "M16",
+      "id": "M16_Q07",
+      "field": "trauma_pressure_and_instrumentation",
+      "question": "Was there a preceding injury, pressure change, or insertion of an instrument?",
+      "answer_type": "Text",
+      "options": null
+    },
+    {
+      "module": "M16",
+      "id": "M16_Q08",
+      "field": "otoscopy_and_eardrum",
+      "question": "What are the findings on otoscopic examination of the canal and eardrum?",
+      "answer_type": "Text",
+      "options": null
+    },
+    {
+      "module": "M17",
+      "id": "M17_Q01",
+      "field": "pain_site_and_onset",
+      "question": "Where is the pain, and when did it begin?",
+      "answer_type": "Text",
+      "options": null
+    },
+    {
+      "module": "M17",
+      "id": "M17_Q02",
+      "field": "thermal_or_biting_trigger",
+      "question": "Is it triggered by cold, heat, or biting?",
+      "answer_type": "Text",
+      "options": null
+    },
+    {
+      "module": "M17",
+      "id": "M17_Q03",
+      "field": "spontaneous_or_lingering_pain",
+      "question": "Does it begin spontaneously or persist after the trigger is removed?",
+      "answer_type": "Text",
+      "options": null
+    },
+    {
+      "module": "M17",
+      "id": "M17_Q04",
+      "field": "swelling_pus_and_taste",
+      "question": "Is there swelling, pus, or a bad taste?",
+      "answer_type": "Text",
+      "options": null
+    },
+    {
+      "module": "M17",
+      "id": "M17_Q05",
+      "field": "airway_swallow_voice",
+      "question": "Is there difficulty breathing, swallowing, or speaking?",
+      "answer_type": "Text",
+      "options": null
+    },
+    {
+      "module": "M17",
+      "id": "M17_Q06",
+      "field": "mouth_opening_and_eye",
+      "question": "Is it difficult to open the mouth, or is there eye swelling, eye pain, or a change in vision?",
+      "answer_type": "Text",
+      "options": null
+    },
+    {
+      "module": "M17",
+      "id": "M17_Q07",
+      "field": "fever_and_malaise",
+      "question": "Is there fever or general malaise?",
+      "answer_type": "Text",
+      "options": null
+    },
+    {
+      "module": "M17",
+      "id": "M17_Q08",
+      "field": "trauma_and_dental_findings",
+      "question": "Is there injury, decay, or a gum or filling problem on examination?",
+      "answer_type": "Text",
+      "options": null
+    },
+    {
+      "module": "M18",
+      "id": "M18_Q01",
+      "field": "injury_time_mechanism",
+      "question": "When and how did the wound occur?",
+      "answer_type": "Text",
+      "options": null
+    },
+    {
+      "module": "M18",
+      "id": "M18_Q02",
+      "field": "wound_site_and_depth",
+      "question": "Where is the wound, and how large and deep does it appear?",
+      "answer_type": "Text",
+      "options": null
+    },
+    {
+      "module": "M18",
+      "id": "M18_Q03",
+      "field": "bleeding_and_pressure_response",
+      "question": "Is the bleeding continuous or spurting, and does it respond to pressure?",
+      "answer_type": "Text",
+      "options": null
+    },
+    {
+      "module": "M18",
+      "id": "M18_Q04",
+      "field": "retained_object_or_contamination",
+      "question": "Is there a retained object, a puncture, or contamination?",
+      "answer_type": "Text",
+      "options": null
+    },
+    {
+      "module": "M18",
+      "id": "M18_Q05",
+      "field": "sensation_and_movement",
+      "question": "Has sensation or movement of the injured part changed?",
+      "answer_type": "Text",
+      "options": null
+    },
+    {
+      "module": "M18",
+      "id": "M18_Q06",
+      "field": "infection_features",
+      "question": "Are redness, pain, or swelling increasing, or is there pus or fever?",
+      "answer_type": "Text",
+      "options": null
+    },
+    {
+      "module": "M18",
+      "id": "M18_Q07",
+      "field": "systemic_symptoms",
+      "question": "Is there severe dizziness, fainting, or difficulty breathing?",
+      "answer_type": "Text",
+      "options": null
+    },
+    {
+      "module": "M18",
+      "id": "M18_Q08",
+      "field": "tetanus_history_known",
+      "question": "Is the tetanus immunization history documented and available?",
+      "answer_type": "Yes/no/unknown",
+      "options": null
+    },
+    {
+      "module": "M19",
+      "id": "M19_Q01",
+      "field": "burn_mechanism",
+      "question": "What caused the injury?",
+      "answer_type": "Selection or unknown",
+      "options": "Heat or hot liquid or steam\nA chemical\nElectricity\nUnknown"
+    },
+    {
+      "module": "M19",
+      "id": "M19_Q02",
+      "field": "exposure_timing_and_persistence",
+      "question": "When did the exposure occur, and has its source been safely eliminated?",
+      "answer_type": "Text",
+      "options": null
+    },
+    {
+      "module": "M19",
+      "id": "M19_Q03",
+      "field": "burn_site",
+      "question": "Where is the burn, and does it involve the face, hands, feet, or genitals?",
+      "answer_type": "Text",
+      "options": null
+    },
+    {
+      "module": "M19",
+      "id": "M19_Q04",
+      "field": "extent_and_depth_assessment",
+      "question": "What are the extent and estimated depth of the burn on examination?",
+      "answer_type": "Text",
+      "options": null
+    },
+    {
+      "module": "M19",
+      "id": "M19_Q05",
+      "field": "skin_appearance",
+      "question": "What does the skin look like, and are there blisters or charred tissue?",
+      "answer_type": "Text",
+      "options": null
+    },
+    {
+      "module": "M19",
+      "id": "M19_Q06",
+      "field": "breathing_or_smoke",
+      "question": "Was there smoke exposure, or is there difficulty breathing?",
+      "answer_type": "Text",
+      "options": null
+    },
+    {
+      "module": "M19",
+      "id": "M19_Q07",
+      "field": "stuck_material_or_constriction",
+      "question": "Is clothing stuck to the burn, or is there jewelry or anything tight near it?",
+      "answer_type": "Text",
+      "options": null
+    },
+    {
+      "module": "M19",
+      "id": "M19_Q08",
+      "field": "pain_sensation_and_other_injury",
+      "question": "How severe is the pain, and has sensation changed or another injury occurred?",
+      "answer_type": "Text",
+      "options": null
+    },
+    {
+      "module": "M20",
+      "id": "M20_Q01",
+      "field": "heat_exertion_and_cooling",
+      "question": "Was there preceding heat exposure, exertion, or a cooling failure?",
+      "answer_type": "Text",
+      "options": null
+    },
+    {
+      "module": "M20",
+      "id": "M20_Q02",
+      "field": "fluid_intake_and_losses",
+      "question": "How has fluid intake changed, and is there vomiting, diarrhea, or sweating?",
+      "answer_type": "Text",
+      "options": null
+    },
+    {
+      "module": "M20",
+      "id": "M20_Q03",
+      "field": "urine_change",
+      "question": "Has urine output decreased or its color changed from usual?",
+      "answer_type": "Text",
+      "options": null
+    },
+    {
+      "module": "M20",
+      "id": "M20_Q04",
+      "field": "thirst_and_dryness",
+      "question": "Is there thirst or a dry mouth?",
+      "answer_type": "Text",
+      "options": null
+    },
+    {
+      "module": "M20",
+      "id": "M20_Q05",
+      "field": "headache_dizziness_cramps",
+      "question": "Is there headache, dizziness, weakness, or cramping?",
+      "answer_type": "Text",
+      "options": null
+    },
+    {
+      "module": "M20",
+      "id": "M20_Q06",
+      "field": "mental_status_and_seizure",
+      "question": "Is there confusion, impaired coordination, a seizure, or fainting?",
+      "answer_type": "Text",
+      "options": null
+    },
+    {
+      "module": "M20",
+      "id": "M20_Q07",
+      "field": "alertness_swallow_and_vomiting",
+      "question": "Is the affected person fully alert and swallowing safely without active vomiting?",
+      "answer_type": "Yes/no/unknown",
+      "options": null
+    },
+    {
+      "module": "M20",
+      "id": "M20_Q08",
+      "field": "temperature_and_measurement_context",
+      "question": "What is the measured temperature, measurement method, and time, if available?",
+      "answer_type": "Text",
+      "options": null
+    }
+  ],
+  "candidates": [
+    {
+      "module": "M01",
+      "id": "M01_C01",
+      "name": "Migraine pattern",
+      "supporting_features": "Throbbing pain that may be one-sided\nNausea and sensitivity to light or sound",
+      "further_assessment": "Clinical history and examination; a new neurological deficit must not automatically be interpreted as migraine aura."
+    },
+    {
+      "module": "M01",
+      "id": "M01_C02",
+      "name": "Tension-type headache pattern",
+      "supporting_features": "Bilateral pressure or tightness\nPossible association with stress or disturbed sleep",
+      "further_assessment": "Requires assessment of the pattern and exclusion of secondary causes."
+    },
+    {
+      "module": "M01",
+      "id": "M01_C03",
+      "name": "Possible medication-overuse headache",
+      "supporting_features": "Recurrent headache with frequent analgesic use",
+      "further_assessment": "Physician review of the medication record and pattern; association does not establish causation."
+    },
+    {
+      "module": "M02",
+      "id": "M02_C01",
+      "name": "Possible gastroenteritis",
+      "supporting_features": "Vomiting with diarrhea or food-related exposure/contact",
+      "further_assessment": "Clinical assessment; symptoms alone do not distinguish a viral from a bacterial cause."
+    },
+    {
+      "module": "M02",
+      "id": "M02_C02",
+      "name": "Possible space motion/adaptation sickness",
+      "supporting_features": "Nausea or vomiting associated with a gravity transition or head movement\nAssociated dizziness or disorientation",
+      "further_assessment": "Medical assessment in relation to the mission phase; timing does not establish the diagnosis or exclude another cause."
+    },
+    {
+      "module": "M02",
+      "id": "M02_C03",
+      "name": "Migraine-associated nausea",
+      "supporting_features": "Throbbing headache with sensitivity to light/sound",
+      "further_assessment": "Assess the headache under module M01; vomiting with headache must not always be assumed to be migraine."
+    },
+    {
+      "module": "M03",
+      "id": "M03_C01",
+      "name": "Possible allergic rhinitis",
+      "supporting_features": "Itching, sneezing, and watery eyes\nConsistency with a known trigger",
+      "further_assessment": "History and examination; allergy assessment if the cause remains unclear."
+    },
+    {
+      "module": "M03",
+      "id": "M03_C02",
+      "name": "Possible common cold",
+      "supporting_features": "Congestion/runny nose with a sore throat, cough, or malaise",
+      "further_assessment": "Clinical assessment; discharge color does not identify the pathogen or automatically justify an antibiotic."
+    },
+    {
+      "module": "M04",
+      "id": "M04_C01",
+      "name": "Diet/routine-associated constipation",
+      "supporting_features": "Hard stool and difficulty emptying\nChanges in fiber, fluids, or activity",
+      "further_assessment": "History assessment and examination, with exclusion of obstruction and secondary causes."
+    },
+    {
+      "module": "M04",
+      "id": "M04_C02",
+      "name": "Medication-associated constipation",
+      "supporting_features": "Coincides with a medication that may slow the bowel",
+      "further_assessment": "Review the administration record; do not automatically stop the underlying medication."
+    },
+    {
+      "module": "M04",
+      "id": "M04_C03",
+      "name": "Possible faecal impaction",
+      "supporting_features": "Prolonged constipation with watery leakage",
+      "further_assessment": "Requires clinical assessment; leakage does not establish uncomplicated diarrhea."
+    },
+    {
+      "module": "M05",
+      "id": "M05_C01",
+      "name": "Possible infectious gastroenteritis/foodborne illness",
+      "supporting_features": "Acute onset with cramping or vomiting\nFood-related exposure or an affected contact",
+      "further_assessment": "The physician determines the need for tests; symptoms alone do not distinguish a virus from a bacterium."
+    },
+    {
+      "module": "M05",
+      "id": "M05_C02",
+      "name": "Medication-associated diarrhea",
+      "supporting_features": "Coincides with an antibiotic or a new medication",
+      "further_assessment": "Review the medication and alternative causes; antibiotic-associated diarrhea may need specific assessment."
+    },
+    {
+      "module": "M05",
+      "id": "M05_C03",
+      "name": "Possible food intolerance",
+      "supporting_features": "Recurrence associated with a particular food",
+      "further_assessment": "Dietary history and assessment as needed; timing does not establish the cause."
+    },
+    {
+      "module": "M06",
+      "id": "M06_C01",
+      "name": "Possible gastroesophageal reflux",
+      "supporting_features": "Heartburn behind the breastbone with acid regurgitation\nAssociation with meals or lying down",
+      "further_assessment": "Clinical assessment; improvement with an antacid does not exclude a cardiac cause."
+    },
+    {
+      "module": "M06",
+      "id": "M06_C02",
+      "name": "Possible dyspepsia",
+      "supporting_features": "Fullness or bloating and belching after food\nMay be accompanied by heartburn or nausea",
+      "further_assessment": "Assessment overlaps with reflux; examination for other causes may be needed."
+    },
+    {
+      "module": "M07",
+      "id": "M07_C01",
+      "name": "Possible nonspecific mechanical low back pain",
+      "supporting_features": "Pain associated with movement or strain",
+      "further_assessment": "History, examination, and exclusion of serious causes; a trigger does not establish a muscle strain."
+    },
+    {
+      "module": "M07",
+      "id": "M07_C02",
+      "name": "Possible sciatica pattern",
+      "supporting_features": "Pain extending from the buttocks into the leg\nAssociated tingling, numbness, or weakness",
+      "further_assessment": "Neurological assessment; saddle-area/sphincter signs or bilateral symptoms require emergency care."
+    },
+    {
+      "module": "M08",
+      "id": "M08_C01",
+      "name": "Bladder outlet obstruction",
+      "supporting_features": "Weak stream and hesitancy\nHistory of narrowing, prostate problems, or stones",
+      "further_assessment": "Examination and estimation of residual urine; the physician determines the cause."
+    },
+    {
+      "module": "M08",
+      "id": "M08_C02",
+      "name": "Underactive or neurogenic bladder",
+      "supporting_features": "Incomplete emptying\nKnown neurological disease or a recent procedure",
+      "further_assessment": "Neurological and bladder assessment, with tests selected by a specialist."
+    },
+    {
+      "module": "M08",
+      "id": "M08_C03",
+      "name": "Medication-associated urinary retention",
+      "supporting_features": "A temporal association with medication that may impair emptying",
+      "further_assessment": "Medication reconciliation and exclusion of obstruction; a temporal association is insufficient."
+    },
+    {
+      "module": "M09",
+      "id": "M09_C01",
+      "name": "Possible lower urinary tract infection",
+      "supporting_features": "Burning and frequency or urgency\nLower abdominal discomfort",
+      "further_assessment": "Clinical assessment and testing/culture when indicated; urine color is insufficient."
+    },
+    {
+      "module": "M09",
+      "id": "M09_C02",
+      "name": "Possible pyelonephritis",
+      "supporting_features": "Urinary symptoms with fever or chills and flank pain",
+      "further_assessment": "Urgent assessment, urine testing, and evaluation of illness severity and obstruction."
+    },
+    {
+      "module": "M09",
+      "id": "M09_C03",
+      "name": "Possible prostatitis",
+      "supporting_features": "Pain in the perineum or genitals, or with ejaculation\nDifficulty urinating, possibly with fever",
+      "further_assessment": "Physician assessment for a person with a prostate; the questionnaire does not establish the diagnosis."
+    },
+    {
+      "module": "M10",
+      "id": "M10_C01",
+      "name": "Possible renal or ureteric stone",
+      "supporting_features": "Intermittent flank pain that may radiate to the groin\nNausea or urinary symptoms",
+      "further_assessment": "Examination, tests, and imaging selected by a physician; symptoms alone do not establish a stone."
+    },
+    {
+      "module": "M10",
+      "id": "M10_C02",
+      "name": "Possible pyelonephritis",
+      "supporting_features": "Fever and flank pain\nPossible burning or vomiting",
+      "further_assessment": "Urine testing and assessment for infection and obstruction; infection and stones may coexist."
+    },
+    {
+      "module": "M11",
+      "id": "M11_C01",
+      "name": "Possible contact dermatitis",
+      "supporting_features": "Itching and dryness or cracking at an exposure site\nA possible irritant or allergen",
+      "further_assessment": "Examination and exposure history; specialist allergy assessment may be needed."
+    },
+    {
+      "module": "M11",
+      "id": "M11_C02",
+      "name": "Possible urticaria",
+      "supporting_features": "Itchy raised welts or patches\nMay be associated with a medication or environmental trigger",
+      "further_assessment": "Assess the rash appearance and exclude anaphylaxis; appearance does not establish the cause."
+    },
+    {
+      "module": "M11",
+      "id": "M11_C03",
+      "name": "Dry-skin-associated itch",
+      "supporting_features": "Dry or cracked skin\nItching without sufficient specific signs",
+      "further_assessment": "Examination and exclusion of other causes if generalized or persistent."
+    },
+    {
+      "module": "M12",
+      "id": "M12_C01",
+      "name": "Insomnia associated with behavioural or stress factors",
+      "supporting_features": "Difficulty falling or staying asleep\nAnxiety, habits, or a sleep environment that interferes with sleep",
+      "further_assessment": "Clinical assessment and a sleep diary, with exclusion of a medication or medical cause."
+    },
+    {
+      "module": "M12",
+      "id": "M12_C02",
+      "name": "Sleep timing disturbance associated with schedule change",
+      "supporting_features": "Changes in shifts or sleep timing\nSleep difficulty associated with the schedule",
+      "further_assessment": "Review the sleep pattern and schedule; this does not establish a specific circadian rhythm disorder."
+    },
+    {
+      "module": "M12",
+      "id": "M12_C03",
+      "name": "Possible sleep apnoea",
+      "supporting_features": "Snoring and choking, or observed breathing pauses\nDaytime drowsiness or poor concentration",
+      "further_assessment": "Sleep testing and specialist assessment according to available capabilities."
+    },
+    {
+      "module": "M13",
+      "id": "M13_C01",
+      "name": "Possible dry eye",
+      "supporting_features": "Grittiness or irritation and tearing\nExposure to dry conditions or screens",
+      "further_assessment": "Examination to exclude dangerous causes; do not attribute a persistent vision change to dryness."
+    },
+    {
+      "module": "M13",
+      "id": "M13_C02",
+      "name": "Possible infectious conjunctivitis",
+      "supporting_features": "Redness and discharge, or a burning/gritty sensation",
+      "further_assessment": "Assess the cause; discharge alone does not reliably distinguish bacterial from viral infection."
+    },
+    {
+      "module": "M13",
+      "id": "M13_C03",
+      "name": "Possible allergic conjunctivitis",
+      "supporting_features": "Itching, redness, and tearing\nAssociation with a possible allergen",
+      "further_assessment": "History and examination to exclude infection and other problems."
+    },
+    {
+      "module": "M14",
+      "id": "M14_C01",
+      "name": "Possible acute respiratory infection",
+      "supporting_features": "A recent cough with cold symptoms or general illness",
+      "further_assessment": "Clinical assessment of severity; color or sputum alone does not identify a bacterial cause."
+    },
+    {
+      "module": "M14",
+      "id": "M14_C02",
+      "name": "Possible asthma or airway disease exacerbation",
+      "supporting_features": "Cough with wheezing or breathlessness\nHistory of airway disease or a variable pattern",
+      "further_assessment": "History, examination, and appropriate objective testing; cough alone does not establish asthma."
+    },
+    {
+      "module": "M14",
+      "id": "M14_C03",
+      "name": "Allergy or postnasal-drip-associated cough",
+      "supporting_features": "Concurrent nasal symptoms or allergy\nCough with a sensation of mucus at the back of the throat",
+      "further_assessment": "Assess other causes and exposures; concurrent symptoms do not establish the cause."
+    },
+    {
+      "module": "M15",
+      "id": "M15_C01",
+      "name": "Pharyngitis associated with respiratory infection",
+      "supporting_features": "Sore throat with a cough or a cold.",
+      "further_assessment": "Clinical assessment; symptoms do not distinguish viral from bacterial causes."
+    },
+    {
+      "module": "M15",
+      "id": "M15_C02",
+      "name": "Tonsillitis",
+      "supporting_features": "Sore throat with red or swollen tonsils or tender cervical lymph nodes.",
+      "further_assessment": "Examination by a qualified professional; a swab when indicated. White spots do not establish a bacterial cause."
+    },
+    {
+      "module": "M16",
+      "id": "M16_C01",
+      "name": "Cerumen impaction",
+      "supporting_features": "A feeling of blockage, reduced hearing, or tinnitus.",
+      "further_assessment": "Confirm obstructing wax on examination; exclude sudden hearing loss and other causes."
+    },
+    {
+      "module": "M16",
+      "id": "M16_C02",
+      "name": "Otitis externa",
+      "supporting_features": "Itching and irritation with pain or discharge.\nExposure to water or irritation of the canal may be associated with it.",
+      "further_assessment": "Examination of the canal and eardrum by a qualified professional to guide treatment."
+    },
+    {
+      "module": "M16",
+      "id": "M16_C03",
+      "name": "Otitis media",
+      "supporting_features": "Pain or pressure with a change in hearing; a respiratory infection may accompany it.",
+      "further_assessment": "Otoscopic examination; the symptom does not identify the microbial cause."
+    },
+    {
+      "module": "M17",
+      "id": "M17_C01",
+      "name": "Tooth sensitivity",
+      "supporting_features": "Pain with heat, cold, or cleaning.",
+      "further_assessment": "Examine the tooth and gums; it may result from decay, a fracture, or an exposed root."
+    },
+    {
+      "module": "M17",
+      "id": "M17_C02",
+      "name": "Pulpitis",
+      "supporting_features": "Spontaneous or prolonged pain that may wake the person from sleep or be affected by heat.",
+      "further_assessment": "Dental examination and tests by a qualified professional; do not determine the pulp status conclusively from the pain description."
+    },
+    {
+      "module": "M17",
+      "id": "M17_C03",
+      "name": "Dental or gingival abscess",
+      "supporting_features": "Swelling or pus or a bad taste with pain; fever may accompany it.",
+      "further_assessment": "Urgent dental assessment to locate the infection and treat its source."
+    },
+    {
+      "module": "M18",
+      "id": "M18_C01",
+      "name": "Possible superficial cut or abrasion",
+      "supporting_features": "Limited skin injury with controllable bleeding.",
+      "further_assessment": "Examination to exclude deep extension."
+    },
+    {
+      "module": "M18",
+      "id": "M18_C02",
+      "name": "Contaminated or puncture wound",
+      "supporting_features": "A puncture mechanism, contamination, or damaged tissue.",
+      "further_assessment": "Assessment of contamination type, depth, and immunization by a qualified professional."
+    },
+    {
+      "module": "M18",
+      "id": "M18_C03",
+      "name": "Complex wound or deep structure injury",
+      "supporting_features": "A deep wound, impaired sensation or movement, or an embedded object.",
+      "further_assessment": "Urgent examination of deep structures by a specialist."
+    },
+    {
+      "module": "M19",
+      "id": "M19_C01",
+      "name": "Thermal burn or scald",
+      "supporting_features": "Contact with heat, hot liquid, or steam resulting in skin injury.",
+      "further_assessment": "Examination to determine depth and extent; pain severity alone is insufficient."
+    },
+    {
+      "module": "M19",
+      "id": "M19_C02",
+      "name": "Possible chemical burn",
+      "supporting_features": "Documented or suspected exposure to a chemical.",
+      "further_assessment": "Identification of the substance and its safety data sheet, and examination of the injury by a qualified professional."
+    },
+    {
+      "module": "M19",
+      "id": "M19_C03",
+      "name": "Electrical injury with possible burn",
+      "supporting_features": "Electrical contact with an injury or skin mark.",
+      "further_assessment": "Emergency medical assessment for possible injury; do not limit the assessment to the skin."
+    },
+    {
+      "module": "M20",
+      "id": "M20_C01",
+      "name": "Possible dehydration",
+      "supporting_features": "Thirst and a dry mouth, or reduced or dark urine.\nFluid loss or reduced intake may support this possibility.",
+      "further_assessment": "Assess intake, losses, examination findings, and measurements; symptoms are nonspecific and do not determine dehydration severity on their own."
+    },
+    {
+      "module": "M20",
+      "id": "M20_C02",
+      "name": "Heat-related illness",
+      "supporting_features": "Heat or exertion with weakness, headache, nausea, or cramps.\nAltered consciousness or a seizure raises suspicion of heatstroke; sweating may continue.",
+      "further_assessment": "Clinical and temperature assessment; distinguishing exhaustion from heatstroke guides the response and does not wait for sweating to stop."
+    }
+  ],
+  "alerts": [
+    {
+      "module": "M01",
+      "id": "M01_A01",
+      "category": "Emergency",
+      "trigger_text_for_review": "A sudden, extremely severe headache, a new neurological deficit, loss of vision, a seizure, drowsiness/confusion, or headache following a head injury.",
+      "action_for_review": "Activate the mission emergency pathway and immediate medical assessment under the approved plan."
+    },
+    {
+      "module": "M01",
+      "id": "M01_A02",
+      "category": "Emergency",
+      "trigger_text_for_review": "Headache with high fever and neck stiffness, a concerning rash, or marked sensitivity to light.",
+      "action_for_review": "Activate the mission emergency pathway and immediate medical assessment under the approved plan."
+    },
+    {
+      "module": "M01",
+      "id": "M01_A03",
+      "category": "Urgent review",
+      "trigger_text_for_review": "A new or worsening headache, a headache associated with exertion/coughing, eye/vision problems, vomiting, or a change in headache pattern during pregnancy.",
+      "action_for_review": "Refer for urgent medical review; the physician determines the appropriate examination and escalation."
+    },
+    {
+      "module": "M02",
+      "id": "M02_A01",
+      "category": "Emergency",
+      "trigger_text_for_review": "Bloody/coffee-ground or green vomit, sudden severe abdominal/chest pain, or sudden severe headache/neck stiffness.",
+      "action_for_review": "Activate the mission emergency pathway and immediate medical assessment under the approved plan."
+    },
+    {
+      "module": "M02",
+      "id": "M02_A02",
+      "category": "Emergency",
+      "trigger_text_for_review": "Vomiting with confusion or difficulty waking, or cold pale/bluish skin and difficulty breathing.",
+      "action_for_review": "Activate the mission emergency pathway and immediate medical assessment under the approved plan."
+    },
+    {
+      "module": "M02",
+      "id": "M02_A03",
+      "category": "Urgent review",
+      "trigger_text_for_review": "Inability to keep fluids down, reduced urination/persistent dizziness, or continuing or worsening vomiting.",
+      "action_for_review": "Refer for urgent medical review; the physician determines the appropriate examination and escalation."
+    },
+    {
+      "module": "M03",
+      "id": "M03_A01",
+      "category": "Emergency",
+      "trigger_text_for_review": "Tongue/throat swelling, difficulty breathing/swallowing, or fainting with a possible allergic reaction.",
+      "action_for_review": "Activate the mission emergency pathway and immediate medical assessment under the approved plan."
+    },
+    {
+      "module": "M03",
+      "id": "M03_A02",
+      "category": "Urgent review",
+      "trigger_text_for_review": "Worsening asthma or concerning respiratory symptoms accompanying nasal symptoms.",
+      "action_for_review": "Refer for urgent medical review; the physician determines the appropriate examination and escalation."
+    },
+    {
+      "module": "M03",
+      "id": "M03_A03",
+      "category": "Urgent review",
+      "trigger_text_for_review": "Worsening or uncontrolled symptoms, symptoms affecting sleep/activity, or an unclear cause.",
+      "action_for_review": "Refer for urgent medical review; the physician determines the appropriate examination and escalation."
+    },
+    {
+      "module": "M04",
+      "id": "M04_A01",
+      "category": "Emergency",
+      "trigger_text_for_review": "Sudden severe abdominal pain, or abdominal pain with a complete inability to pass stool and gas.",
+      "action_for_review": "Activate the mission emergency pathway and immediate medical assessment under the approved plan."
+    },
+    {
+      "module": "M04",
+      "id": "M04_A02",
+      "category": "Urgent review",
+      "trigger_text_for_review": "Constipation with vomiting, persistent abdominal pain, fever, or rectal bleeding.",
+      "action_for_review": "Refer for urgent medical review; the physician determines the appropriate examination and escalation."
+    },
+    {
+      "module": "M04",
+      "id": "M04_A03",
+      "category": "Urgent review",
+      "trigger_text_for_review": "Unexplained weight loss, a persistent change in bowel habits, watery leakage with prolonged constipation, or failure to improve.",
+      "action_for_review": "Refer for urgent medical review; the physician determines the appropriate examination and escalation."
+    },
+    {
+      "module": "M05",
+      "id": "M05_A01",
+      "category": "Emergency",
+      "trigger_text_for_review": "Diarrhea with confusion, difficulty waking, cold pale/bluish skin, or difficulty breathing.",
+      "action_for_review": "Activate the mission emergency pathway and immediate medical assessment under the approved plan."
+    },
+    {
+      "module": "M05",
+      "id": "M05_A02",
+      "category": "Urgent review",
+      "trigger_text_for_review": "Blood/pus or black tarry stool, severe pain, high fever, or repeated vomiting.",
+      "action_for_review": "Refer for urgent medical review; the physician determines the appropriate examination and escalation."
+    },
+    {
+      "module": "M05",
+      "id": "M05_A03",
+      "category": "Urgent review",
+      "trigger_text_for_review": "Continued fluid loss, worsening urination/dizziness, or persistent diarrhea, particularly with antibiotics or impaired immunity.",
+      "action_for_review": "Refer for urgent medical review; the physician determines the appropriate examination and escalation."
+    },
+    {
+      "module": "M06",
+      "id": "M06_A01",
+      "category": "Emergency",
+      "trigger_text_for_review": "Sudden persistent chest pain/burning, pain spreading to the arm/jaw/back, or pain accompanied by breathlessness, sweating, or dizziness.",
+      "action_for_review": "Activate the mission emergency pathway and immediate medical assessment under the approved plan."
+    },
+    {
+      "module": "M06",
+      "id": "M06_A02",
+      "category": "Emergency",
+      "trigger_text_for_review": "Bloody/coffee-ground vomit or black tarry stool with possible gastrointestinal bleeding.",
+      "action_for_review": "Activate the mission emergency pathway and immediate medical assessment under the approved plan."
+    },
+    {
+      "module": "M06",
+      "id": "M06_A03",
+      "category": "Urgent review",
+      "trigger_text_for_review": "Difficult/painful swallowing, persistent vomiting, unexplained weight loss, or worsening symptoms despite treatment.",
+      "action_for_review": "Refer for urgent medical review; the physician determines the appropriate examination and escalation."
+    },
+    {
+      "module": "M07",
+      "id": "M07_A01",
+      "category": "Emergency",
+      "trigger_text_for_review": "Saddle-area numbness, a new change in bladder/bowel/sexual function, or neurological symptoms in both legs.",
+      "action_for_review": "Activate the mission emergency pathway and immediate medical assessment under the approved plan."
+    },
+    {
+      "module": "M07",
+      "id": "M07_A02",
+      "category": "Emergency",
+      "trigger_text_for_review": "Back pain after a major injury or with chest pain.",
+      "action_for_review": "Activate the mission emergency pathway and immediate medical assessment under the approved plan."
+    },
+    {
+      "module": "M07",
+      "id": "M07_A03",
+      "category": "Urgent review",
+      "trigger_text_for_review": "Sudden severe or rapidly worsening pain, or pain with fever/chills or malaise.",
+      "action_for_review": "Refer for urgent medical review; the physician determines the appropriate examination and escalation."
+    },
+    {
+      "module": "M07",
+      "id": "M07_A04",
+      "category": "Urgent review",
+      "trigger_text_for_review": "Unexplained weight loss, nighttime/persistent pain, a history of cancer, or continuing functional decline.",
+      "action_for_review": "Refer for urgent medical review; the physician determines the appropriate examination and escalation."
+    },
+    {
+      "module": "M08",
+      "id": "M08_A01",
+      "category": "Emergency",
+      "trigger_text_for_review": "New inability to urinate, or severe abdominal pain with suspected retention.",
+      "action_for_review": "Activate the mission emergency pathway and obtain immediate medical assessment; questionnaire questions must not delay it."
+    },
+    {
+      "module": "M08",
+      "id": "M08_A02",
+      "category": "Urgent review",
+      "trigger_text_for_review": "Persistent difficulty, incomplete emptying, or unusual leakage, even without severe pain.",
+      "action_for_review": "Physician review to measure residual urine and investigate the cause and any kidney involvement."
+    },
+    {
+      "module": "M09",
+      "id": "M09_A01",
+      "category": "Emergency",
+      "trigger_text_for_review": "Urinary symptoms with confusion, new drowsiness, or difficulty speaking.",
+      "action_for_review": "Immediate emergency assessment for possible severe infection; do not wait for the culture result."
+    },
+    {
+      "module": "M09",
+      "id": "M09_A02",
+      "category": "Urgent review",
+      "trigger_text_for_review": "Fever, chills, flank pain, vomiting, or inability to urinate.",
+      "action_for_review": "Urgent assessment of the kidneys and possible obstruction; refer to the retention/stones module when needed."
+    },
+    {
+      "module": "M09",
+      "id": "M09_A03",
+      "category": "Urgent review",
+      "trigger_text_for_review": "Urinary symptoms with pregnancy, a catheter, immunosuppression, suspected prostate involvement, or deterioration/lack of improvement after treatment.",
+      "action_for_review": "Physician review to select appropriate tests and treatment for the condition."
+    },
+    {
+      "module": "M10",
+      "id": "M10_A01",
+      "category": "Emergency",
+      "trigger_text_for_review": "Known or suspected obstruction with evidence of infection, or absence of urine output in the setting of obstruction.",
+      "action_for_review": "Activate emergency urological assessment; urgent specialist drainage may be needed alongside treatment of infection."
+    },
+    {
+      "module": "M10",
+      "id": "M10_A02",
+      "category": "Urgent review",
+      "trigger_text_for_review": "Flank pain with fever or chills, or severe uncontrolled pain.",
+      "action_for_review": "Urgent review; do not assume uncomplicated colic."
+    },
+    {
+      "module": "M10",
+      "id": "M10_A03",
+      "category": "Urgent review",
+      "trigger_text_for_review": "Suspected stones in someone with a solitary kidney, an unclear diagnosis, or vomiting that prevents drinking.",
+      "action_for_review": "Urgent assessment of kidney function, imaging, and alternative diagnoses."
+    },
+    {
+      "module": "M11",
+      "id": "M11_A01",
+      "category": "Emergency",
+      "trigger_text_for_review": "Sudden swelling of the mouth or tongue/throat, difficulty breathing/swallowing, or collapse with a possible rash.",
+      "action_for_review": "Activate the emergency pathway for a severe allergic reaction; treatment of itching must not delay it."
+    },
+    {
+      "module": "M11",
+      "id": "M11_A02",
+      "category": "Emergency",
+      "trigger_text_for_review": "A widespread painful rash with blisters, peeling, or mucosal involvement, especially after a new medication.",
+      "action_for_review": "Immediate assessment for a severe medication-related skin reaction, with the medication record available."
+    },
+    {
+      "module": "M11",
+      "id": "M11_A03",
+      "category": "Urgent review",
+      "trigger_text_for_review": "A spreading or recurrent rash with fever/general illness, severe generalized or persistent itching, or itching during pregnancy.",
+      "action_for_review": "Physician review to identify the cause and exclude systemic disease or a medication reaction."
+    },
+    {
+      "module": "M12",
+      "id": "M12_A01",
+      "category": "Emergency",
+      "trigger_text_for_review": "Severe breathing difficulty after a hypnotic, or a suspected severe allergic reaction.",
+      "action_for_review": "Activate mission emergency care and immediately assess the airway and breathing."
+    },
+    {
+      "module": "M12",
+      "id": "M12_A02",
+      "category": "Urgent review",
+      "trigger_text_for_review": "Complex sleep behavior or loss of recall of activity after zolpidem, eszopiclone, or zaleplon.",
+      "action_for_review": "Initiate urgent medication review; under the FDA warning, the causative medication is stopped and not resumed before physician assessment."
+    },
+    {
+      "module": "M12",
+      "id": "M12_A03",
+      "category": "Urgent review",
+      "trigger_text_for_review": "Observed breathing pauses or choking during sleep, or drowsiness threatening mission safety.",
+      "action_for_review": "Physician review of sleep disorders and the safe working plan; no automatic increase in the hypnotic."
+    },
+    {
+      "module": "M13",
+      "id": "M13_A01",
+      "category": "Emergency",
+      "trigger_text_for_review": "Redness with a vision change or pain in light, severe headache and nausea, or a new difference in pupil size.",
+      "action_for_review": "Emergency eye assessment; do not automatically classify as dry eye or conjunctivitis."
+    },
+    {
+      "module": "M13",
+      "id": "M13_A02",
+      "category": "Emergency",
+      "trigger_text_for_review": "Eye injury, a lodged object, or exposure to a hazardous chemical.",
+      "action_for_review": "Activate the approved eye injury pathway and obtain immediate assessment; do not attempt to remove a lodged object."
+    },
+    {
+      "module": "M13",
+      "id": "M13_A03",
+      "category": "Urgent review",
+      "trigger_text_for_review": "A very painful red eye, or redness in a contact lens wearer.",
+      "action_for_review": "Urgent review to exclude corneal injury or infection; stop wearing contact lenses pending assessment."
+    },
+    {
+      "module": "M14",
+      "id": "M14_A01",
+      "category": "Emergency",
+      "trigger_text_for_review": "Severe breathing difficulty, inability to speak, cyanosis/severe pallor or confusion, or severe chest heaviness.",
+      "action_for_review": "Activate the mission emergency pathway and immediately assess breathing and circulation."
+    },
+    {
+      "module": "M14",
+      "id": "M14_A02",
+      "category": "Urgent review",
+      "trigger_text_for_review": "Blood with coughing, chest pain, rapid worsening, or clear general illness.",
+      "action_for_review": "Urgent assessment for more serious causes; cough relief alone is insufficient."
+    },
+    {
+      "module": "M14",
+      "id": "M14_A03",
+      "category": "Urgent review",
+      "trigger_text_for_review": "Worsening airway disease symptoms, or the prescribed rescue medication not working as usual.",
+      "action_for_review": "Urgent review of the asthma plan; signs of severe breathing difficulty activate emergency care."
+    },
+    {
+      "module": "M15",
+      "id": "M15_A01",
+      "category": "Emergency",
+      "trigger_text_for_review": "Difficulty breathing, inability to swallow saliva, stridor, or rapid and severe deterioration.",
+      "action_for_review": "Activate emergency response for airway assessment; no oral intake if swallowing is unsafe."
+    },
+    {
+      "module": "M15",
+      "id": "M15_A02",
+      "category": "Emergency",
+      "trigger_text_for_review": "Swelling inside the mouth or throat with difficulty speaking or opening the mouth.",
+      "action_for_review": "Request a qualified team immediately because of a possible deep complication; do not attempt self-drainage."
+    },
+    {
+      "module": "M15",
+      "id": "M15_A03",
+      "category": "Urgent review",
+      "trigger_text_for_review": "Pain that prevents drinking, signs of dehydration, or fever with marked illness or immunodeficiency.",
+      "action_for_review": "Request urgent assessment and review hydration; do not rely on pain relief alone."
+    },
+    {
+      "module": "M16",
+      "id": "M16_A01",
+      "category": "Urgent review",
+      "trigger_text_for_review": "Sudden hearing loss or a new deterioration in hearing.",
+      "action_for_review": "Request urgent assessment of hearing and the ear; do not automatically attribute this to earwax."
+    },
+    {
+      "module": "M16",
+      "id": "M16_A02",
+      "category": "Urgent review",
+      "trigger_text_for_review": "Swelling around the ear or discharge with general malaise or fever.",
+      "action_for_review": "Request urgent examination for complications; no empirical ear drops."
+    },
+    {
+      "module": "M16",
+      "id": "M16_A03",
+      "category": "Urgent review",
+      "trigger_text_for_review": "Ear pain with vertigo, vomiting, immunodeficiency, or a relevant chronic disease.",
+      "action_for_review": "Urgent review with assessment of hearing and balance."
+    },
+    {
+      "module": "M17",
+      "id": "M17_A01",
+      "category": "Emergency",
+      "trigger_text_for_review": "Difficulty breathing, swallowing, or speaking; extensive swelling in the mouth; or inability to open the mouth.",
+      "action_for_review": "Activate the mission emergency response to assess the airway and spread of infection."
+    },
+    {
+      "module": "M17",
+      "id": "M17_A02",
+      "category": "Emergency",
+      "trigger_text_for_review": "Eye swelling, eye pain, or a sudden change in vision alongside the dental problem.",
+      "action_for_review": "Request emergency assessment; do not wait for the painkiller to take effect."
+    },
+    {
+      "module": "M17",
+      "id": "M17_A03",
+      "category": "Urgent review",
+      "trigger_text_for_review": "A suspected abscess, swelling with fever or malaise, or pain not controlled by the plan.",
+      "action_for_review": "Request urgent dental assessment and treatment of the source; antibiotic decisions are for the physician."
+    },
+    {
+      "module": "M18",
+      "id": "M18_A01",
+      "category": "Emergency",
+      "trigger_text_for_review": "Bleeding that cannot be stopped, or spurting bleeding that is difficult to control.",
+      "action_for_review": "Activate the mission emergency response, apply appropriate direct pressure, and call trained staff."
+    },
+    {
+      "module": "M18",
+      "id": "M18_A02",
+      "category": "Emergency",
+      "trigger_text_for_review": "A deep or large wound, an embedded object, or loss of sensation or movement.",
+      "action_for_review": "Emergency assessment; do not pull out an embedded object or explore the wound."
+    },
+    {
+      "module": "M18",
+      "id": "M18_A03",
+      "category": "Urgent review",
+      "trigger_text_for_review": "Signs of infection, or contamination or a puncture with undocumented immunization.",
+      "action_for_review": "Urgent assessment of the wound, infection, and tetanus considerations; no automatic antibiotic treatment."
+    },
+    {
+      "module": "M19",
+      "id": "M19_A01",
+      "category": "Emergency",
+      "trigger_text_for_review": "Difficulty breathing or a suspected inhalation injury after smoke or hot gas exposure.",
+      "action_for_review": "Activate emergency response and secure the exposure source; airway assessment is for qualified personnel."
+    },
+    {
+      "module": "M19",
+      "id": "M19_A02",
+      "category": "Emergency",
+      "trigger_text_for_review": "A large or deep burn, a chemical or electrical burn, or a burn on the face or a sensitive site.",
+      "action_for_review": "Request emergency assessment with safe first aid."
+    },
+    {
+      "module": "M19",
+      "id": "M19_A03",
+      "category": "Urgent review",
+      "trigger_text_for_review": "Unclear depth or management, or deterioration of the wound during follow-up.",
+      "action_for_review": "Request clinical assessment and reassessment of the care plan."
+    },
+    {
+      "module": "M20",
+      "id": "M20_A01",
+      "category": "Emergency",
+      "trigger_text_for_review": "Heat exposure with confusion, loss of coordination, a seizure, or loss of consciousness; suspected heatstroke.",
+      "action_for_review": "Activate emergency response and begin safe cooling with trained assistance; do not wait for sweating to stop or for all measurements to be completed."
+    },
+    {
+      "module": "M20",
+      "id": "M20_A02",
+      "category": "Emergency",
+      "trigger_text_for_review": "Signs of dehydration with difficulty breathing, cold or mottled skin, or difficulty waking the affected person.",
+      "action_for_review": "Request emergency response for possible shock; withhold oral fluids with altered consciousness or unsafe swallowing."
+    },
+    {
+      "module": "M20",
+      "id": "M20_A03",
+      "category": "Urgent review",
+      "trigger_text_for_review": "Low urine output, persistent dizziness, vomiting or inability to drink, or persistent or worsening heat-related symptoms.",
+      "action_for_review": "Request urgent assessment of hydration, electrolytes, and other causes; escalate immediately if consciousness changes."
+    }
+  ],
+  "pilot_rules": [
+    {
+      "candidate_id": "M01_C01",
+      "question_id": "M01_Q03",
+      "expected_token": "yes",
+      "weight": 2,
+      "evidence": "Nausea or sensitivity to light/sound",
+      "validated": false
+    },
+    {
+      "candidate_id": "M01_C03",
+      "question_id": "M01_Q07",
+      "expected_token": "frequent",
+      "weight": 2,
+      "evidence": "Frequent analgesic use",
+      "validated": false
+    },
+    {
+      "candidate_id": "M02_C01",
+      "question_id": "M02_Q05",
+      "expected_token": "diarrhea",
+      "weight": 2,
+      "evidence": "Vomiting with diarrhea",
+      "validated": false
+    },
+    {
+      "candidate_id": "M02_C02",
+      "question_id": "M02_Q07",
+      "expected_token": "motion",
+      "weight": 2,
+      "evidence": "Associated with gravity transition or movement",
+      "validated": false
+    },
+    {
+      "candidate_id": "M03_C01",
+      "question_id": "M03_Q02",
+      "expected_token": "yes",
+      "weight": 2,
+      "evidence": "Allergy-associated symptoms",
+      "validated": false
+    },
+    {
+      "candidate_id": "M04_C02",
+      "question_id": "M04_Q07",
+      "expected_token": "medication",
+      "weight": 2,
+      "evidence": "Temporal medication association",
+      "validated": false
+    },
+    {
+      "candidate_id": "M05_C02",
+      "question_id": "M05_Q07",
+      "expected_token": "medication",
+      "weight": 2,
+      "evidence": "New medication association",
+      "validated": false
+    },
+    {
+      "candidate_id": "M06_C01",
+      "question_id": "M06_Q01",
+      "expected_token": "sour",
+      "weight": 2,
+      "evidence": "Reflux-related symptom pattern",
+      "validated": false
+    },
+    {
+      "candidate_id": "M08_C01",
+      "question_id": "M08_Q05",
+      "expected_token": "yes",
+      "weight": 2,
+      "evidence": "Weak stream or hesitancy",
+      "validated": false
+    },
+    {
+      "candidate_id": "M09_C01",
+      "question_id": "M09_Q01",
+      "expected_token": "yes",
+      "weight": 2,
+      "evidence": "Urinary burning/frequency",
+      "validated": false
+    },
+    {
+      "candidate_id": "M12_C02",
+      "question_id": "M12_Q03",
+      "expected_token": "yes",
+      "weight": 2,
+      "evidence": "Schedule change",
+      "validated": false
+    },
+    {
+      "candidate_id": "M14_C02",
+      "question_id": "M14_Q06",
+      "expected_token": "yes",
+      "weight": 2,
+      "evidence": "Wheezing or breathlessness",
+      "validated": false
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+AstroCare — Your Health
+
+1. Install Python in advance if it is not already on your computer. No pip/npm installation is required by this app.
+2. Extract this entire ZIP. Double-click START_ASTROCARE.bat (Windows), or open a terminal inside astrocare_integrated and run py server.py or python server.py.
+3. Open http://127.0.0.1:8765 in your browser. Leave the terminal open.
+
+Your Health, symptoms, local reports, exercise, journaling, Sudoku, chess and both full books run from the files on your own computer without internet. Book downloads are created locally from the embedded text. Chess code is bundled. No CDN, remote font, AI API or model download is needed for these features.
+
+OPTIONAL VOICE: on-device English speech recognition requires a compatible browser and a local language pack. Prepare that pack while online before departure, using the existing Install Offline Voice Pack option when supported. If the browser does not support it, use the existing buttons or text input. Questions are read aloud only with an installed local English voice; cloud/default voice fallback is disabled.
+
+External publisher/source links are references only and may require internet if opened. All included book text, credits and license text are already stored in the app.
+
+Changes in this update: warm daylight colors; Health Overview removed; Daily Health renamed Your Health; one compact saved-report status indicator added. That indicator shows existing workflow state, not a new health score or diagnosis. Existing medical engine, datasets, server and other features are unchanged. No AI/ML model is trained or used by the health assessment. Chess computer uses a simple local heuristic; optional browser speech recognition is a separate browser-provided feature.
