@@ -1,6 +1,8 @@
 # AstroCare — astronaut-first offline demo
 
-Run `python server.py` and open https://astrocare-crew-demo.onrender.com.
+**[▶ Launch the AstroCare live demo](https://astrocare-crew-demo.onrender.com/)**
+
+To run AstroCare locally, run `python server.py` and open http://127.0.0.1:8765.
 
 ## Share a live demo
 
